@@ -8,8 +8,6 @@ export const profile = {
   philosophy:
     'Strategy decks do not move metrics. Working systems do.',
   location: 'Singapore',
-  email: 'phoebe.fu66@gmail.com',
-  phone: '+65 9648 7496',
   socials: {
     linkedin: 'https://www.linkedin.com/in/phoebe-fu-50168895',
     github: 'https://github.com/phoebefu6',

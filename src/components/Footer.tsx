@@ -14,9 +14,6 @@ export function Footer() {
           <a href={profile.socials.github} target="_blank" rel="noreferrer" className="hover:text-accent transition-colors">
             GitHub
           </a>
-          <a href={`mailto:${profile.email}`} className="hover:text-accent transition-colors">
-            Email
-          </a>
         </div>
       </div>
     </footer>
