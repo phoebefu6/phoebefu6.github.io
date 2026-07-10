@@ -46,7 +46,7 @@ export function Hero() {
           The data & AI executive who still ships
         </motion.div>
 
-        <h1 className="max-w-5xl text-5xl md:text-7xl xl:text-[96px] font-semibold tracking-[-0.03em] leading-[1.04] text-ink">
+        <h1 className="hero-headline max-w-5xl text-ink">
           <SplitText text="Ideas are cheap." delay={0.2} />
           <br />
           <SplitText text="Shipped systems" delay={0.45} />{' '}
