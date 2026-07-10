@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import ReactMarkdown from 'react-markdown'
-import { ArrowUpRight, Layers, GraduationCap, LayoutDashboard, Star, Gamepad2 } from 'lucide-react'
+import { ArrowUpRight, Layers, GraduationCap, LayoutDashboard, Star, Gamepad2, Terminal, Palette } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import { SectionTitle } from './ui/SectionTitle'
 import { Stagger, StaggerItem } from './ui/Reveal'
@@ -16,6 +16,8 @@ const icons: Record<string, LucideIcon> = {
   LayoutDashboard,
   Star,
   Gamepad2,
+  Terminal,
+  Palette,
 }
 
 export function Products() {

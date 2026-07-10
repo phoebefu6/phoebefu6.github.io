@@ -15,16 +15,20 @@ export function SplitText({ text, className, delay = 0, stagger = 0.07 }: SplitT
   return (
     <span className={className}>
       {words.map((word, i) => (
-        <span key={i} className="inline-block overflow-hidden align-bottom">
-          <motion.span
-            className="inline-block"
-            initial={{ opacity: 0, y: '70%' }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.55, delay: delay + i * stagger, ease: [0.21, 0.68, 0.36, 0.98] }}
-          >
-            {word}
-            {i < words.length - 1 ? ' ' : ''}
-          </motion.span>
+        // The space must live OUTSIDE the inline-block span - trailing
+        // whitespace inside an inline-block is trimmed and words merge.
+        <span key={i}>
+          <span className="inline-block overflow-hidden align-bottom">
+            <motion.span
+              className="inline-block"
+              initial={{ opacity: 0, y: '70%' }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.55, delay: delay + i * stagger, ease: [0.21, 0.68, 0.36, 0.98] }}
+            >
+              {word}
+            </motion.span>
+          </span>
+          {i < words.length - 1 ? ' ' : ''}
         </span>
       ))}
     </span>

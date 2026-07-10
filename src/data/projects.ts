@@ -58,6 +58,48 @@ export const projects: Project[] = [
       '## What it does\n\nA searchable homepage designed to scale to hundreds of skills, where every skill gets:\n\n- A rating out of 5\n- The official GitHub link and description\n- A tangible artifact or product outcome\n- Three ways the skill makes life easier\n- Three ways it could be improved\n\n## Why\n\nThe skill ecosystem is exploding and most lists are unvetted. This one is tested by hand, one skill at a time.',
   },
   {
+    id: 'learn-codex-with-phoebe',
+    name: 'Learn Codex with Phoebe',
+    tagline: 'Learn OpenAI Codex by building a real website',
+    description:
+      'A 6-session hands-on course: learn OpenAI Codex by building a real personal website end to end - all on a regular ChatGPT Plus plan, no API budget needed.',
+    status: 'Live',
+    tech: ['Codex', 'ChatGPT Plus', 'HTML', 'GitHub Pages'],
+    icon: 'Terminal',
+    link: 'https://phoebefu6.github.io/learn-codex-with-phoebe/',
+    repo: 'https://github.com/phoebefu6/learn-codex-with-phoebe',
+    detail:
+      '## The premise\n\nMost Codex tutorials assume API keys and budgets. This course runs on a regular ChatGPT Plus plan - the setup most people already have.\n\n## The format\n\n- 6 hands-on sessions\n- One real deliverable: a personal website built end to end with Codex\n- Sister course to Learn Claude with Phoebe - same teaching style, different agent\n\n## Status\n\nLive on GitHub Pages and actively taught.',
+  },
+  {
+    id: 'agent-skills-phoebe-picks',
+    name: 'Agent Skills: Phoebe Picks',
+    tagline: 'A curated, scored shortlist of agent-usable skills',
+    description:
+      'Reviews of agent skills as workflow packages for Claude Code, Codex, Cursor, and other coding agents - scored and shortlisted into the picks actually worth testing, keeping, or adapting.',
+    status: 'Live',
+    tech: ['JavaScript', 'GitHub Pages', 'Claude skills', 'Codex'],
+    icon: 'Star',
+    link: 'https://phoebefu6.github.io/agent-skills-phoebe-picks/',
+    repo: 'https://github.com/phoebefu6/agent-skills-phoebe-picks',
+    detail:
+      '## What it is\n\nNot a human learning directory - a review of skills as **agent workflow packages**: reusable instructions, guardrails, scripts, and validation routines that help a coding agent produce real artifacts.\n\n## The scoring layer\n\nThe broad awesome-claude-skills corpus gets filtered into **Phoebe Picks**: the skills worth actually testing, keeping, or adapting into a working agent library.\n\n## Why\n\nThe skills ecosystem is exploding and unvetted. Someone has to try them for real.',
+  },
+  {
+    id: 'phoebe-the-artist',
+    name: 'Worth a Thousand Words',
+    tagline: 'Data and AI, explained in pictures',
+    description:
+      'An AI-made gallery where data and AI concepts become visual art - decoded styles, reusable prompts, and a daily publishing ritual. Every prompt is published with its image.',
+    status: 'Live',
+    tech: ['AI art', 'Midjourney', 'GitHub Pages', 'Prompt design'],
+    icon: 'Palette',
+    link: 'https://phoebefu6.github.io/phoebe-the-artist/',
+    repo: 'https://github.com/phoebefu6/phoebe-the-artist',
+    detail:
+      '## The idea\n\nData and AI, explained in pictures. Complex concepts become visual art - and every image ships with the prompt that made it.\n\n## The ritual\n\nA daily loop: decode a beautiful style into a reusable prompt, apply it to a data or AI concept, publish to the gallery.\n\n## Why it matters\n\nVisual explanation is an underused superpower in data leadership - and prompt craft is a skill best learned in public.',
+  },
+  {
     id: 'design-dashboard-with-phoebe',
     name: 'Design Dashboard with Phoebe',
     tagline: 'Industry-focused dashboard design projects',
