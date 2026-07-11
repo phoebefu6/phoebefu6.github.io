@@ -23,7 +23,7 @@ export const experience: Experience[] = [
   },
   {
     company: 'Daraz (Alibaba Group)',
-    role: 'Regional Head of Data, Data Leadership Team',
+    role: 'Regional Head of Data, Strategy & Planning & BI',
     period: 'Apr 2022 - Jun 2024',
     location: 'Singapore',
     highlights: [
