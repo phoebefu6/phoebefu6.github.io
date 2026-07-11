@@ -14,7 +14,7 @@ export const experience: Experience[] = [
     period: 'Jun 2024 - Present',
     location: 'Singapore',
     highlights: [
-      'Built and scaling the data science and analytics function from the ground up - a team of 18 spanning data architects, engineers, analysts, scientists, and ML engineers',
+      'Built and scaling the data science and analytics function from the ground up - a team of 10 spanning data architects, engineers, analysts, scientists, and ML engineers',
       'Directed client solution pitches, translating business problems into practical AI and productized analytics proposals',
       'Deployed ML solutions from proof of concept toward production, prioritizing adoption and measurable operating impact',
       'Delivered corporate AI and data literacy training for internal and external organizations',
