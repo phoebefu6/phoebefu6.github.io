@@ -114,23 +114,19 @@ h1, h2, h3, h4 {
   100% { opacity: 0; scale: 1; translate: 0 -14px; }
 }
 
-/* GlareHover - one soft plum light pass on hover, flat at rest */
+/* Cards position their own accent bars; overflow stays clipped.
+   (GlareHover light pass retired 2026-07 - swapped for the hero spring choreography.) */
 .card {
   position: relative;
   overflow: hidden;
 }
-.card::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(105deg, transparent 40%, rgba(147, 51, 234, 0.06) 50%, transparent 60%);
-  transform: translateX(-120%);
-  pointer-events: none;
-  z-index: 1;
-}
-.card:hover::before {
-  transform: translateX(120%);
-  transition: transform 0.7s ease;
+
+/* Course-rank ghost numeral - outlined Poppins digits on the course library cards */
+.course-rank {
+  font-family: var(--font-display);
+  font-weight: 700;
+  color: var(--color-tint-deep);
+  -webkit-text-stroke: 1px var(--color-accent);
 }
 
 /* Ghost numeral - giant faint section number behind the title */

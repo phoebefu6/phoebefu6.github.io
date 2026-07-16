@@ -36,7 +36,7 @@ export const stats: Stat[] = [
   { label: 'Industries served', value: 7, suffix: '' },
   { label: 'Data products launched', value: 25, suffix: '+' },
   { label: 'Trainings delivered', value: 20, suffix: '+' },
-  { label: 'Products live on GitHub', value: 9, suffix: '' },
+  { label: 'Products live on GitHub', value: 18, suffix: '' },
 ]
 
 export const education = [
