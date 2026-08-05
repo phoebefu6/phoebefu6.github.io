@@ -1,190 +1,142 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#f0e8da" />
-    <meta
-      name="description"
-      content="《系统之美》交互式知识卡片、脑图、经典句子链与主动回忆练习。"
-    />
-    <title>系统之美 · 知识卡片</title>
+    <meta name="theme-color" content="#f2eadc" />
+    <meta name="description" content="A comprehensive, interactive knowledge atlas for Donella Meadows' Thinking in Systems." />
+    <title>Thinking in Systems · Knowledge Atlas</title>
     <link rel="stylesheet" href="../../assets/bookshelf.css" />
   </head>
-  <body class="book-page">
-    <a class="skip-link" href="#knowledge">跳到知识卡</a>
+  <body class="book-page book-page--atlas">
+    <a class="skip-link" href="#knowledge">Skip to the knowledge atlas</a>
+
     <header class="book-nav">
-      <a class="back-link" href="../../index.html" aria-label="返回知识书架">
-        <span aria-hidden="true">←</span> 返回书架
-      </a>
+      <a class="back-link" href="../../index.html" aria-label="Return to the Knowledge Shelf"><span aria-hidden="true">←</span> Knowledge Shelf</a>
       <p>BOOK 01 · SYSTEMS THINKING</p>
-      <a
-        class="weread-link weread-link--small"
-        href="https://weread.qq.com/book-detail?type=1&v=55b32da0813ab864cg017b6c"
-        target="_blank"
-        rel="noreferrer"
-      >微信读书 ↗</a>
+      <a class="weread-link weread-link--small" href="https://weread.qq.com/book-detail?type=1&v=55b32da0813ab864cg017b6c" target="_blank" rel="noreferrer">Read on WeRead ↗</a>
     </header>
 
-    <main>
+    <nav class="chapter-nav" aria-label="Knowledge atlas sections">
+      <a href="#map">Map</a><a href="#mechanics">Mechanics</a><a href="#traps">Traps</a><a href="#leverage">Leverage</a><a href="#practice">Practice</a><a href="#recall">Recall</a>
+    </nav>
+
+    <main id="knowledge">
       <section class="book-hero" aria-labelledby="book-title">
         <div class="book-object" aria-hidden="true">
           <div class="book-object__front">
-            <span class="book-object__eyebrow">THINK IN SYSTEMS</span>
+            <span class="book-object__eyebrow">DONELLA H. MEADOWS</span>
             <span class="book-object__symbol">∞</span>
-            <strong>系统之美</strong>
-            <small>德内拉·梅多斯</small>
+            <strong>THINKING<br />IN SYSTEMS</strong>
+            <small>A PRIMER</small>
           </div>
           <div class="book-object__pages"></div>
         </div>
-
         <div class="book-hero__copy">
-          <p class="eyebrow">一本书 · 六条路径 · 八张卡</p>
-          <h1 id="book-title">系统之美</h1>
-          <p class="book-hero__author">德内拉·梅多斯 著 · 邱昭良 译</p>
-          <p class="book-hero__lede">
-            不要只修理眼前的事件。去看存量、反馈、延迟，以及持续制造这些事件的结构。
-          </p>
-          <div class="source-note">
-            <span>来源说明</span>
-            <p>15 个正文部分 · 481 条社区热门划线 · 未发现个人划线 · 对外内容以转述为主</p>
+          <p class="eyebrow">ONE BOOK · ONE OPERATING SYSTEM FOR COMPLEXITY</p>
+          <h1 id="book-title">Thinking<br />in Systems</h1>
+          <p class="book-hero__author">Donella H. Meadows · Expanded edition</p>
+          <p class="book-hero__lede">Stop reacting to events. Redesign the structure that keeps producing them.</p>
+          <div class="atlas-stats" aria-label="Atlas coverage">
+            <div><strong>3</strong><span>system capacities</span></div>
+            <div><strong>6</strong><span>sources of surprise</span></div>
+            <div><strong>8</strong><span>system traps</span></div>
+            <div><strong>12</strong><span>leverage points</span></div>
+            <div><strong>15</strong><span>practices</span></div>
           </div>
-          <div class="hero-actions">
-            <a class="primary-action" href="#mindmap">展开脑图</a>
-            <a
-              class="weread-link"
-              href="https://weread.qq.com/book-detail?type=1&v=55b32da0813ab864cg017b6c"
-              target="_blank"
-              rel="noreferrer"
-            >在微信读书阅读 ↗</a>
-          </div>
+          <div class="source-note"><span>Evidence note</span><p>Grounded in 15 WeRead sections and 481 indexed community highlights. English text is synthesized and paraphrased; it is not a personal-highlight archive.</p></div>
+          <div class="hero-actions"><a class="primary-action" href="#map">Open the map</a><a class="weread-link" href="https://weread.qq.com/book-detail?type=1&v=55b32da0813ab864cg017b6c" target="_blank" rel="noreferrer">Read on WeRead ↗</a></div>
         </div>
       </section>
 
-      <section class="thesis-strip" aria-label="中心论点">
-        <span>中心论点</span>
-        <p>行为来自结构：<strong>存量与流量</strong>形成状态，<strong>反馈回路</strong>塑造变化，<strong>目标与范式</strong>决定方向。</p>
+      <section class="thesis-panel" aria-labelledby="thesis-title">
+        <p class="eyebrow">THE BOOK IN 30 SECONDS</p>
+        <h2 id="thesis-title">Behavior is not an accident.<br />It is the output of structure.</h2>
+        <p>A system's stocks and flows create its state. Feedback loops shape change. Delays and nonlinearities hide cause and effect. Rules, goals, and paradigms determine direction. Lasting change starts when you stop blaming events and begin redesigning relationships.</p>
+        <div class="thesis-formula"><span>EVENTS</span><b>→</b><span>PATTERNS</span><b>→</b><span>STRUCTURE</span><b>→</b><span>LEVERAGE</span></div>
       </section>
 
       <section class="sentence-chain" aria-labelledby="chain-title">
-        <header class="section-head">
-          <p class="eyebrow">CLASSIC IDEAS · CONNECTED</p>
-          <h2 id="chain-title">经典句子，不是收藏<br />而是一条推理链</h2>
-        </header>
-
-        <ol class="chain">
-          <li>
-            <span class="chain__index">01</span>
-            <div><strong>事件</strong><p>只回应眼前发生的事，人就会被困在反复救火里。</p></div>
-          </li>
-          <li>
-            <span class="chain__index">02</span>
-            <div><strong>模式</strong><p>把相关事件连起来，趋势才开始显形。</p></div>
-          </li>
-          <li>
-            <span class="chain__index">03</span>
-            <div><strong>结构</strong><p>稳定重复的行为，往往是反馈、延迟和规则共同留下的指纹。</p></div>
-          </li>
-          <li class="chain__quote">
-            <span class="chain__index">04</span>
-            <blockquote>“在非线性的世界里，不要用线性的思维模式。”</blockquote>
-          </li>
-          <li>
-            <span class="chain__index">05</span>
-            <div><strong>杠杆</strong><p>参数容易修改；信息、规则、目标和范式才更接近根部。</p></div>
-          </li>
-          <li>
-            <span class="chain__index">06</span>
-            <div><strong>共舞</strong><p>系统无法被完全控制，但可以通过观察、试验和反馈持续重构。</p></div>
-          </li>
-        </ol>
-        <p class="source-caption">短摘来自微信读书社区热门划线，其余为基于章节证据的转述。</p>
+        <header class="section-head"><p class="eyebrow">SIX IDEAS · ONE ARGUMENT</p><h2 id="chain-title">A chain of ideas worth remembering</h2><p>Read downward: each step corrects the blind spot in the one before it.</p></header>
+        <ol id="quoteChain" class="chain chain--english"></ol>
+        <p class="source-caption">The fourth line is a concise translation of a highly shared WeRead community highlight. The remaining lines are evidence-based paraphrases.</p>
       </section>
 
-      <section id="mindmap" class="mindmap-section" aria-labelledby="mindmap-title">
-        <header class="section-head section-head--light">
-          <p class="eyebrow">INTERACTIVE MIND MAP</p>
-          <h2 id="mindmap-title">从结构进入系统</h2>
-          <p>点击任一节点，查看概念、记忆线索和反思问题。</p>
-        </header>
-
-        <div class="mindmap-shell">
-          <div class="mindmap" role="group" aria-label="系统之美交互脑图">
-            <div class="mindmap__lines" aria-hidden="true"></div>
-            <button class="mind-node mind-node--center" data-branch="system-anatomy" type="button">
-              <span>中心</span>系统行为来自结构
-            </button>
-            <button class="mind-node mind-node--one" data-branch="system-anatomy" type="button">系统三件套</button>
-            <button class="mind-node mind-node--two" data-branch="stocks-flows" type="button">存量与流量</button>
-            <button class="mind-node mind-node--three" data-branch="feedback-loops" type="button">反馈回路</button>
-            <button class="mind-node mind-node--four" data-branch="delays-nonlinearity" type="button">延迟与非线性</button>
-            <button class="mind-node mind-node--five" data-branch="traps-resistance" type="button">陷阱与阻力</button>
-            <button class="mind-node mind-node--six" data-branch="leverage-dance" type="button">杠杆与共舞</button>
+      <section id="map" class="mindmap-section mindmap-section--pro" aria-labelledby="mindmap-title">
+        <header class="section-head section-head--light"><p class="eyebrow">PROFESSIONAL BILATERAL MIND MAP</p><h2 id="mindmap-title">The architecture of systems thinking</h2><p>Mechanics and behavior sit on the left. Diagnosis and intervention sit on the right. Select any branch to inspect its concepts and recall cues.</p></header>
+        <div class="pro-map-shell">
+          <div id="proMindmap" class="pro-mindmap" role="group" aria-label="Interactive mind map of Thinking in Systems">
+            <svg class="pro-mindmap__lines" viewBox="0 0 1200 620" preserveAspectRatio="none" aria-hidden="true">
+              <path d="M600 310 C510 310 500 105 350 105"/><path d="M600 310 C500 310 490 310 350 310"/><path d="M600 310 C510 310 500 515 350 515"/>
+              <path d="M600 310 C690 310 700 105 850 105"/><path d="M600 310 C700 310 710 310 850 310"/><path d="M600 310 C690 310 700 515 850 515"/>
+            </svg>
+            <div class="pro-map__axis pro-map__axis--left">HOW SYSTEMS BEHAVE</div><div class="pro-map__axis pro-map__axis--right">HOW WE INTERVENE</div>
+            <button class="pro-node pro-node--root" type="button" data-branch="system-anatomy"><span>ROOT IDEA</span><strong>Behavior emerges<br />from structure</strong></button>
+            <div id="mindmapNodes"></div>
           </div>
-
-          <article id="branchDetail" class="branch-detail" aria-live="polite">
-            <p class="branch-detail__chapter">第一部分 · 系统的结构和行为</p>
-            <h3>系统三件套</h3>
-            <p class="branch-detail__summary">系统由要素、相互连接与目标组成。</p>
-            <ul></ul>
-            <p class="branch-detail__question"></p>
-          </article>
+          <article id="branchDetail" class="branch-detail branch-detail--pro" aria-live="polite"><p class="branch-detail__chapter"></p><h3></h3><p class="branch-detail__summary"></p><ul></ul><p class="branch-detail__question"></p></article>
         </div>
       </section>
 
-      <section id="knowledge" class="cards-section" aria-labelledby="cards-title">
-        <header class="section-head">
-          <p class="eyebrow">8 MEMORY CARDS</p>
-          <h2 id="cards-title">八张卡，重建一本书</h2>
-          <p>每张卡只承担一个记忆任务。点击卡片可展开完整解释。</p>
-        </header>
-        <div id="knowledgeCards" class="knowledge-grid" aria-live="polite"></div>
-      </section>
-
-      <section class="comparison-section" aria-labelledby="comparison-title">
-        <header class="section-head">
-          <p class="eyebrow">THE DECISION SHIFT</p>
-          <h2 id="comparison-title">线性修补 vs 系统干预</h2>
-        </header>
-        <div class="comparison-grid">
-          <article>
-            <span>旧习惯</span>
-            <h3>让今天暂时安静</h3>
-            <ul><li>盯住单次事件</li><li>寻找单一原因</li><li>立即加大力度</li><li>替换可见要素</li></ul>
-          </article>
-          <div class="comparison-arrow" aria-hidden="true">→</div>
-          <article class="comparison-grid__system">
-            <span>系统视角</span>
-            <h3>改变明天的模式</h3>
-            <ul><li>观察长期趋势</li><li>寻找回路与延迟</li><li>改变信息与规则</li><li>重审目标与范式</li></ul>
-          </article>
+      <section id="mechanics" class="atlas-section mechanics-section" aria-labelledby="mechanics-title">
+        <header class="section-head"><p class="eyebrow">FOUNDATIONAL MECHANICS</p><h2 id="mechanics-title">Three diagrams that explain most system behavior</h2></header>
+        <div class="mechanic-grid">
+          <article class="mechanic-card"><span>01 · ANATOMY</span><h3>A system is a relationship</h3><div class="venn"><i>Elements</i><i>Connections</i><i>Purpose</i></div><p>Elements are visible. Connections carry influence. Purpose organizes the whole. Change the last two and behavior can transform.</p></article>
+          <article class="mechanic-card"><span>02 · ACCUMULATION</span><h3>Stocks remember</h3><div class="stock-diagram"><b>INFLOW →</b><i>STOCK</i><b>→ OUTFLOW</b></div><p><code>Next stock = current stock + inflow − outflow</code></p><p>Stocks buffer shocks and create inertia: they rarely change as quickly as decisions do.</p></article>
+          <article class="mechanic-card"><span>03 · FEEDBACK</span><h3>Effects become causes</h3><div class="loop-diagram"><i>Action</i><b>→</b><i>Result</i><b>↺</b><i>Information</i></div><p><strong>Reinforcing loops</strong> amplify movement. <strong>Balancing loops</strong> pull a state toward a goal. Their contest creates behavior over time.</p></article>
         </div>
       </section>
 
-      <section class="recall-section" aria-labelledby="recall-title">
-        <div>
-          <p class="eyebrow">ACTIVE RECALL</p>
-          <h2 id="recall-title">合上书，回答七问</h2>
-          <p>先从记忆中生成答案，再点击检查。记忆发生在提取，而不是重读。</p>
-        </div>
-        <div id="recallList" class="recall-list"></div>
+      <section class="atlas-section split-section" aria-labelledby="capacity-title">
+        <header class="section-head"><p class="eyebrow">WHY SYSTEMS WORK</p><h2 id="capacity-title">Three capacities worth protecting</h2><p>Efficiency is only one property. Healthy systems also preserve the capacity to recover, create, and coordinate.</p></header>
+        <div id="systemProperties" class="property-grid"></div>
       </section>
 
-      <section class="final-cta">
-        <p>下一步不是“理解更多”，而是选择一个反复出现的问题，画出它的第一个反馈回路。</p>
-        <a
-          class="primary-action primary-action--light"
-          href="https://weread.qq.com/book-detail?type=1&v=55b32da0813ab864cg017b6c"
-          target="_blank"
-          rel="noreferrer"
-        >打开微信读书，继续阅读 ↗</a>
+      <section class="atlas-section surprise-section" aria-labelledby="surprise-title">
+        <header class="section-head section-head--light"><p class="eyebrow">WHY SYSTEMS SURPRISE US</p><h2 id="surprise-title">Six ways intuition loses the plot</h2></header>
+        <div id="surprises" class="surprise-grid"></div>
       </section>
+
+      <section id="traps" class="atlas-section trap-section" aria-labelledby="traps-title">
+        <header class="section-head"><p class="eyebrow">8 ARCHETYPAL TRAPS</p><h2 id="traps-title">Recurring failures have recurring structures</h2><p>Each card connects the visible symptom to the hidden loop and a structural countermove.</p></header>
+        <div id="trapsGrid" class="trap-grid"></div>
+      </section>
+
+      <section id="leverage" class="atlas-section leverage-section" aria-labelledby="leverage-title">
+        <header class="section-head section-head--light"><p class="eyebrow">12 LEVERAGE POINTS</p><h2 id="leverage-title">Move from changing numbers<br />to changing intent</h2><p>The ranking rises from visible, low-leverage parameters to the assumptions that generate the entire system.</p></header>
+        <div class="leverage-layout"><div class="leverage-scale" aria-hidden="true"><span>LOW</span><i></i><span>TRANSFORMATIVE</span></div><ol id="leverageList" class="leverage-list"></ol></div>
+      </section>
+
+      <section class="atlas-section chapter-section" aria-labelledby="chapter-title">
+        <header class="section-head"><p class="eyebrow">READING ROADMAP</p><h2 id="chapter-title">Seven stops through the book</h2></header>
+        <div id="chapterGuide" class="chapter-grid"></div>
+      </section>
+
+      <section id="practice" class="atlas-section practice-section" aria-labelledby="practice-title">
+        <header class="section-head"><p class="eyebrow">15 PRACTICES FOR A SYSTEMS THINKER</p><h2 id="practice-title">How to dance with a system</h2><p>A posture for responsible action when prediction and control are impossible.</p></header>
+        <ol id="practiceList" class="practice-list"></ol>
+      </section>
+
+      <section class="atlas-section toolkit-section" aria-labelledby="toolkit-title">
+        <header class="section-head section-head--light"><p class="eyebrow">APPLIED TOOLKIT</p><h2 id="toolkit-title">Map a real problem in eight moves</h2></header>
+        <div id="toolkit" class="toolkit-grid"></div>
+      </section>
+
+      <section class="atlas-section glossary-section" aria-labelledby="glossary-title">
+        <header class="section-head"><p class="eyebrow">CORE VOCABULARY</p><h2 id="glossary-title">Twelve concepts in plain English</h2></header>
+        <dl id="glossary" class="glossary-grid"></dl>
+      </section>
+
+      <section class="cards-section" aria-labelledby="cards-title"><header class="section-head"><p class="eyebrow">8 MEMORY CARDS</p><h2 id="cards-title">Rebuild the book from eight anchors</h2><p>Select a card to reveal its explanation.</p></header><div id="knowledgeCards" class="knowledge-grid" aria-live="polite"></div></section>
+
+      <section class="comparison-section" aria-labelledby="comparison-title"><header class="section-head"><p class="eyebrow">THE DECISION SHIFT</p><h2 id="comparison-title">Event reaction vs. systems intervention</h2></header><div id="comparisonGrid" class="comparison-grid"></div></section>
+
+      <section id="recall" class="recall-section" aria-labelledby="recall-title"><div><p class="eyebrow">ACTIVE RECALL</p><h2 id="recall-title">Close the book.<br />Answer twelve questions.</h2><p>Generate an answer before revealing it. Retrieval—not rereading—is what strengthens memory.</p></div><div id="recallList" class="recall-list"></div></section>
+
+      <section class="final-cta"><p>Choose one recurring problem. Draw one stock, two flows, one feedback loop, one delay, and the goal that the system's behavior reveals.</p><a class="primary-action primary-action--light" href="https://weread.qq.com/book-detail?type=1&v=55b32da0813ab864cg017b6c" target="_blank" rel="noreferrer">Continue reading on WeRead ↗</a></section>
     </main>
 
-    <footer class="book-footer">
-      <a href="../../index.html">← 返回知识书架</a>
-      <p>内容来源：微信读书章节与社区热门划线 · 设计与转述：Phoebe's Knowledge Shelf</p>
-    </footer>
+    <footer class="book-footer"><a href="../../index.html">← Return to the Knowledge Shelf</a><p>Source: WeRead sections and community highlights · English synthesis: Phoebe's Knowledge Shelf</p></footer>
     <script src="../../assets/book-page.js" defer></script>
   </body>
 </html>
