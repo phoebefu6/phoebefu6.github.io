@@ -3,82 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#2a1710" />
-    <meta
-      name="description"
-      content="Phoebe's Knowledge Shelf: books transformed into visual maps, practical notes, and active-recall systems."
-    />
+    <meta name="theme-color" content="#24140f" />
+    <meta name="description" content="Phoebe's finished-reading library, organized as a living bookshelf with one wooden row per category." />
     <title>Phoebe's Knowledge Shelf</title>
     <link rel="stylesheet" href="assets/bookshelf.css" />
   </head>
-  <body class="library-page">
+  <body class="library-page library-page--collection">
     <a class="skip-link" href="#shelf">Skip to the bookshelf</a>
 
-    <header class="library-header">
-      <p class="library-kicker">PHOEBE'S READING ROOM · 01</p>
-      <h1>Knowledge Shelf</h1>
-      <p>Every book becomes a map you can revisit, connect, and use.</p>
+    <header class="library-header library-header--collection">
+      <div>
+        <p class="library-kicker">PHOEBE'S READING ROOM · FINISHED COLLECTION</p>
+        <h1>Knowledge<br />Shelf</h1>
+      </div>
+      <div class="library-intro">
+        <p>A living record of finished books—organized by category, connected back to WeRead, and gradually transformed into reusable knowledge atlases.</p>
+        <div class="library-count"><strong id="finishedCount">76</strong><span>finished books<br />on public display</span></div>
+      </div>
     </header>
 
-    <main id="shelf" class="bookcase" aria-label="Knowledge bookshelf">
-      <div class="bookcase__crown" aria-hidden="true">
-        <span>THE LIVING LIBRARY</span>
-      </div>
+    <main id="shelf" class="collection-bookcase" aria-label="Finished-reading bookshelf">
+      <div class="collection-bookcase__crown"><span>THE LIVING LIBRARY</span><small id="categoryCount">14 CATEGORIES</small></div>
 
-      <section class="shelf shelf--top" aria-label="Systems and complexity">
-        <div class="shelf__label">SYSTEMS · COMPLEXITY</div>
-        <div class="books-row">
-          <a
-            class="book book--systems"
-            href="books/system-beauty/"
-            aria-label="Open the Thinking in Systems knowledge atlas"
-          >
-            <span class="book__cap" aria-hidden="true"></span>
-            <span class="book__spine">
-              <span class="book__title">THINKING IN SYSTEMS</span>
-              <span class="book__author">DONELLA MEADOWS</span>
-              <span class="book__mark" aria-hidden="true">∞</span>
-            </span>
-            <span class="book__pages" aria-hidden="true"></span>
-          </a>
-
-          <div class="book book--placeholder book--slim" aria-hidden="true">
-            <span>NEXT</span>
+      <section class="collection-shelf collection-shelf--featured" aria-labelledby="featured-title">
+        <header class="collection-shelf__header"><div><span>KNOWLEDGE ATLAS · 01</span><h2 id="featured-title">Featured Atlas</h2></div><p>Fully mapped, synthesized, and ready for active recall.</p></header>
+        <div class="collection-shelf__well">
+          <div class="collection-books collection-books--featured">
+            <a class="shelf-book shelf-book--atlas" href="books/system-beauty/" aria-label="Open the Thinking in Systems knowledge atlas">
+              <span class="shelf-book__top"></span><span class="shelf-book__spine"><small>DONELLA MEADOWS</small><strong>THINKING IN SYSTEMS</strong><i>∞</i></span><span class="shelf-book__pages"></span>
+              <span class="shelf-book__meta"><b>Thinking in Systems</b><em>Donella H. Meadows</em><small>OPEN KNOWLEDGE ATLAS →</small></span>
+            </a>
+            <div class="featured-note"><span>01</span><p><strong>From reading to retrieval.</strong><br />Professional mind map · 8 system traps · 12 leverage points · 15 practices</p></div>
           </div>
-          <div class="book book--placeholder book--warm" aria-hidden="true">
-            <span>TO READ</span>
-          </div>
-          <div class="book book--placeholder book--dark" aria-hidden="true">
-            <span>02</span>
-          </div>
-          <div class="bookend bookend--left" aria-hidden="true"></div>
         </div>
-        <div class="shelf__plank" aria-hidden="true"></div>
+        <div class="collection-shelf__plank" aria-hidden="true"></div>
       </section>
 
-      <section class="shelf shelf--middle" aria-label="Future books">
-        <div class="shelf__label">MIND · SOCIETY · HISTORY</div>
-        <div class="books-row books-row--quiet" aria-hidden="true">
-          <div class="book book--placeholder book--lean"><span>03</span></div>
-          <div class="book book--placeholder book--ochre"><span>NOTES</span></div>
-          <div class="book book--placeholder book--short"><span>04</span></div>
-          <div class="ceramic-vase"></div>
-        </div>
-        <div class="shelf__plank" aria-hidden="true"></div>
-      </section>
+      <div id="shelfRows" class="shelf-rows" aria-live="polite"></div>
 
-      <section class="shelf shelf--bottom" aria-label="Shelf status">
-        <div class="shelf-note">
-          <span class="shelf-note__number">01</span>
-          <p><strong>One book is alive.</strong><br />Select its spine to open the complete knowledge atlas.</p>
-        </div>
-        <div class="shelf__plank" aria-hidden="true"></div>
-      </section>
+      <section class="privacy-note" aria-label="Collection note"><span>COLLECTION NOTE</span><p>Book titles and author names remain in their published language for accuracy. One finished book marked private in WeRead is intentionally excluded from this public shelf.</p></section>
     </main>
 
-    <footer class="library-footer">
-      <p>READ · CONNECT · REMEMBER</p>
-      <span>Singapore · 2026</span>
-    </footer>
+    <footer class="library-footer library-footer--collection"><p>READ · CONNECT · REMEMBER</p><span>Synced from WeRead · Singapore · 2026</span></footer>
+    <script src="assets/shelf.js" defer></script>
   </body>
 </html>
