@@ -1,110 +1,105 @@
 (() => {
   "use strict";
 
-  const detailCopy = {
-    "不要修理事件": "从单次事件退后一步，先寻找重复模式，再追问是什么反馈、规则与目标持续生成这些模式。",
-    "系统不是一堆东西": "要素最显眼，却往往不是最强杠杆。相互连接决定信息与资源如何移动，目标决定整个系统朝哪里走。",
-    "改变存量，要改流量": "存量记录系统的状态。流入增加它，流出减少它；想改变积累，必须找到能长期改变入口或出口的动作。",
-    "结果会回头改写原因": "增强回路会自我放大，调节回路会缩小现实与目标之间的差距。复杂行为通常来自多个回路的竞争。",
-    "反馈太晚，行动就会过量": "当行动和结果相隔很久，我们容易误判行动无效并持续加码，等反馈抵达时，系统已经越过目标。",
-    "事件 → 模式 → 结构": "事件告诉你发生了什么，模式告诉你它如何反复，结构解释为什么它会持续。干预越靠近结构，效果越持久。",
-    "越接近范式，杠杆越大": "参数容易调整但影响有限；信息、规则、目标和范式逐层改变系统为何行动，因此杠杆更大、阻力也更强。",
-    "少一点控制，多一点学习": "复杂系统无法被精确预测或完全控制。保持谦逊，用小实验、快速反馈和持续重构与系统共舞。"
+  const $ = (selector, root = document) => root.querySelector(selector);
+  const escapeHtml = (value) => String(value).replace(/[&<>'"]/g, (char) => ({"&":"&amp;","<":"&lt;",">":"&gt;","'":"&#39;",'"':"&quot;"})[char]);
+
+  const cardDetails = {
+    "Behavior comes from structure": "Step back from a single incident. Track the pattern across time, then identify the stocks, loops, delays, rules, and goals that keep reproducing it.",
+    "Elements are not the system": "People and objects are easy to see, yet interconnections and purpose do more to determine behavior. The true goal is revealed by what the system consistently does.",
+    "Change the accumulation through its rates": "A stock records the system's condition. Inflows raise it, outflows lower it, and its size determines how quickly intervention can become visible.",
+    "The result returns to change the cause": "Reinforcing loops compound movement; balancing loops compare reality with a target. Most complex behavior is a contest among several loops.",
+    "The signal arrives after the decision": "When feedback is delayed, decision-makers act on an obsolete picture and often overcorrect. Nonlinearity and hidden limits make the error larger.",
+    "Name the trap before choosing the fix": "Policy resistance, escalation, dependence, and metric gaming are not isolated mistakes. They are repeatable structures with repeatable countermoves.",
+    "Move from numbers toward intent": "Parameters are visible but weak. Information, rules, self-organization, goals, and paradigms progressively change why the system behaves as it does.",
+    "Dance with the system": "Observe first, expose assumptions, test small interventions, monitor consequences, protect what the system already does well, and stay ready to change direction."
   };
 
-  const recallAnswers = [
-    "要素、相互连接与目标。目标常最难被直接看见，要从持续行为中推断。",
-    "存量能吸收短期冲击，但存量越大，改变它需要的时间与流量通常也越多。",
-    "增强回路放大变化；调节回路比较现实与目标，并尝试缩小差距。",
-    "反馈未抵达时，人容易认为行动不足而继续加码，最终造成过度修正。",
-    "观察它长期奖励什么、牺牲什么，以及哪些行为会稳定重复。",
-    "高层杠杆会改变规则、目标或范式，也会威胁既有利益与身份，因此阻力更大。",
-    "先写出重复事件，再画出可能的因果箭头，标出增强或调节关系以及延迟。"
-  ];
-
-  const branchDetail = document.querySelector("#branchDetail");
-  const cardsRoot = document.querySelector("#knowledgeCards");
-  const recallRoot = document.querySelector("#recallList");
-
-  const escapeHtml = (value) =>
-    String(value).replace(/[&<>'"]/g, (char) => ({
-      "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;"
-    })[char]);
-
   const renderBranch = (branch) => {
-    branchDetail.querySelector(".branch-detail__chapter").textContent = branch.chapter;
-    branchDetail.querySelector("h3").textContent = branch.label;
-    branchDetail.querySelector(".branch-detail__summary").textContent = branch.summary;
-    branchDetail.querySelector("ul").innerHTML = branch.notes
-      .map((note) => `<li><strong>${escapeHtml(note.title)}</strong>${escapeHtml(note.body)}<br><small>记忆线索：${escapeHtml(note.cue)}</small></li>`)
-      .join("");
-    branchDetail.querySelector(".branch-detail__question").textContent = `想一想：${branch.question}`;
+    const panel = $("#branchDetail");
+    $(".branch-detail__chapter", panel).textContent = branch.chapter;
+    $("h3", panel).textContent = branch.label;
+    $(".branch-detail__summary", panel).textContent = branch.summary;
+    $("ul", panel).innerHTML = branch.notes.map((note) => `<li><div><strong>${escapeHtml(note.title)}</strong><p>${escapeHtml(note.body)}</p></div><small>${escapeHtml(note.cue)}</small></li>`).join("");
+    $(".branch-detail__question", panel).innerHTML = `<span>RECALL PROMPT</span>${escapeHtml(branch.question)}`;
   };
 
   const setupMindmap = (data) => {
+    const positions = ["left-top", "left-mid", "left-bottom", "right-top", "right-mid", "right-bottom"];
+    const root = $("#mindmapNodes");
+    root.innerHTML = data.branches.map((branch, index) => `<button class="pro-node pro-node--${positions[index]}" type="button" data-branch="${escapeHtml(branch.id)}" style="--branch:${escapeHtml(branch.color)}"><span>${String(index + 1).padStart(2,"0")}</span><strong>${escapeHtml(branch.label)}</strong><small>${escapeHtml(branch.notes.map((note) => note.title).slice(0,3).join(" · "))}</small></button>`).join("");
     const branches = new Map(data.branches.map((branch) => [branch.id, branch]));
-    const nodes = [...document.querySelectorAll(".mind-node")];
-    nodes.forEach((node) => {
-      node.setAttribute("aria-pressed", "false");
-      node.addEventListener("click", () => {
-        nodes.forEach((candidate) => candidate.setAttribute("aria-pressed", "false"));
-        node.setAttribute("aria-pressed", "true");
-        renderBranch(branches.get(node.dataset.branch));
-      });
-    });
-    nodes[0].setAttribute("aria-pressed", "true");
-    renderBranch(branches.get("system-anatomy"));
+    const nodes = [...document.querySelectorAll(".pro-node")];
+    const activate = (node) => {
+      nodes.forEach((item) => item.setAttribute("aria-pressed", "false"));
+      node.setAttribute("aria-pressed", "true");
+      renderBranch(branches.get(node.dataset.branch));
+    };
+    nodes.forEach((node) => node.addEventListener("click", () => activate(node)));
+    activate(nodes[1]);
+  };
+
+  const renderChain = (data) => {
+    $("#quoteChain").innerHTML = data.quoteChain.map((item, index) => `<li class="${index === 3 ? "chain__quote" : ""}"><span class="chain__index">${String(index + 1).padStart(2,"0")}</span><div><strong>${escapeHtml(item.label)}</strong><p>${escapeHtml(item.text)}</p></div></li>`).join("");
+  };
+
+  const renderProperties = (data) => {
+    $("#systemProperties").innerHTML = data.systemProperties.map((item, index) => `<article><span>0${index + 1}</span><h3>${escapeHtml(item.name)}</h3><p>${escapeHtml(item.definition)}</p><aside><strong>DESIGN RISK</strong>${escapeHtml(item.risk)}</aside></article>`).join("");
+  };
+
+  const renderSurprises = (data) => {
+    $("#surprises").innerHTML = data.surprises.map((item, index) => `<article><span>${String(index + 1).padStart(2,"0")}</span><h3>${escapeHtml(item.name)}</h3><p>${escapeHtml(item.explanation)}</p><small><b>TRY</b>${escapeHtml(item.practice)}</small></article>`).join("");
+  };
+
+  const renderTraps = (data) => {
+    $("#trapsGrid").innerHTML = data.traps.map((trap, index) => `<article class="trap-card"><div class="trap-card__top"><span>${String(index + 1).padStart(2,"0")}</span><h3>${escapeHtml(trap.name)}</h3></div><dl><dt>STRUCTURE</dt><dd>${escapeHtml(trap.pattern)}</dd><dt>VISIBLE SYMPTOM</dt><dd>${escapeHtml(trap.symptom)}</dd><dt>STRUCTURAL MOVE</dt><dd>${escapeHtml(trap.countermove)}</dd></dl></article>`).join("");
+  };
+
+  const renderLeverage = (data) => {
+    $("#leverageList").innerHTML = data.leveragePoints.map((item) => `<li><span>${String(item.rank).padStart(2,"0")}</span><div><small>${escapeHtml(item.power)} LEVERAGE</small><h3>${escapeHtml(item.name)}</h3><p>${escapeHtml(item.idea)}</p></div></li>`).join("");
+  };
+
+  const renderChapters = (data) => {
+    $("#chapterGuide").innerHTML = data.chapterGuide.map((item) => `<article><span>${escapeHtml(item.part)}</span><div><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.learn)}</p><small>${escapeHtml(item.question)}</small></div></article>`).join("");
+  };
+
+  const renderPractices = (data) => {
+    $("#practiceList").innerHTML = data.practices.map((practice, index) => `<li><span>${String(index + 1).padStart(2,"0")}</span><p>${escapeHtml(practice)}</p></li>`).join("");
+  };
+
+  const renderToolkit = (data) => {
+    $("#toolkit").innerHTML = data.toolkit.map((item) => `<article><span>${escapeHtml(item.step)}</span><h3>${escapeHtml(item.name)}</h3><p>${escapeHtml(item.prompt)}</p></article>`).join("");
+  };
+
+  const renderGlossary = (data) => {
+    $("#glossary").innerHTML = data.glossary.map((item) => `<div><dt>${escapeHtml(item.term)}</dt><dd>${escapeHtml(item.meaning)}</dd></div>`).join("");
   };
 
   const renderCards = (data) => {
-    cardsRoot.innerHTML = data.cards.map((card) => `
-      <article class="knowledge-card" tabindex="0" role="button" aria-expanded="false">
-        <span class="knowledge-card__number">${escapeHtml(card.id)}</span>
-        <span class="knowledge-card__kicker">${escapeHtml(card.kicker)}</span>
-        <h3>${escapeHtml(card.title)}</h3>
-        <p class="knowledge-card__subtitle">${escapeHtml(card.subtitle)}</p>
-        <p class="knowledge-card__detail">${escapeHtml(detailCopy[card.title] || card.takeaway)}</p>
-        <p class="knowledge-card__takeaway">${escapeHtml(card.takeaway)}</p>
-      </article>`).join("");
-
-    cardsRoot.querySelectorAll(".knowledge-card").forEach((card) => {
+    const root = $("#knowledgeCards");
+    root.innerHTML = data.cards.map((card) => `<article class="knowledge-card" tabindex="0" role="button" aria-expanded="false"><span class="knowledge-card__number">${escapeHtml(card.id)}</span><span class="knowledge-card__kicker">${escapeHtml(card.kicker)}</span><h3>${escapeHtml(card.title)}</h3><p class="knowledge-card__subtitle">${escapeHtml(card.subtitle)}</p><p class="knowledge-card__detail">${escapeHtml(cardDetails[card.title] || card.takeaway)}</p><p class="knowledge-card__takeaway">${escapeHtml(card.takeaway)}</p></article>`).join("");
+    root.querySelectorAll(".knowledge-card").forEach((card) => {
       const toggle = () => card.setAttribute("aria-expanded", String(card.getAttribute("aria-expanded") !== "true"));
       card.addEventListener("click", toggle);
-      card.addEventListener("keydown", (event) => {
-        if (event.key === "Enter" || event.key === " ") {
-          event.preventDefault();
-          toggle();
-        }
-      });
+      card.addEventListener("keydown", (event) => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); toggle(); } });
     });
+  };
+
+  const renderComparison = (data) => {
+    const c = data.comparison;
+    $("#comparisonGrid").innerHTML = `<article><span>DEFAULT MODE</span><h3>${escapeHtml(c.left.label)}</h3><ul>${c.left.traits.map((x) => `<li>${escapeHtml(x)}</li>`).join("")}</ul></article><div class="comparison-arrow" aria-hidden="true">→</div><article class="comparison-grid__system"><span>STRUCTURAL MODE</span><h3>${escapeHtml(c.right.label)}</h3><ul>${c.right.traits.map((x) => `<li>${escapeHtml(x)}</li>`).join("")}</ul></article><p class="comparison-conclusion">${escapeHtml(c.conclusion)}</p>`;
   };
 
   const renderRecall = (data) => {
-    recallRoot.innerHTML = data.memoryPrompts.map((question, index) => `
-      <article class="recall-item">
-        <button type="button" aria-expanded="false">
-          <span>${String(index + 1).padStart(2, "0")}</span>
-          <strong>${escapeHtml(question)}</strong>
-          <span aria-hidden="true">＋</span>
-        </button>
-        <div class="recall-answer">${escapeHtml(recallAnswers[index])}</div>
-      </article>`).join("");
-    recallRoot.querySelectorAll("button").forEach((button) => {
-      button.addEventListener("click", () => button.setAttribute("aria-expanded", String(button.getAttribute("aria-expanded") !== "true")));
-    });
+    const root = $("#recallList");
+    root.innerHTML = data.memoryPrompts.map((item, index) => `<article class="recall-item"><button type="button" aria-expanded="false"><span>${String(index + 1).padStart(2,"0")}</span><strong>${escapeHtml(item.question)}</strong><i aria-hidden="true">＋</i></button><div class="recall-answer">${escapeHtml(item.answer)}</div></article>`).join("");
+    root.querySelectorAll("button").forEach((button) => button.addEventListener("click", () => button.setAttribute("aria-expanded", String(button.getAttribute("aria-expanded") !== "true"))));
   };
 
   fetch("book-map.json")
-    .then((response) => {
-      if (!response.ok) throw new Error(`Unable to load book data (${response.status})`);
-      return response.json();
-    })
+    .then((response) => { if (!response.ok) throw new Error(`Unable to load book data (${response.status})`); return response.json(); })
     .then((data) => {
-      setupMindmap(data);
-      renderCards(data);
-      renderRecall(data);
+      renderChain(data); setupMindmap(data); renderProperties(data); renderSurprises(data); renderTraps(data); renderLeverage(data); renderChapters(data); renderPractices(data); renderToolkit(data); renderGlossary(data); renderCards(data); renderComparison(data); renderRecall(data);
     })
-    .catch(() => {
-      cardsRoot.innerHTML = "<p>知识卡数据暂时无法载入，请刷新页面。</p>";
-    });
+    .catch((error) => { $("#knowledgeCards").innerHTML = `<p class="load-error">The knowledge atlas could not load. Please refresh the page.</p>`; console.error(error); });
 })();
