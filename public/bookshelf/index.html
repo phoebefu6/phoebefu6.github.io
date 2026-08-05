@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#2a1710" />
+    <meta
+      name="description"
+      content="Phoebe 的知识书架：把读过的书变成可以复习、连接与分享的知识卡片。"
+    />
+    <title>Phoebe 的知识书架</title>
+    <link rel="stylesheet" href="assets/bookshelf.css" />
+  </head>
+  <body class="library-page">
+    <a class="skip-link" href="#shelf">跳到书架</a>
+
+    <header class="library-header">
+      <p class="library-kicker">PHOEBE'S READING ROOM · 01</p>
+      <h1>知识书架</h1>
+      <p>把一本书读成一张可以反复展开的认知地图。</p>
+    </header>
+
+    <main id="shelf" class="bookcase" aria-label="知识书架">
+      <div class="bookcase__crown" aria-hidden="true">
+        <span>THE LIVING LIBRARY</span>
+      </div>
+
+      <section class="shelf shelf--top" aria-label="系统与复杂性">
+        <div class="shelf__label">SYSTEMS · COMPLEXITY</div>
+        <div class="books-row">
+          <a
+            class="book book--systems"
+            href="books/system-beauty/"
+            aria-label="打开《系统之美》知识卡片"
+          >
+            <span class="book__cap" aria-hidden="true"></span>
+            <span class="book__spine">
+              <span class="book__title">系统之美</span>
+              <span class="book__author">德内拉·梅多斯</span>
+              <span class="book__mark" aria-hidden="true">∞</span>
+            </span>
+            <span class="book__pages" aria-hidden="true"></span>
+          </a>
+
+          <div class="book book--placeholder book--slim" aria-hidden="true">
+            <span>下一本</span>
+          </div>
+          <div class="book book--placeholder book--warm" aria-hidden="true">
+            <span>TO READ</span>
+          </div>
+          <div class="book book--placeholder book--dark" aria-hidden="true">
+            <span>02</span>
+          </div>
+          <div class="bookend bookend--left" aria-hidden="true"></div>
+        </div>
+        <div class="shelf__plank" aria-hidden="true"></div>
+      </section>
+
+      <section class="shelf shelf--middle" aria-label="未来书籍位置">
+        <div class="shelf__label">MIND · SOCIETY · HISTORY</div>
+        <div class="books-row books-row--quiet" aria-hidden="true">
+          <div class="book book--placeholder book--lean"><span>03</span></div>
+          <div class="book book--placeholder book--ochre"><span>NOTES</span></div>
+          <div class="book book--placeholder book--short"><span>04</span></div>
+          <div class="ceramic-vase"></div>
+        </div>
+        <div class="shelf__plank" aria-hidden="true"></div>
+      </section>
+
+      <section class="shelf shelf--bottom" aria-label="书架说明">
+        <div class="shelf-note">
+          <span class="shelf-note__number">01</span>
+          <p><strong>一本已上架</strong><br />点击书脊，展开知识卡与脑图。</p>
+        </div>
+        <div class="shelf__plank" aria-hidden="true"></div>
+      </section>
+    </main>
+
+    <footer class="library-footer">
+      <p>READ · CONNECT · REMEMBER</p>
+      <span>Singapore · 2026</span>
+    </footer>
+  </body>
+</html>
