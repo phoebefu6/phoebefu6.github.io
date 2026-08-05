@@ -1,0 +1,130 @@
+{
+  "book": {
+    "title": "系统之美（全新升级版）",
+    "author": "德内拉·梅多斯",
+    "translator": "邱昭良",
+    "cover": "https://cdn.weread.qq.com/weread/cover/43/cpplatform_4ssdshesskpsd8jw6hleyw/t6_cpplatform_4ssdshesskpsd8jw6hleyw1702455686.jpg",
+    "deepLink": "https://weread.qq.com/book-detail?type=1&v=55b32da0813ab864cg017b6c",
+    "sourceLabel": "基于微信读书 15 个正文部分与 481 条社区热门划线；未发现个人划线；经典句子除一条短摘外均为模型转述"
+  },
+  "thesis": {
+    "hook": "不要只修理事件，要看见制造事件的结构。",
+    "statement": "系统的行为主要由结构塑造：存量与流量形成状态，反馈回路推动或调节变化，延迟制造误判，而目标、规则和范式决定系统最终会走向哪里。",
+    "formula": [
+      "看见存量与流量",
+      "识别反馈与延迟",
+      "从目标和范式寻找杠杆"
+    ]
+  },
+  "branches": [
+    {
+      "id": "system-anatomy",
+      "label": "系统三件套",
+      "chapter": "第一部分 系统的结构和行为",
+      "color": "#C96B45",
+      "summary": "系统由要素、相互连接与目标组成；替换要素往往影响有限，改变连接或目标才可能重塑行为。",
+      "notes": [
+        {"title": "要素", "body": "人、设备、资源等可见组成部分最容易被注意，却通常不是最强杠杆。", "cue": "换人是否会改变模式？"},
+        {"title": "连接", "body": "信息、资源与因果关系决定各部分如何影响彼此。", "cue": "什么在传递？"},
+        {"title": "目标", "body": "系统真正追求什么，要从持续行为推断，而不是只听口号。", "cue": "行为暴露了什么目标？"}
+      ],
+      "question": "如果所有成员被替换，但规则与目标不变，系统会发生什么？"
+    },
+    {
+      "id": "stocks-flows",
+      "label": "存量与流量",
+      "chapter": "第一部分 系统的结构和行为",
+      "color": "#D8A343",
+      "summary": "存量是系统此刻积累的状态，流入增加它，流出减少它；存量带来缓冲，也让变化显得缓慢。",
+      "notes": [
+        {"title": "存量", "body": "账户余额、库存、信任、知识和声誉都是会积累的状态。", "cue": "现在积累了什么？"},
+        {"title": "流量", "body": "只有改变流入或流出，存量才会真正改变。", "cue": "入口和出口在哪里？"},
+        {"title": "缓冲", "body": "较大的存量能吸收冲击，却也可能让纠偏来得更慢。", "cue": "稳定的代价是什么？"}
+      ],
+      "question": "你想提高阅读知识存量，应该改变哪个流入和哪个流出？"
+    },
+    {
+      "id": "feedback-loops",
+      "label": "反馈回路",
+      "chapter": "第2章 系统大观园",
+      "color": "#5D8A6A",
+      "summary": "增强回路让变化自我放大，调节回路把状态拉回目标；复杂行为常来自多个回路同时竞争。",
+      "notes": [
+        {"title": "增强回路", "body": "结果反过来强化原因，形成增长或衰退的滚雪球。", "cue": "什么越多就越多？"},
+        {"title": "调节回路", "body": "系统比较现实与目标，并采取行动缩小差距。", "cue": "目标值是什么？"},
+        {"title": "回路主导权", "body": "同一系统里回路并存，某个阶段通常由其中一个主导。", "cue": "此刻谁在主导？"}
+      ],
+      "question": "你的内容创作中，哪一个反馈信号正在放大好行为或坏行为？"
+    },
+    {
+      "id": "delays-nonlinearity",
+      "label": "延迟与非线性",
+      "chapter": "第二部分 系统思考与我们；第4章 系统之奇，系统的6大障碍",
+      "color": "#4C7A83",
+      "summary": "行动与结果之间常有延迟，影响也很少成比例；线性直觉因此容易过度修正或低估后果。",
+      "notes": [
+        {"title": "延迟", "body": "反馈来得太晚时，人会继续加码，直到系统越过目标。", "cue": "结果何时出现？"},
+        {"title": "非线性", "body": "同一动作在不同状态下可能产生完全不同的影响。", "cue": "关系真的是直线吗？"},
+        {"title": "边界", "body": "系统边界不是天然给定的，应根据想解决的问题来划定。", "cue": "我漏掉了谁？"}
+      ],
+      "question": "最近哪次决策因为反馈延迟，让你误以为行动无效？"
+    },
+    {
+      "id": "traps-resistance",
+      "label": "陷阱与阻力",
+      "chapter": "第5章 系统之危与机，系统的8大陷阱与对策",
+      "color": "#7B6A94",
+      "summary": "只压制症状会引发政策阻力；各方都在局部理性地行动，却共同维持了不理想的结果。",
+      "notes": [
+        {"title": "事件上瘾", "body": "机械响应眼前事件，会反复救火而不改变产生事件的结构。", "cue": "这是事件还是模式？"},
+        {"title": "政策阻力", "body": "各方目标不一致时，一方施力会触发另一方抵消。", "cue": "谁在反向用力？"},
+        {"title": "多样性", "body": "通路与冗余丰富的系统通常比单一化系统更能承受冲击。", "cue": "系统有替代路径吗？"}
+      ],
+      "question": "你正在用更多努力维持哪个本该重新设计的系统？"
+    },
+    {
+      "id": "leverage-dance",
+      "label": "杠杆与共舞",
+      "chapter": "第三部分 改变系统；第7章 与系统共舞，系统的15大生存法则",
+      "color": "#B45462",
+      "summary": "参数容易改却杠杆较弱；信息流、规则、目标和范式越往上越有力，也越容易遭遇抵抗。",
+      "notes": [
+        {"title": "信息流", "body": "让正确的人及时看到正确反馈，行为可能无需命令就会改变。", "cue": "谁缺少信息？"},
+        {"title": "目标与范式", "body": "改变系统追求的目标，或重写人们理解世界的基本假设，影响最深。", "cue": "什么被视为理所当然？"},
+        {"title": "与系统共舞", "body": "未来无法精确预测，系统也无法完全控制；更好的姿态是观察、试验、学习与重构。", "cue": "下一步小实验是什么？"}
+      ],
+      "question": "如果不能控制系统，你可以如何设计反馈，让它更容易学习？"
+    }
+  ],
+  "comparison": {
+    "title": "线性修补 vs 系统干预",
+    "left": {
+      "label": "线性修补",
+      "traits": ["盯住单次事件", "寻找单一原因", "立即加大力度", "替换可见要素"]
+    },
+    "right": {
+      "label": "系统干预",
+      "traits": ["观察长期模式", "寻找回路与延迟", "改变信息与规则", "重审目标与范式"]
+    },
+    "conclusion": "前者让今天暂时安静，后者改变明天反复出现的模式。"
+  },
+  "memoryPrompts": [
+    "系统由哪三个部分组成？哪一个通常最难被看见？",
+    "存量为什么既能提供稳定，也会造成迟钝？",
+    "增强回路和调节回路分别在做什么？",
+    "延迟为什么容易导致过度修正？",
+    "如何从系统行为推断它真正的目标？",
+    "为什么越高层的杠杆点越有效，也越会遭到抵抗？",
+    "把一个你反复遇到的问题，从事件改写成模式和结构。"
+  ],
+  "cards": [
+    {"id": "01", "kicker": "SYSTEMS THINKING", "title": "不要修理事件", "subtitle": "去看制造事件的结构", "layout": "cover", "branchIds": ["system-anatomy"], "takeaway": "事件只是水面，结构才是河床。"},
+    {"id": "02", "kicker": "THE ANATOMY", "title": "系统不是一堆东西", "subtitle": "要素 × 连接 × 目标", "layout": "thesis", "branchIds": ["system-anatomy"], "takeaway": "系统真正的目标写在持续行为里。"},
+    {"id": "03", "kicker": "STOCK & FLOW", "title": "改变存量，要改流量", "subtitle": "流入 − 流出 = 状态变化", "layout": "matrix", "branchIds": ["stocks-flows"], "takeaway": "想改变积累，先找到入口与出口。"},
+    {"id": "04", "kicker": "FEEDBACK", "title": "结果会回头改写原因", "subtitle": "增强回路 × 调节回路", "layout": "comparison", "branchIds": ["feedback-loops"], "takeaway": "问一句：什么越多就越多，什么在把它拉回目标？"},
+    {"id": "05", "kicker": "THE DELAY", "title": "反馈太晚，行动就会过量", "subtitle": "延迟让好决策看起来像坏决策", "layout": "warning", "branchIds": ["delays-nonlinearity"], "takeaway": "在再次加码前，先估算结果抵达的时间。"},
+    {"id": "06", "kicker": "THE ICEBERG", "title": "事件 → 模式 → 结构", "subtitle": "从救火走向根因", "layout": "map", "branchIds": ["traps-resistance"], "takeaway": "不要只问发生了什么，还要问它为何持续发生。"},
+    {"id": "07", "kicker": "LEVERAGE", "title": "越接近范式，杠杆越大", "subtitle": "参数 < 信息 < 规则 < 目标 < 范式", "layout": "matrix", "branchIds": ["leverage-dance"], "takeaway": "高杠杆改变系统为什么行动，而不只是行动多少。"},
+    {"id": "08", "kicker": "DANCE WITH SYSTEMS", "title": "少一点控制，多一点学习", "subtitle": "观察 · 试验 · 反馈 · 重构", "layout": "action", "branchIds": ["leverage-dance"], "takeaway": "未来不可预测，但可以被想象与设计。"}
+  ]
+}
