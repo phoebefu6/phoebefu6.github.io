@@ -1,130 +1,229 @@
 {
   "book": {
-    "title": "系统之美（全新升级版）",
-    "author": "德内拉·梅多斯",
-    "translator": "邱昭良",
+    "title": "Thinking in Systems",
+    "edition": "Expanded Chinese Edition",
+    "author": "Donella H. Meadows",
+    "translator": "Qiu Zhaoliang",
     "cover": "https://cdn.weread.qq.com/weread/cover/43/cpplatform_4ssdshesskpsd8jw6hleyw/t6_cpplatform_4ssdshesskpsd8jw6hleyw1702455686.jpg",
     "deepLink": "https://weread.qq.com/book-detail?type=1&v=55b32da0813ab864cg017b6c",
-    "sourceLabel": "基于微信读书 15 个正文部分与 481 条社区热门划线；未发现个人划线；经典句子除一条短摘外均为模型转述"
+    "sourceLabel": "WeRead table of contents and community highlights; English synthesis and paraphrase",
+    "publisher": "Zhejiang Education Publishing House",
+    "published": "2023"
   },
   "thesis": {
-    "hook": "不要只修理事件，要看见制造事件的结构。",
-    "statement": "系统的行为主要由结构塑造：存量与流量形成状态，反馈回路推动或调节变化，延迟制造误判，而目标、规则和范式决定系统最终会走向哪里。",
-    "formula": [
-      "看见存量与流量",
-      "识别反馈与延迟",
-      "从目标和范式寻找杠杆"
-    ]
+    "hook": "Stop reacting to events. Redesign the structure that keeps producing them.",
+    "statement": "A system's behavior emerges from its stocks, flows, feedback loops, delays, rules, goals, and underlying paradigms. Durable change begins by seeing those relationships as a whole.",
+    "formula": ["Events reveal patterns", "Patterns reveal structure", "Structure reveals leverage"]
   },
+  "quoteChain": [
+    {"label":"Events","text":"A single event tells you what happened, but not why it keeps happening."},
+    {"label":"Patterns","text":"Connect events across time and recurring behavior becomes visible."},
+    {"label":"Structure","text":"Recurring behavior is the fingerprint of stocks, loops, delays, rules, and goals."},
+    {"label":"Nonlinearity","text":"In a nonlinear world, linear intuition is an unreliable guide."},
+    {"label":"Leverage","text":"Changing numbers is easy; changing information, rules, goals, and paradigms reaches deeper."},
+    {"label":"Practice","text":"Systems cannot be fully controlled, but they can be observed, redesigned, and learned with."}
+  ],
   "branches": [
     {
       "id": "system-anatomy",
-      "label": "系统三件套",
-      "chapter": "第一部分 系统的结构和行为",
-      "color": "#C96B45",
-      "summary": "系统由要素、相互连接与目标组成；替换要素往往影响有限，改变连接或目标才可能重塑行为。",
+      "label": "System Anatomy",
+      "chapter": "Part I — Structure and Behavior",
+      "color": "#A64B35",
+      "summary": "A system is not merely a collection of things. It is a set of elements connected in ways that produce behavior toward a purpose.",
       "notes": [
-        {"title": "要素", "body": "人、设备、资源等可见组成部分最容易被注意，却通常不是最强杠杆。", "cue": "换人是否会改变模式？"},
-        {"title": "连接", "body": "信息、资源与因果关系决定各部分如何影响彼此。", "cue": "什么在传递？"},
-        {"title": "目标", "body": "系统真正追求什么，要从持续行为推断，而不是只听口号。", "cue": "行为暴露了什么目标？"}
+        {"title":"Elements","body":"People, machines, resources, and institutions are visible, but replacing them often leaves the system's behavior largely intact.","cue":"What can I point to?"},
+        {"title":"Interconnections","body":"Information, incentives, material flows, and causal relationships determine how elements influence one another.","cue":"What moves between parts?"},
+        {"title":"Purpose","body":"The real goal is inferred from persistent behavior—what the system repeatedly rewards, protects, or sacrifices—not from stated intentions.","cue":"What does behavior optimize?"},
+        {"title":"Boundary","body":"No system is truly isolated. Choose a boundary that is wide enough to explain the behavior relevant to your question.","cue":"What did I leave outside?"}
       ],
-      "question": "如果所有成员被替换，但规则与目标不变，系统会发生什么？"
+      "question": "If every visible element were replaced but the connections and purpose remained, what behavior would persist?"
     },
     {
       "id": "stocks-flows",
-      "label": "存量与流量",
-      "chapter": "第一部分 系统的结构和行为",
-      "color": "#D8A343",
-      "summary": "存量是系统此刻积累的状态，流入增加它，流出减少它；存量带来缓冲，也让变化显得缓慢。",
+      "label": "Stocks & Flows",
+      "chapter": "Part I — Structure and Behavior",
+      "color": "#BC7A35",
+      "summary": "Stocks are the memory of a system. Flows change them over time, while the size of the stock creates inertia, buffering, and delay.",
       "notes": [
-        {"title": "存量", "body": "账户余额、库存、信任、知识和声誉都是会积累的状态。", "cue": "现在积累了什么？"},
-        {"title": "流量", "body": "只有改变流入或流出，存量才会真正改变。", "cue": "入口和出口在哪里？"},
-        {"title": "缓冲", "body": "较大的存量能吸收冲击，却也可能让纠偏来得更慢。", "cue": "稳定的代价是什么？"}
+        {"title":"Stock","body":"An accumulation such as cash, population, trust, inventory, skill, or atmospheric carbon records the system's present condition.","cue":"What can accumulate?"},
+        {"title":"Inflow","body":"Anything entering the stock increases it: hiring, deposits, learning, births, production, or replenishment.","cue":"What fills it?"},
+        {"title":"Outflow","body":"Anything leaving the stock decreases it: attrition, spending, forgetting, deaths, sales, or depletion.","cue":"What drains it?"},
+        {"title":"Dynamic equilibrium","body":"A stock can remain constant while large flows pass through it, provided inflow and outflow are equal.","cue":"Stable level or inactive system?"}
       ],
-      "question": "你想提高阅读知识存量，应该改变哪个流入和哪个流出？"
+      "question": "For the problem you care about, what is accumulating, and which flow is easiest to change sustainably?"
     },
     {
       "id": "feedback-loops",
-      "label": "反馈回路",
-      "chapter": "第2章 系统大观园",
-      "color": "#5D8A6A",
-      "summary": "增强回路让变化自我放大，调节回路把状态拉回目标；复杂行为常来自多个回路同时竞争。",
+      "label": "Feedback Loops",
+      "chapter": "Part I and Chapter 2 — The System Zoo",
+      "color": "#567863",
+      "summary": "Feedback makes causality circular: results return as information that changes future action. System behavior usually comes from several loops competing at once.",
       "notes": [
-        {"title": "增强回路", "body": "结果反过来强化原因，形成增长或衰退的滚雪球。", "cue": "什么越多就越多？"},
-        {"title": "调节回路", "body": "系统比较现实与目标，并采取行动缩小差距。", "cue": "目标值是什么？"},
-        {"title": "回路主导权", "body": "同一系统里回路并存，某个阶段通常由其中一个主导。", "cue": "此刻谁在主导？"}
+        {"title":"Reinforcing loop","body":"A change produces more change in the same direction—growth, decline, compounding, contagion, or escalation.","cue":"What makes more create more?"},
+        {"title":"Balancing loop","body":"The system compares its current state with a goal and acts to close the gap, producing regulation or oscillation.","cue":"What pulls toward a target?"},
+        {"title":"Dominance shift","body":"Different loops dominate at different times; early growth may later be constrained by resource limits.","cue":"Which loop is winning now?"},
+        {"title":"Loop literacy","body":"Read a loop as a story through time: if this rises, what changes next, and how does that eventually return to the starting variable?","cue":"Can I narrate the circle?"}
       ],
-      "question": "你的内容创作中，哪一个反馈信号正在放大好行为或坏行为？"
+      "question": "Which reinforcing loop drives the behavior, and which balancing loop is trying to contain it?"
     },
     {
-      "id": "delays-nonlinearity",
-      "label": "延迟与非线性",
-      "chapter": "第二部分 系统思考与我们；第4章 系统之奇，系统的6大障碍",
-      "color": "#4C7A83",
-      "summary": "行动与结果之间常有延迟，影响也很少成比例；线性直觉因此容易过度修正或低估后果。",
+      "id": "delays-surprises",
+      "label": "Delay & Surprise",
+      "chapter": "Part II and Chapter 4 — Why Systems Surprise Us",
+      "color": "#44677D",
+      "summary": "Systems surprise us because feedback arrives late, relationships are nonlinear, boundaries are selective, and each actor sees only a limited part of the whole.",
       "notes": [
-        {"title": "延迟", "body": "反馈来得太晚时，人会继续加码，直到系统越过目标。", "cue": "结果何时出现？"},
-        {"title": "非线性", "body": "同一动作在不同状态下可能产生完全不同的影响。", "cue": "关系真的是直线吗？"},
-        {"title": "边界", "body": "系统边界不是天然给定的，应根据想解决的问题来划定。", "cue": "我漏掉了谁？"}
+        {"title":"Delay","body":"When results arrive long after action, people keep correcting an outdated state and create overshoot, oscillation, or collapse.","cue":"When will the signal arrive?"},
+        {"title":"Nonlinearity","body":"The same action can have different effects at different states, because relationships bend, saturate, and encounter thresholds.","cue":"Where does the curve change?"},
+        {"title":"Limiting factor","body":"Growth is constrained by whichever necessary resource is relatively most scarce; after one limit is removed, another often becomes binding.","cue":"What is scarce now?"},
+        {"title":"Bounded rationality","body":"Actors make locally sensible choices using incomplete information and incentives, yet their combined actions can damage the whole.","cue":"Rational for whom?"}
       ],
-      "question": "最近哪次决策因为反馈延迟，让你误以为行动无效？"
+      "question": "What delayed consequence or invisible limit could reverse today's apparently successful trend?"
     },
     {
       "id": "traps-resistance",
-      "label": "陷阱与阻力",
-      "chapter": "第5章 系统之危与机，系统的8大陷阱与对策",
-      "color": "#7B6A94",
-      "summary": "只压制症状会引发政策阻力；各方都在局部理性地行动，却共同维持了不理想的结果。",
+      "label": "Traps & Resistance",
+      "chapter": "Chapter 5 — System Traps and Opportunities",
+      "color": "#7B587B",
+      "summary": "Recurring failures are often archetypal structures. Naming the trap reveals why familiar fixes backfire and where a countermeasure belongs.",
       "notes": [
-        {"title": "事件上瘾", "body": "机械响应眼前事件，会反复救火而不改变产生事件的结构。", "cue": "这是事件还是模式？"},
-        {"title": "政策阻力", "body": "各方目标不一致时，一方施力会触发另一方抵消。", "cue": "谁在反向用力？"},
-        {"title": "多样性", "body": "通路与冗余丰富的系统通常比单一化系统更能承受冲击。", "cue": "系统有替代路径吗？"}
+        {"title":"Policy resistance","body":"Actors pursue conflicting goals; each intervention triggers compensating behavior elsewhere. Align them under a larger shared goal.","cue":"Who pushes back—and why?"},
+        {"title":"Drift to low performance","body":"Poor results lower expectations, which reduces corrective effort and normalizes decline. Anchor standards to the best achieved level.","cue":"Has the target quietly fallen?"},
+        {"title":"Shifting the burden","body":"A quick external fix relieves symptoms while weakening the system's ability to solve the cause. Restore internal capacity and withdraw dependency carefully.","cue":"Did the cure reduce self-reliance?"},
+        {"title":"Wrong goal","body":"A proxy metric replaces the real purpose, so the system optimizes what is countable rather than what matters. Redesign the measure around total welfare.","cue":"What is the metric actually rewarding?"}
       ],
-      "question": "你正在用更多努力维持哪个本该重新设计的系统？"
+      "question": "Which recurring failure becomes predictable once you name its feedback structure?"
     },
     {
-      "id": "leverage-dance",
-      "label": "杠杆与共舞",
-      "chapter": "第三部分 改变系统；第7章 与系统共舞，系统的15大生存法则",
-      "color": "#B45462",
-      "summary": "参数容易改却杠杆较弱；信息流、规则、目标和范式越往上越有力，也越容易遭遇抵抗。",
+      "id": "leverage-practice",
+      "label": "Leverage & Practice",
+      "chapter": "Part III and Chapter 7 — Living in a World of Systems",
+      "color": "#324B46",
+      "summary": "Leverage increases as intervention moves from quantities toward information, rules, goals, paradigms, and the capacity to transcend paradigms—but resistance usually increases too.",
       "notes": [
-        {"title": "信息流", "body": "让正确的人及时看到正确反馈，行为可能无需命令就会改变。", "cue": "谁缺少信息？"},
-        {"title": "目标与范式", "body": "改变系统追求的目标，或重写人们理解世界的基本假设，影响最深。", "cue": "什么被视为理所当然？"},
-        {"title": "与系统共舞", "body": "未来无法精确预测，系统也无法完全控制；更好的姿态是观察、试验、学习与重构。", "cue": "下一步小实验是什么？"}
+        {"title":"Low leverage","body":"Changing constants, buffers, physical structures, or delays may help, but often leaves the system's reason for behaving untouched.","cue":"Am I only changing a number?"},
+        {"title":"Structural leverage","body":"Strengthening feedback, restoring information, changing rules, and enabling self-organization reshape how the system adapts.","cue":"Can the system learn differently?"},
+        {"title":"Intent leverage","body":"Changing goals and paradigms changes what the system considers success and therefore reorganizes many lower-level choices at once.","cue":"What belief defines success?"},
+        {"title":"Dance, do not dominate","body":"Observe before intervening, test small moves, monitor feedback, remain humble, and change course as the system reveals itself.","cue":"What did the system just teach me?"}
       ],
-      "question": "如果不能控制系统，你可以如何设计反馈，让它更容易学习？"
+      "question": "What is the highest leverage intervention you can make without pretending to know more than you do?"
     }
   ],
+  "systemProperties": [
+    {"name":"Resilience","definition":"The ability to absorb disturbance and restore function through multiple balancing pathways, redundancy, and diversity.","risk":"Short-term efficiency programs often remove the spare capacity that resilience needs."},
+    {"name":"Self-organization","definition":"The ability to create new structures, rules, and behaviors from within—learning, adaptation, evolution, and innovation.","risk":"Rigid control can suppress experimentation and make a system brittle."},
+    {"name":"Hierarchy","definition":"Nested subsystems reduce information burden and allow complex systems to evolve from stable intermediate forms.","risk":"Higher levels fail when they dominate rather than serve the functioning of lower levels."}
+  ],
+  "surprises": [
+    {"name":"Event fixation","explanation":"We react to headlines and incidents instead of tracking behavior over time.","practice":"Graph the variable across a meaningful time horizon."},
+    {"name":"Linear intuition","explanation":"We expect proportional cause and effect in systems shaped by thresholds and saturation.","practice":"Look for curves, capacity limits, and tipping points."},
+    {"name":"Narrow boundaries","explanation":"We define the system too tightly and export consequences beyond what we chose to see.","practice":"Redraw the boundary around the decision's real purpose."},
+    {"name":"Layers of limits","explanation":"Removing one constraint reveals another, so growth rarely remains unconstrained.","practice":"Ask which factor becomes limiting next."},
+    {"name":"Ubiquitous delays","explanation":"Causes and effects are separated in time, hiding responsibility and inviting overcorrection.","practice":"Estimate the delay before changing course again."},
+    {"name":"Bounded rationality","explanation":"Local information and incentives make individually rational behavior collectively destructive.","practice":"Improve visibility and align local goals with the whole."}
+  ],
+  "traps": [
+    {"name":"Policy resistance","pattern":"Several actors pull the stock toward incompatible goals.","symptom":"Large effort, little net movement.","countermove":"Stop overpowering resistance; align around a larger shared objective."},
+    {"name":"Tragedy of the commons","pattern":"Individuals receive benefits while costs are distributed across a shared resource.","symptom":"Rational use becomes collective depletion.","countermove":"Restore feedback, regulate access, educate users, or privatize with safeguards."},
+    {"name":"Drift to low performance","pattern":"Bad performance lowers the reference standard, reducing corrective action.","symptom":"Gradual decline becomes normal.","countermove":"Keep an absolute standard and compare with the best historical performance."},
+    {"name":"Escalation","pattern":"One actor's gain threatens another, triggering a reinforcing contest.","symptom":"Arms races, price wars, status competition.","countermove":"Refuse the contest or negotiate a balancing structure and shared limit."},
+    {"name":"Success to the successful","pattern":"Early winners receive more resources, which makes them more likely to win again.","symptom":"Concentration and lock-in.","countermove":"Diversify rewards, level the field, or constrain the winning loop."},
+    {"name":"Shifting the burden","pattern":"A fast symptomatic fix weakens the slower fundamental solution.","symptom":"Dependence on intervention grows.","countermove":"Strengthen internal capacity and withdraw the quick fix gradually."},
+    {"name":"Rule beating","pattern":"Actors obey the letter of a rule while defeating its purpose.","symptom":"Targets are met but outcomes deteriorate.","countermove":"Redesign rules to reflect the true purpose and reduce exploitability."},
+    {"name":"Seeking the wrong goal","pattern":"A measurable proxy replaces the system's actual welfare.","symptom":"The metric improves while reality worsens.","countermove":"Specify the real outcome and measure it directly where possible."}
+  ],
+  "leveragePoints": [
+    {"rank":12,"name":"Constants and parameters","power":"Low","idea":"Taxes, subsidies, standards, and numerical settings are visible but usually leave structure intact."},
+    {"rank":11,"name":"Buffer sizes","power":"Low","idea":"Larger stocks can stabilize a system, but oversized buffers may create rigidity or cost."},
+    {"rank":10,"name":"Stock-and-flow structure","power":"Low–medium","idea":"Physical and organizational architecture sets what movement is possible, though rebuilding is expensive."},
+    {"rank":9,"name":"Delays","power":"Medium","idea":"Shorten information delays or slow the system so action and feedback can stay aligned."},
+    {"rank":8,"name":"Balancing-loop strength","power":"Medium","idea":"Improve the system's capacity to detect deviation and restore its desired state."},
+    {"rank":7,"name":"Reinforcing-loop gain","power":"Medium","idea":"Slow harmful compounding before trying to overpower it with balancing controls."},
+    {"rank":6,"name":"Information flows","power":"High","idea":"Put missing information where decisions are made; visibility can alter behavior without coercion."},
+    {"rank":5,"name":"Rules","power":"High","idea":"Incentives, punishments, permissions, and constraints define the game people optimize."},
+    {"rank":4,"name":"Self-organization","power":"High","idea":"Enable the system to learn, diversify, evolve, and create new structures."},
+    {"rank":3,"name":"Goals","power":"Very high","idea":"Change what the system is trying to accomplish and lower-level behavior reorganizes around it."},
+    {"rank":2,"name":"Paradigms","power":"Very high","idea":"Change the shared assumptions from which goals, rules, and measurements arise."},
+    {"rank":1,"name":"Transcending paradigms","power":"Highest","idea":"Hold every worldview lightly enough to notice its limits and choose among frames."}
+  ],
+  "practices": [
+    "Get the beat of the system before trying to change it.",
+    "Bring your mental models into the open and invite challenge.",
+    "Honor, release, and distribute information accurately.",
+    "Use language carefully and expand it to describe complexity.",
+    "Attend to what matters, not only to what is easy to measure.",
+    "Design feedback policies that adapt as the system changes.",
+    "Choose the good of the whole over the optimization of one part.",
+    "Listen for the system's existing wisdom before replacing it.",
+    "Place responsibility where decisions and consequences meet.",
+    "Stay humble, experiment, monitor, and remain a learner.",
+    "Celebrate complexity instead of demanding one-cause explanations.",
+    "Expand the time horizon far enough to see delayed effects.",
+    "Cross disciplinary boundaries; systems do not respect departments.",
+    "Expand the boundary of care to include distant people and futures.",
+    "Do not erode the goal of goodness when reality falls short."
+  ],
+  "chapterGuide": [
+    {"part":"01","title":"Structure and Behavior","learn":"Elements, interconnections, purpose, stocks, flows, and feedback loops.","question":"What structure makes this behavior reasonable?"},
+    {"part":"02","title":"The System Zoo","learn":"One-stock and two-stock systems, growth, oscillation, constraints, and loop dominance.","question":"Which loop dominates at each stage?"},
+    {"part":"03","title":"Why Systems Work","learn":"Resilience, self-organization, and hierarchy as sources of adaptive capacity.","question":"What capacity is hidden by a narrow focus on efficiency?"},
+    {"part":"04","title":"Why Systems Surprise Us","learn":"Boundaries, nonlinearity, limits, delays, and bounded rationality.","question":"Which assumption makes the outcome look surprising?"},
+    {"part":"05","title":"Traps and Opportunities","learn":"Eight recurring archetypes and the structural countermove for each.","question":"What familiar solution is strengthening the problem?"},
+    {"part":"06","title":"Changing Systems","learn":"Twelve leverage points ordered from parameters to paradigms.","question":"Am I changing a number, a structure, or the system's intent?"},
+    {"part":"07","title":"Living in a World of Systems","learn":"Fifteen practices for responsible action under uncertainty.","question":"How can I learn with the system instead of forcing it?"}
+  ],
+  "toolkit": [
+    {"step":"1","name":"Name the behavior","prompt":"What keeps happening—not just what happened today?"},
+    {"step":"2","name":"Choose the stock","prompt":"What quantity or quality is accumulating or depleting?"},
+    {"step":"3","name":"Draw the flows","prompt":"What raises or lowers that stock over time?"},
+    {"step":"4","name":"Close the loops","prompt":"How does the result return to influence future action?"},
+    {"step":"5","name":"Mark delays and limits","prompt":"Where is feedback late, nonlinear, or constrained?"},
+    {"step":"6","name":"Test the goal","prompt":"What does persistent behavior reveal about the real objective?"},
+    {"step":"7","name":"Search upward for leverage","prompt":"Can information, rules, goals, or paradigms change the pattern?"},
+    {"step":"8","name":"Run a small experiment","prompt":"What reversible move would produce useful feedback quickly?"}
+  ],
+  "glossary": [
+    {"term":"System","meaning":"Interconnected elements organized to achieve a function or purpose."},
+    {"term":"Stock","meaning":"A quantity or quality accumulated over time; the memory of the system."},
+    {"term":"Flow","meaning":"A rate that increases or decreases a stock."},
+    {"term":"Feedback loop","meaning":"A closed causal chain in which a change eventually influences itself."},
+    {"term":"Reinforcing loop","meaning":"A loop that amplifies change in the same direction."},
+    {"term":"Balancing loop","meaning":"A loop that acts to reduce the gap between a state and a goal."},
+    {"term":"Delay","meaning":"Time between action, consequence, measurement, or response."},
+    {"term":"Nonlinearity","meaning":"A relationship whose effect changes with system state or scale."},
+    {"term":"Resilience","meaning":"Capacity to absorb disruption and recover function."},
+    {"term":"Self-organization","meaning":"Capacity to create new structure and behavior from within."},
+    {"term":"Leverage point","meaning":"A place where a small shift can produce a large behavioral change."},
+    {"term":"Paradigm","meaning":"A shared worldview from which a system's goals, rules, and measures arise."}
+  ],
   "comparison": {
-    "title": "线性修补 vs 系统干预",
-    "left": {
-      "label": "线性修补",
-      "traits": ["盯住单次事件", "寻找单一原因", "立即加大力度", "替换可见要素"]
-    },
-    "right": {
-      "label": "系统干预",
-      "traits": ["观察长期模式", "寻找回路与延迟", "改变信息与规则", "重审目标与范式"]
-    },
-    "conclusion": "前者让今天暂时安静，后者改变明天反复出现的模式。"
+    "title": "Event Reaction vs. Systems Intervention",
+    "left": {"label":"Event reaction","traits":["Focuses on the latest incident","Assumes one obvious cause","Demands immediate visible action","Changes people or parameters","Measures effort and short-term output"]},
+    "right": {"label":"Systems intervention","traits":["Studies behavior across time","Maps circular causality","Accounts for delays and limits","Changes information, rules, or goals","Measures system-wide outcomes"]},
+    "conclusion": "A systems intervention may look slower at first, but it changes the conditions that reproduce the problem."
   },
   "memoryPrompts": [
-    "系统由哪三个部分组成？哪一个通常最难被看见？",
-    "存量为什么既能提供稳定，也会造成迟钝？",
-    "增强回路和调节回路分别在做什么？",
-    "延迟为什么容易导致过度修正？",
-    "如何从系统行为推断它真正的目标？",
-    "为什么越高层的杠杆点越有效，也越会遭到抵抗？",
-    "把一个你反复遇到的问题，从事件改写成模式和结构。"
+    {"question":"What three components define a system?","answer":"Elements, interconnections, and a function or purpose."},
+    {"question":"Why can replacing every visible element leave behavior unchanged?","answer":"Because the interconnections and purpose that generate behavior may remain intact."},
+    {"question":"How do stocks create both stability and delay?","answer":"They buffer short-term changes, but their accumulated mass takes sustained flow to alter."},
+    {"question":"What is the difference between reinforcing and balancing feedback?","answer":"Reinforcing loops amplify change; balancing loops act to close a gap against a target."},
+    {"question":"Why do delays cause overshoot?","answer":"Actors continue correcting before previous actions become visible, so total intervention exceeds what was needed."},
+    {"question":"Name the three capacities that help systems work well.","answer":"Resilience, self-organization, and hierarchy."},
+    {"question":"Which trap turns a quick fix into long-term dependence?","answer":"Shifting the burden to the intervener."},
+    {"question":"Which trap makes a metric improve while the real outcome worsens?","answer":"Seeking the wrong goal."},
+    {"question":"Why are information flows often a high-leverage intervention?","answer":"They change decisions at the point of action without necessarily rebuilding physical structure."},
+    {"question":"What lies above rules in the leverage hierarchy?","answer":"Self-organization, goals, paradigms, and the ability to transcend paradigms."},
+    {"question":"What does it mean to dance with a system?","answer":"Observe, experiment, monitor feedback, stay humble, and revise rather than trying to command a complex future."},
+    {"question":"Apply the method to one recurring problem: what is the stock, the loop, the delay, and the real goal?","answer":"A good answer names an accumulation, traces at least one closed causal loop, marks delayed feedback, and distinguishes stated from revealed goals."}
   ],
   "cards": [
-    {"id": "01", "kicker": "SYSTEMS THINKING", "title": "不要修理事件", "subtitle": "去看制造事件的结构", "layout": "cover", "branchIds": ["system-anatomy"], "takeaway": "事件只是水面，结构才是河床。"},
-    {"id": "02", "kicker": "THE ANATOMY", "title": "系统不是一堆东西", "subtitle": "要素 × 连接 × 目标", "layout": "thesis", "branchIds": ["system-anatomy"], "takeaway": "系统真正的目标写在持续行为里。"},
-    {"id": "03", "kicker": "STOCK & FLOW", "title": "改变存量，要改流量", "subtitle": "流入 − 流出 = 状态变化", "layout": "matrix", "branchIds": ["stocks-flows"], "takeaway": "想改变积累，先找到入口与出口。"},
-    {"id": "04", "kicker": "FEEDBACK", "title": "结果会回头改写原因", "subtitle": "增强回路 × 调节回路", "layout": "comparison", "branchIds": ["feedback-loops"], "takeaway": "问一句：什么越多就越多，什么在把它拉回目标？"},
-    {"id": "05", "kicker": "THE DELAY", "title": "反馈太晚，行动就会过量", "subtitle": "延迟让好决策看起来像坏决策", "layout": "warning", "branchIds": ["delays-nonlinearity"], "takeaway": "在再次加码前，先估算结果抵达的时间。"},
-    {"id": "06", "kicker": "THE ICEBERG", "title": "事件 → 模式 → 结构", "subtitle": "从救火走向根因", "layout": "map", "branchIds": ["traps-resistance"], "takeaway": "不要只问发生了什么，还要问它为何持续发生。"},
-    {"id": "07", "kicker": "LEVERAGE", "title": "越接近范式，杠杆越大", "subtitle": "参数 < 信息 < 规则 < 目标 < 范式", "layout": "matrix", "branchIds": ["leverage-dance"], "takeaway": "高杠杆改变系统为什么行动，而不只是行动多少。"},
-    {"id": "08", "kicker": "DANCE WITH SYSTEMS", "title": "少一点控制，多一点学习", "subtitle": "观察 · 试验 · 反馈 · 重构", "layout": "action", "branchIds": ["leverage-dance"], "takeaway": "未来不可预测，但可以被想象与设计。"}
+    {"id":"01","kicker":"THE CORE SHIFT","title":"Behavior comes from structure","subtitle":"Events → patterns → structure → leverage","layout":"thesis","branchIds":["system-anatomy"],"takeaway":"Do not ask only what happened; ask what keeps making it happen."},
+    {"id":"02","kicker":"SYSTEM ANATOMY","title":"Elements are not the system","subtitle":"Elements × interconnections × purpose","layout":"map","branchIds":["system-anatomy"],"takeaway":"Persistent behavior reveals the real goal."},
+    {"id":"03","kicker":"STOCK & FLOW","title":"Change the accumulation through its rates","subtitle":"Next stock = current stock + inflow − outflow","layout":"action","branchIds":["stocks-flows"],"takeaway":"Stocks create memory, buffering, and inertia."},
+    {"id":"04","kicker":"FEEDBACK","title":"The result returns to change the cause","subtitle":"Reinforcing growth meets balancing constraint","layout":"matrix","branchIds":["feedback-loops"],"takeaway":"Tell the loop as a story through time."},
+    {"id":"05","kicker":"SYSTEM SURPRISE","title":"The signal arrives after the decision","subtitle":"Delay × nonlinearity × bounded rationality","layout":"warning","branchIds":["delays-surprises"],"takeaway":"Before correcting again, estimate when earlier action will appear."},
+    {"id":"06","kicker":"ARCHETYPES","title":"Name the trap before choosing the fix","subtitle":"Eight recurring structures, eight structural countermoves","layout":"comparison","branchIds":["traps-resistance"],"takeaway":"A familiar solution may be part of the problem."},
+    {"id":"07","kicker":"LEVERAGE","title":"Move from numbers toward intent","subtitle":"Parameters < information < rules < goals < paradigms","layout":"matrix","branchIds":["leverage-practice"],"takeaway":"The deeper the leverage, the stronger the resistance."},
+    {"id":"08","kicker":"PRACTICE","title":"Dance with the system","subtitle":"Observe · expose assumptions · experiment · learn","layout":"action","branchIds":["leverage-practice"],"takeaway":"The future cannot be predicted, but it can be imagined and responsibly shaped."}
   ]
 }
