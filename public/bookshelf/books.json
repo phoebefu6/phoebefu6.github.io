@@ -9,16 +9,6 @@
       "label": "Art & Design",
       "books": [
         {
-          "bookId": "24982230",
-          "title": "鬼刀 WLOP个人插画作品集",
-          "author": "WLOP",
-          "cover": "https://cdn.weread.qq.com/weread/cover/50/YueWen_24982230/t6_YueWen_24982230.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=c1832090717d32d6c185588",
-          "subcategory": "艺术-绘画",
-          "lastRead": "2024-11-12",
-          "status": "finished"
-        },
-        {
           "bookId": "3300094339",
           "title": "万物皆可爱，开心就对了",
           "author": "没脑子的小明",
@@ -36,6 +26,16 @@
           "deepLink": "https://weread.qq.com/book-detail?type=1&v=3d932380723fba3d3d9b21a",
           "subcategory": "艺术-绘画",
           "lastRead": "2024-07-13",
+          "status": "finished"
+        },
+        {
+          "bookId": "24982230",
+          "title": "鬼刀 WLOP个人插画作品集",
+          "author": "WLOP",
+          "cover": "https://cdn.weread.qq.com/weread/cover/50/YueWen_24982230/t6_YueWen_24982230.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=c1832090717d32d6c185588",
+          "subcategory": "艺术-绘画",
+          "lastRead": "2024-11-12",
           "status": "finished"
         },
         {
@@ -91,23 +91,13 @@
       "label": "Business & Finance",
       "books": [
         {
-          "bookId": "3300200035",
-          "title": "Polymarket橙皮书：预测市场完全指南",
-          "author": "花叔",
-          "cover": "https://cdn.weread.qq.com/weread/cover/30/cpplatform_u2hx1dby1p1nypqddfckqm/t6_cpplatform_u2hx1dby1p1nypqddfckqm1775207308.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=5a832830813abb4a3g015d2f",
-          "subcategory": "经济理财-财经",
-          "lastRead": "2026-04-25",
-          "status": "finished"
-        },
-        {
-          "bookId": "3300137878",
-          "title": "AI领导课：企业数智化转型的9项关键行动",
-          "author": "[比]大卫·德克莱默",
-          "cover": "https://cdn.weread.qq.com/weread/cover/31/cpplatform_j2dab6ugkrctptyu1n32mf/t6_cpplatform_j2dab6ugkrctptyu1n32mf1742287087.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=288325c0813ab9c5bg018034",
-          "subcategory": "经济理财-财经",
-          "lastRead": "2025-11-16",
+          "bookId": "3300089689",
+          "title": "玩透小红书：素人博主从0到1实战手册",
+          "author": "花生",
+          "cover": "https://cdn.weread.qq.com/weread/cover/51/cpplatform_8ftgyqluzqnqgpvwraiyxw/t6_cpplatform_8ftgyqluzqnqgpvwraiyxw1709273789.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=c0a32800813ab8988g0198f7",
+          "subcategory": "经济理财-商业",
+          "lastRead": "2024-11-14",
           "status": "finished"
         },
         {
@@ -121,26 +111,6 @@
           "status": "finished"
         },
         {
-          "bookId": "3300137898",
-          "title": "为什么越 “不干活” 的人收入越高（轻成长）",
-          "author": "刘润",
-          "cover": "https://cdn.weread.qq.com/weread/cover/42/cpplatform_3fcbmwv1sruvs1nudbwesn/t6_cpplatform_3fcbmwv1sruvs1nudbwesn1752237716.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=71d323c0813ab9c5dg0180d2",
-          "subcategory": "经济理财-管理",
-          "lastRead": "2025-04-29",
-          "status": "finished"
-        },
-        {
-          "bookId": "3300044800",
-          "title": "低风险创业（7个可复制的低风险逻辑）",
-          "author": "樊登",
-          "cover": "https://cdn.weread.qq.com/weread/cover/64/cpplatform_ap3mnmc9dsxihmqnrqk1gg/t6_cpplatform_ap3mnmc9dsxihmqnrqk1gg1673255472.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=e9e32dc0813ab7800g0106b6",
-          "subcategory": "经济理财-管理",
-          "lastRead": "2025-04-12",
-          "status": "finished"
-        },
-        {
           "bookId": "25670948",
           "title": "幕后产品：打造突破式产品思维（全彩）",
           "author": "王诗沐",
@@ -151,23 +121,63 @@
           "status": "finished"
         },
         {
-          "bookId": "3300089689",
-          "title": "玩透小红书：素人博主从0到1实战手册",
-          "author": "花生",
-          "cover": "https://cdn.weread.qq.com/weread/cover/51/cpplatform_8ftgyqluzqnqgpvwraiyxw/t6_cpplatform_8ftgyqluzqnqgpvwraiyxw1709273789.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=c0a32800813ab8988g0198f7",
-          "subcategory": "经济理财-商业",
-          "lastRead": "2024-11-14",
+          "bookId": "3300137878",
+          "title": "AI领导课：企业数智化转型的9项关键行动",
+          "author": "[比]大卫·德克莱默",
+          "cover": "https://cdn.weread.qq.com/weread/cover/31/cpplatform_j2dab6ugkrctptyu1n32mf/t6_cpplatform_j2dab6ugkrctptyu1n32mf1742287087.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=288325c0813ab9c5bg018034",
+          "subcategory": "经济理财-财经",
+          "lastRead": "2025-11-16",
           "status": "finished"
         },
         {
-          "bookId": "922228",
-          "title": "增长黑客",
-          "author": "肖恩·埃利斯 摩根·布朗",
-          "cover": "https://cdn.weread.qq.com/weread/cover/7/YueWen_922228/t6_YueWen_922228.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=0c8326e05e12740c876a134",
-          "subcategory": "经济理财-商业",
-          "lastRead": "2024-10-22",
+          "bookId": "3300200035",
+          "title": "Polymarket橙皮书：预测市场完全指南",
+          "author": "花叔",
+          "cover": "https://cdn.weread.qq.com/weread/cover/30/cpplatform_u2hx1dby1p1nypqddfckqm/t6_cpplatform_u2hx1dby1p1nypqddfckqm1775207308.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=5a832830813abb4a3g015d2f",
+          "subcategory": "经济理财-财经",
+          "lastRead": "2026-04-25",
+          "status": "finished"
+        },
+        {
+          "bookId": "25242026",
+          "title": "我曾走在崩溃的边缘：俞敏洪亲述新东方创业发展之路",
+          "author": "俞敏洪",
+          "cover": "https://cdn.weread.qq.com/weread/cover/47/YueWen_25242026/t6_YueWen_25242026.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=48632fa0718129aa4868f11",
+          "subcategory": "经济理财-管理",
+          "lastRead": "2023-12-27",
+          "status": "finished"
+        },
+        {
+          "bookId": "3300137898",
+          "title": "为什么越 “不干活” 的人收入越高（轻成长）",
+          "author": "刘润",
+          "cover": "https://cdn.weread.qq.com/weread/cover/42/cpplatform_3fcbmwv1sruvs1nudbwesn/t6_cpplatform_3fcbmwv1sruvs1nudbwesn1752237716.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=71d323c0813ab9c5dg0180d2",
+          "subcategory": "经济理财-管理",
+          "lastRead": "2025-04-29",
+          "status": "finished"
+        },
+        {
+          "bookId": "44026191",
+          "title": "纳瓦尔宝典",
+          "author": "埃里克·乔根森",
+          "cover": "https://cdn.weread.qq.com/weread/cover/89/YueWen_44026191/t6_YueWen_44026191.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=e1e32b00729fc94fe1e824d",
+          "subcategory": "经济理财-理财",
+          "lastRead": "2023-07-09",
+          "status": "finished"
+        },
+        {
+          "bookId": "3300044800",
+          "title": "低风险创业（7个可复制的低风险逻辑）",
+          "author": "樊登",
+          "cover": "https://cdn.weread.qq.com/weread/cover/64/cpplatform_ap3mnmc9dsxihmqnrqk1gg/t6_cpplatform_ap3mnmc9dsxihmqnrqk1gg1673255472.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=e9e32dc0813ab7800g0106b6",
+          "subcategory": "经济理财-管理",
+          "lastRead": "2025-04-12",
           "status": "finished"
         },
         {
@@ -191,23 +201,13 @@
           "status": "finished"
         },
         {
-          "bookId": "25242026",
-          "title": "我曾走在崩溃的边缘：俞敏洪亲述新东方创业发展之路",
-          "author": "俞敏洪",
-          "cover": "https://cdn.weread.qq.com/weread/cover/47/YueWen_25242026/t6_YueWen_25242026.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=48632fa0718129aa4868f11",
-          "subcategory": "经济理财-管理",
-          "lastRead": "2023-12-27",
-          "status": "finished"
-        },
-        {
-          "bookId": "44026191",
-          "title": "纳瓦尔宝典",
-          "author": "埃里克·乔根森",
-          "cover": "https://cdn.weread.qq.com/weread/cover/89/YueWen_44026191/t6_YueWen_44026191.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=e1e32b00729fc94fe1e824d",
-          "subcategory": "经济理财-理财",
-          "lastRead": "2023-07-09",
+          "bookId": "922228",
+          "title": "增长黑客",
+          "author": "肖恩·埃利斯 摩根·布朗",
+          "cover": "https://cdn.weread.qq.com/weread/cover/7/YueWen_922228/t6_YueWen_922228.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=0c8326e05e12740c876a134",
+          "subcategory": "经济理财-商业",
+          "lastRead": "2024-10-22",
           "status": "finished"
         }
       ]
@@ -233,43 +233,13 @@
       "label": "Comics & Illustrated",
       "books": [
         {
-          "bookId": "3300148628",
-          "title": "不上班的这几年",
-          "author": "阿彬 著绘",
-          "cover": "https://cdn.weread.qq.com/weread/cover/77/cpplatform_p3hhqgmfuoh7ujruw5lhuj/t6_cpplatform_p3hhqgmfuoh7ujruw5lhuj1749787304.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=6e5323a0813aba08eg018ab0",
-          "subcategory": "漫画-治愈漫画",
-          "lastRead": "2026-06-14",
-          "status": "finished"
-        },
-        {
-          "bookId": "3300081611",
-          "title": "今天我请客，想请你快乐",
-          "author": "燕七",
-          "cover": "https://cdn.weread.qq.com/weread/cover/31/cpplatform_3kx7rpfwgo2i28cjup1tee/t6_cpplatform_3kx7rpfwgo2i28cjup1tee1702625518.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=f51326a0813ab8661g011857",
-          "subcategory": "漫画-治愈漫画",
-          "lastRead": "2026-06-05",
-          "status": "finished"
-        },
-        {
-          "bookId": "3300170175",
-          "title": "我会一次次接住自己",
-          "author": "云云狗",
-          "cover": "https://cdn.weread.qq.com/weread/cover/67/cpplatform_1lanzj8njd6pwz8sgeggjh/t6_cpplatform_1lanzj8njd6pwz8sgeggjh1760693188.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=d5132e50813aba8f9g015b00",
-          "subcategory": "漫画-经典改编",
-          "lastRead": "2025-11-30",
-          "status": "finished"
-        },
-        {
-          "bookId": "33514727",
-          "title": "生活蒙太奇",
-          "author": "天然",
-          "cover": "https://cdn.weread.qq.com/weread/cover/84/YueWen_33514727/t6_YueWen_33514727.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=b0c32c5071ff64e7b0c7ab4",
-          "subcategory": "漫画-治愈漫画",
-          "lastRead": "2025-11-30",
+          "bookId": "3300070778",
+          "title": "美食的奇妙冷知识",
+          "author": "我是不白吃",
+          "cover": "https://cdn.weread.qq.com/weread/cover/45/cpplatform_mpy9j8waqke4hy2bc435z8/t6_cpplatform_mpy9j8waqke4hy2bc435z81745220535.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=78d32f70813ab8225g01896d",
+          "subcategory": "漫画-科普漫画",
+          "lastRead": "2024-09-29",
           "status": "finished"
         },
         {
@@ -293,13 +263,53 @@
           "status": "finished"
         },
         {
-          "bookId": "3300070778",
-          "title": "美食的奇妙冷知识",
-          "author": "我是不白吃",
-          "cover": "https://cdn.weread.qq.com/weread/cover/45/cpplatform_mpy9j8waqke4hy2bc435z8/t6_cpplatform_mpy9j8waqke4hy2bc435z81745220535.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=78d32f70813ab8225g01896d",
+          "bookId": "3300072581",
+          "title": "半小时漫画故宫",
+          "author": "陈磊·半小时漫画团队",
+          "cover": "https://cdn.weread.qq.com/weread/cover/47/cpplatform_cmjwxyjacm6gkjcqbnojsu/t6_cpplatform_cmjwxyjacm6gkjcqbnojsu1695866699.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=66e32950813ab82dag011457",
           "subcategory": "漫画-科普漫画",
-          "lastRead": "2024-09-29",
+          "lastRead": "2024-01-01",
+          "status": "finished"
+        },
+        {
+          "bookId": "3300148628",
+          "title": "不上班的这几年",
+          "author": "阿彬 著绘",
+          "cover": "https://cdn.weread.qq.com/weread/cover/77/cpplatform_p3hhqgmfuoh7ujruw5lhuj/t6_cpplatform_p3hhqgmfuoh7ujruw5lhuj1749787304.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=6e5323a0813aba08eg018ab0",
+          "subcategory": "漫画-治愈漫画",
+          "lastRead": "2026-06-14",
+          "status": "finished"
+        },
+        {
+          "bookId": "3300081611",
+          "title": "今天我请客，想请你快乐",
+          "author": "燕七",
+          "cover": "https://cdn.weread.qq.com/weread/cover/31/cpplatform_3kx7rpfwgo2i28cjup1tee/t6_cpplatform_3kx7rpfwgo2i28cjup1tee1702625518.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=f51326a0813ab8661g011857",
+          "subcategory": "漫画-治愈漫画",
+          "lastRead": "2026-06-05",
+          "status": "finished"
+        },
+        {
+          "bookId": "33514727",
+          "title": "生活蒙太奇",
+          "author": "天然",
+          "cover": "https://cdn.weread.qq.com/weread/cover/84/YueWen_33514727/t6_YueWen_33514727.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=b0c32c5071ff64e7b0c7ab4",
+          "subcategory": "漫画-治愈漫画",
+          "lastRead": "2025-11-30",
+          "status": "finished"
+        },
+        {
+          "bookId": "3300170175",
+          "title": "我会一次次接住自己",
+          "author": "云云狗",
+          "cover": "https://cdn.weread.qq.com/weread/cover/67/cpplatform_1lanzj8njd6pwz8sgeggjh/t6_cpplatform_1lanzj8njd6pwz8sgeggjh1760693188.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=d5132e50813aba8f9g015b00",
+          "subcategory": "漫画-经典改编",
+          "lastRead": "2025-11-30",
           "status": "finished"
         },
         {
@@ -349,16 +359,6 @@
           "cover": "https://cdn.weread.qq.com/weread/cover/0/cpplatform_prh8pt7jzw73y5ojb2dqo2/t6_cpplatform_prh8pt7jzw73y5ojb2dqo21680245561.jpg",
           "deepLink": "https://weread.qq.com/book-detail?type=1&v=a19328e0813ab7baag0117df",
           "subcategory": "漫画-治愈漫画",
-          "lastRead": "2024-01-01",
-          "status": "finished"
-        },
-        {
-          "bookId": "3300072581",
-          "title": "半小时漫画故宫",
-          "author": "陈磊·半小时漫画团队",
-          "cover": "https://cdn.weread.qq.com/weread/cover/47/cpplatform_cmjwxyjacm6gkjcqbnojsu/t6_cpplatform_cmjwxyjacm6gkjcqbnojsu1695866699.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=66e32950813ab82dag011457",
-          "subcategory": "漫画-科普漫画",
           "lastRead": "2024-01-01",
           "status": "finished"
         }
@@ -427,13 +427,13 @@
       "label": "Literature",
       "books": [
         {
-          "bookId": "3300190448",
-          "title": "孙俪 笨鸟（轻纪实）",
-          "author": "《人物》杂志 刘洋",
-          "cover": "https://cdn.weread.qq.com/weread/cover/73/cpplatform_7ohjd5s6vabrbjwn36m9ve/t6_cpplatform_7ohjd5s6vabrbjwn36m9ve1767673926.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=06f326d0813abb0e4g018e85",
-          "subcategory": "文学-纪实文学",
-          "lastRead": "2026-04-04",
+          "bookId": "3300025120",
+          "title": "陈鲁豫：还是要相信",
+          "author": "陈鲁豫",
+          "cover": "https://cdn.weread.qq.com/weread/cover/9/cpPlatform_ht568HKfg1VpBrpP8ERpHs/t6_cpPlatform_ht568HKfg1VpBrpP8ERpHs.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=97432f70813ab7050g010f06",
+          "subcategory": "文学-散文杂著",
+          "lastRead": "2025-10-12",
           "status": "finished"
         },
         {
@@ -447,13 +447,23 @@
           "status": "finished"
         },
         {
-          "bookId": "3300025120",
-          "title": "陈鲁豫：还是要相信",
-          "author": "陈鲁豫",
-          "cover": "https://cdn.weread.qq.com/weread/cover/9/cpPlatform_ht568HKfg1VpBrpP8ERpHs/t6_cpPlatform_ht568HKfg1VpBrpP8ERpHs.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=97432f70813ab7050g010f06",
-          "subcategory": "文学-散文杂著",
-          "lastRead": "2025-10-12",
+          "bookId": "3300028509",
+          "title": "666件可写的事",
+          "author": "李成豪",
+          "cover": "https://cdn.weread.qq.com/weread/cover/31/cpPlatform_tUFCMtMLSVjWnqQaAn1xfg/t6_cpPlatform_tUFCMtMLSVjWnqQaAn1xfg.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=23f32d30813ab71a2g019279",
+          "subcategory": "文学-语言文字",
+          "lastRead": "2023-04-17",
+          "status": "finished"
+        },
+        {
+          "bookId": "3300190448",
+          "title": "孙俪 笨鸟（轻纪实）",
+          "author": "《人物》杂志 刘洋",
+          "cover": "https://cdn.weread.qq.com/weread/cover/73/cpplatform_7ohjd5s6vabrbjwn36m9ve/t6_cpplatform_7ohjd5s6vabrbjwn36m9ve1767673926.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=06f326d0813abb0e4g018e85",
+          "subcategory": "文学-纪实文学",
+          "lastRead": "2026-04-04",
           "status": "finished"
         },
         {
@@ -465,16 +475,6 @@
           "subcategory": "文学-外国文学",
           "lastRead": "2023-11-03",
           "status": "finished"
-        },
-        {
-          "bookId": "3300028509",
-          "title": "666件可写的事",
-          "author": "李成豪",
-          "cover": "https://cdn.weread.qq.com/weread/cover/31/cpPlatform_tUFCMtMLSVjWnqQaAn1xfg/t6_cpPlatform_tUFCMtMLSVjWnqQaAn1xfg.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=23f32d30813ab71a2g019279",
-          "subcategory": "文学-语言文字",
-          "lastRead": "2023-04-17",
-          "status": "finished"
         }
       ]
     },
@@ -483,6 +483,16 @@
       "label": "Personal Growth",
       "books": [
         {
+          "bookId": "34618597",
+          "title": "哈佛经典谈判术：你一开口就赢麻了",
+          "author": "[美]迪帕克·马尔霍特拉 [美]马克斯·巴泽曼",
+          "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/597/34618597/t6_34618597.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=bf032c7072103ce5bf0568a",
+          "subcategory": "个人成长-沟通表达",
+          "lastRead": "2024-03-17",
+          "status": "finished"
+        },
+        {
           "bookId": "3300198028",
           "title": "1号位思维",
           "author": "刘向东  王得铭",
@@ -490,76 +500,6 @@
           "deepLink": "https://weread.qq.com/book-detail?type=1&v=7ba32010813abb3dag018356",
           "subcategory": "个人成长-人在职场",
           "lastRead": "2026-06-25",
-          "status": "finished"
-        },
-        {
-          "bookId": "3300124736",
-          "title": "成事（冯唐成事学开山之作）",
-          "author": "冯唐",
-          "cover": "https://cdn.weread.qq.com/weread/cover/57/cpplatform_gy9mh1eadog4uakacemmzm/t6_cpplatform_gy9mh1eadog4uakacemmzm1733884465.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=a6832440813ab9739g016c59",
-          "subcategory": "个人成长-人生哲学",
-          "lastRead": "2026-02-06",
-          "status": "finished"
-        },
-        {
-          "bookId": "38259780",
-          "title": "所有问题都是可以解决的",
-          "author": "玛丽·弗里奥",
-          "cover": "https://cdn.weread.qq.com/weread/cover/30/YueWen_38259780/t6_YueWen_38259780.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=3eb32e207247cc443eb3130",
-          "subcategory": "个人成长-人生哲学",
-          "lastRead": "2025-12-28",
-          "status": "finished"
-        },
-        {
-          "bookId": "3300087531",
-          "title": "打造第二大脑",
-          "author": "[美]蒂亚戈·福特",
-          "cover": "https://cdn.weread.qq.com/weread/cover/4/cpplatform_qny6vkp5nzlu1gefjtdk9i/t6_cpplatform_qny6vkp5nzlu1gefjtdk9i1709021685.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=f3032e10813ab88b1g011a36",
-          "subcategory": "个人成长-认知思维",
-          "lastRead": "2025-10-25",
-          "status": "finished"
-        },
-        {
-          "bookId": "3300038840",
-          "title": "无痛自律：八种拖延类型，对症下药变高效",
-          "author": "菅原洋平",
-          "cover": "https://cdn.weread.qq.com/weread/cover/18/cpPlatform_cT9LU6SyioFtRzg8PiBmtW/t6_cpPlatform_cT9LU6SyioFtRzg8PiBmtW.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=51132c90813ab75acg010ecd",
-          "subcategory": "个人成长-人生哲学",
-          "lastRead": "2025-02-14",
-          "status": "finished"
-        },
-        {
-          "bookId": "3300095165",
-          "title": "假努力：方向不对，一切白费",
-          "author": "滑洋",
-          "cover": "https://cdn.weread.qq.com/weread/cover/76/cpplatform_uhds15kjmswmpene3t6ous/t6_cpplatform_uhds15kjmswmpene3t6ous1712913319.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=10f32b10813ab8bacg015073",
-          "subcategory": "个人成长-人生哲学",
-          "lastRead": "2025-02-14",
-          "status": "finished"
-        },
-        {
-          "bookId": "42559557",
-          "title": "大使衣橱：外交礼仪之旅",
-          "author": "傅莹",
-          "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/557/42559557/t6_42559557.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=f3832ac072896845f38c882",
-          "subcategory": "个人成长-沟通表达",
-          "lastRead": "2024-12-01",
-          "status": "finished"
-        },
-        {
-          "bookId": "3300054184",
-          "title": "通透（杨天真重磅新作）",
-          "author": "杨天真",
-          "cover": "https://cdn.weread.qq.com/weread/cover/5/cpplatform_3agkw1aw7nedbefmfqf9zx/t6_cpplatform_3agkw1aw7nedbefmfqf9zx1680246060.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=f8f32e90813ab7baag01427e",
-          "subcategory": "个人成长-励志成长",
-          "lastRead": "2024-11-28",
           "status": "finished"
         },
         {
@@ -573,43 +513,33 @@
           "status": "finished"
         },
         {
-          "bookId": "909882",
-          "title": "微习惯：简单到不可能失败的自我管理法则",
-          "author": "斯蒂芬·盖斯",
-          "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/882/909882/t6_909882.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=495326205de23a49561a05d",
+          "bookId": "3300095165",
+          "title": "假努力：方向不对，一切白费",
+          "author": "滑洋",
+          "cover": "https://cdn.weread.qq.com/weread/cover/76/cpplatform_uhds15kjmswmpene3t6ous/t6_cpplatform_uhds15kjmswmpene3t6ous1712913319.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=10f32b10813ab8bacg015073",
           "subcategory": "个人成长-人生哲学",
-          "lastRead": "2024-11-02",
+          "lastRead": "2025-02-14",
           "status": "finished"
         },
         {
-          "bookId": "26720007",
-          "title": "读懂一本书：樊登读书法",
-          "author": "樊登",
-          "cover": "https://cdn.weread.qq.com/weread/cover/34/YueWen_26720007/t6_YueWen_26720007.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=f01322607197b707f013e73",
+          "bookId": "3300054184",
+          "title": "通透（杨天真重磅新作）",
+          "author": "杨天真",
+          "cover": "https://cdn.weread.qq.com/weread/cover/5/cpplatform_3agkw1aw7nedbefmfqf9zx/t6_cpplatform_3agkw1aw7nedbefmfqf9zx1680246060.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=f8f32e90813ab7baag01427e",
+          "subcategory": "个人成长-励志成长",
+          "lastRead": "2024-11-28",
+          "status": "finished"
+        },
+        {
+          "bookId": "3300087531",
+          "title": "打造第二大脑",
+          "author": "[美]蒂亚戈·福特",
+          "cover": "https://cdn.weread.qq.com/weread/cover/4/cpplatform_qny6vkp5nzlu1gefjtdk9i/t6_cpplatform_qny6vkp5nzlu1gefjtdk9i1709021685.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=f3032e10813ab88b1g011a36",
           "subcategory": "个人成长-认知思维",
-          "lastRead": "2024-10-22",
-          "status": "finished"
-        },
-        {
-          "bookId": "27600231",
-          "title": "破局：超越同龄人的思考与行动指南",
-          "author": "哈叔",
-          "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/231/27600231/t6_27600231.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=802327c071a525678024c5d",
-          "subcategory": "个人成长-人生哲学",
-          "lastRead": "2024-10-14",
-          "status": "finished"
-        },
-        {
-          "bookId": "921072",
-          "title": "快速阅读",
-          "author": "克里斯蒂安·格吕宁",
-          "cover": "https://cdn.weread.qq.com/weread/cover/43/YueWen_921072/t6_YueWen_921072.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=e7432f905e0df0e7448717c",
-          "subcategory": "个人成长-认知思维",
-          "lastRead": "2024-10-09",
+          "lastRead": "2025-10-25",
           "status": "finished"
         },
         {
@@ -623,6 +553,36 @@
           "status": "finished"
         },
         {
+          "bookId": "3300038840",
+          "title": "无痛自律：八种拖延类型，对症下药变高效",
+          "author": "菅原洋平",
+          "cover": "https://cdn.weread.qq.com/weread/cover/18/cpPlatform_cT9LU6SyioFtRzg8PiBmtW/t6_cpPlatform_cT9LU6SyioFtRzg8PiBmtW.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=51132c90813ab75acg010ecd",
+          "subcategory": "个人成长-人生哲学",
+          "lastRead": "2025-02-14",
+          "status": "finished"
+        },
+        {
+          "bookId": "38259780",
+          "title": "所有问题都是可以解决的",
+          "author": "玛丽·弗里奥",
+          "cover": "https://cdn.weread.qq.com/weread/cover/30/YueWen_38259780/t6_YueWen_38259780.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=3eb32e207247cc443eb3130",
+          "subcategory": "个人成长-人生哲学",
+          "lastRead": "2025-12-28",
+          "status": "finished"
+        },
+        {
+          "bookId": "909882",
+          "title": "微习惯：简单到不可能失败的自我管理法则",
+          "author": "斯蒂芬·盖斯",
+          "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/882/909882/t6_909882.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=495326205de23a49561a05d",
+          "subcategory": "个人成长-人生哲学",
+          "lastRead": "2024-11-02",
+          "status": "finished"
+        },
+        {
           "bookId": "912071",
           "title": "吃掉那只青蛙：博恩·崔西的高效时间管理法则",
           "author": "[美]博恩·崔西",
@@ -633,23 +593,53 @@
           "status": "finished"
         },
         {
-          "bookId": "3300093992",
-          "title": "我的外婆，从不内耗",
-          "author": "理微尘",
-          "cover": "https://cdn.weread.qq.com/weread/cover/40/cpplatform_sroogvqrrthwejxvf1q3o4/t6_cpplatform_sroogvqrrthwejxvf1q3o41721797569.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=1b732f30813ab8b37g0121a2",
-          "subcategory": "个人成长-人生哲学",
-          "lastRead": "2024-07-07",
+          "bookId": "42559557",
+          "title": "大使衣橱：外交礼仪之旅",
+          "author": "傅莹",
+          "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/557/42559557/t6_42559557.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=f3832ac072896845f38c882",
+          "subcategory": "个人成长-沟通表达",
+          "lastRead": "2024-12-01",
           "status": "finished"
         },
         {
-          "bookId": "34618597",
-          "title": "哈佛经典谈判术：你一开口就赢麻了",
-          "author": "[美]迪帕克·马尔霍特拉 [美]马克斯·巴泽曼",
-          "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/597/34618597/t6_34618597.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=bf032c7072103ce5bf0568a",
-          "subcategory": "个人成长-沟通表达",
-          "lastRead": "2024-03-17",
+          "bookId": "3300124736",
+          "title": "成事（冯唐成事学开山之作）",
+          "author": "冯唐",
+          "cover": "https://cdn.weread.qq.com/weread/cover/57/cpplatform_gy9mh1eadog4uakacemmzm/t6_cpplatform_gy9mh1eadog4uakacemmzm1733884465.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=a6832440813ab9739g016c59",
+          "subcategory": "个人成长-人生哲学",
+          "lastRead": "2026-02-06",
+          "status": "finished"
+        },
+        {
+          "bookId": "26720007",
+          "title": "读懂一本书：樊登读书法",
+          "author": "樊登",
+          "cover": "https://cdn.weread.qq.com/weread/cover/34/YueWen_26720007/t6_YueWen_26720007.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=f01322607197b707f013e73",
+          "subcategory": "个人成长-认知思维",
+          "lastRead": "2024-10-22",
+          "status": "finished"
+        },
+        {
+          "bookId": "921072",
+          "title": "快速阅读",
+          "author": "克里斯蒂安·格吕宁",
+          "cover": "https://cdn.weread.qq.com/weread/cover/43/YueWen_921072/t6_YueWen_921072.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=e7432f905e0df0e7448717c",
+          "subcategory": "个人成长-认知思维",
+          "lastRead": "2024-10-09",
+          "status": "finished"
+        },
+        {
+          "bookId": "27600231",
+          "title": "破局：超越同龄人的思考与行动指南",
+          "author": "哈叔",
+          "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/231/27600231/t6_27600231.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=802327c071a525678024c5d",
+          "subcategory": "个人成长-人生哲学",
+          "lastRead": "2024-10-14",
           "status": "finished"
         },
         {
@@ -660,6 +650,16 @@
           "deepLink": "https://weread.qq.com/book-detail?type=1&v=e6532dd0716aeb88e656ea8",
           "subcategory": "个人成长-情绪心灵",
           "lastRead": "2024-01-06",
+          "status": "finished"
+        },
+        {
+          "bookId": "3300093992",
+          "title": "我的外婆，从不内耗",
+          "author": "理微尘",
+          "cover": "https://cdn.weread.qq.com/weread/cover/40/cpplatform_sroogvqrrthwejxvf1q3o4/t6_cpplatform_sroogvqrrthwejxvf1q3o41721797569.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=1b732f30813ab8b37g0121a2",
+          "subcategory": "个人成长-人生哲学",
+          "lastRead": "2024-07-07",
           "status": "finished"
         },
         {
@@ -699,16 +699,6 @@
       "label": "Philosophy & Religion",
       "books": [
         {
-          "bookId": "3300168908",
-          "title": "万物自洽法则",
-          "author": "大张伟",
-          "cover": "https://cdn.weread.qq.com/weread/cover/33/cpplatform_hpmhnzvkprcrnnmbcdwujk/t6_cpplatform_hpmhnzvkprcrnnmbcdwujk1760351558.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=00f32030813aba87ag018f6c",
-          "subcategory": "哲学宗教-伦理道德",
-          "lastRead": "2026-03-07",
-          "status": "finished"
-        },
-        {
           "bookId": "745033",
           "title": "有求：二十一度母给你温暖",
           "author": "索达吉堪布",
@@ -716,6 +706,16 @@
           "deepLink": "https://weread.qq.com/book-detail?type=1&v=3f032a805b5e493f0a78d05",
           "subcategory": "哲学宗教-宗教",
           "lastRead": "2024-04-01",
+          "status": "finished"
+        },
+        {
+          "bookId": "3300168908",
+          "title": "万物自洽法则",
+          "author": "大张伟",
+          "cover": "https://cdn.weread.qq.com/weread/cover/33/cpplatform_hpmhnzvkprcrnnmbcdwujk/t6_cpplatform_hpmhnzvkprcrnnmbcdwujk1760351558.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=00f32030813aba87ag018f6c",
+          "subcategory": "哲学宗教-伦理道德",
+          "lastRead": "2026-03-07",
           "status": "finished"
         }
       ]
@@ -735,16 +735,6 @@
           "status": "finished"
         },
         {
-          "bookId": "3300172885",
-          "title": "我发现，被工作干了一天后，做这种事回血更快（轻成长）",
-          "author": "KnowYourself知我心理",
-          "cover": "https://cdn.weread.qq.com/weread/cover/77/cpplatform_m4toeadkdwffmo2vdu3dn4/t6_cpplatform_m4toeadkdwffmo2vdu3dn41761808141.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=7f2326d0813abaa08g015dce",
-          "subcategory": "心理-积极心理学",
-          "lastRead": "2026-05-13",
-          "status": "finished"
-        },
-        {
           "bookId": "25615385",
           "title": "被讨厌的勇气：“自我启发之父”阿德勒的哲学课",
           "author": "岸见一郎 古贺史健",
@@ -753,6 +743,16 @@
           "subcategory": "心理-积极心理学",
           "lastRead": "2024-03-12",
           "status": "finished"
+        },
+        {
+          "bookId": "3300172885",
+          "title": "我发现，被工作干了一天后，做这种事回血更快（轻成长）",
+          "author": "KnowYourself知我心理",
+          "cover": "https://cdn.weread.qq.com/weread/cover/77/cpplatform_m4toeadkdwffmo2vdu3dn4/t6_cpplatform_m4toeadkdwffmo2vdu3dn41761808141.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=7f2326d0813abaa08g015dce",
+          "subcategory": "心理-积极心理学",
+          "lastRead": "2026-05-13",
+          "status": "finished"
         }
       ]
     },
@@ -760,16 +760,6 @@
       "id": "science",
       "label": "Science",
       "books": [
-        {
-          "bookId": "3300064281",
-          "title": "小亮老师的博物课：奇趣无穷的飞鸟乐园",
-          "author": "张辰亮",
-          "cover": "https://cdn.weread.qq.com/weread/cover/82/cpplatform_6c2j1g47vgjscmyaaj2cip/t6_cpplatform_6c2j1g47vgjscmyaaj2cip1689583339.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=1be32450813ab7f9cg011c2f",
-          "subcategory": "科学技术-科学科普",
-          "lastRead": "2025-05-06",
-          "status": "finished"
-        },
         {
           "bookId": "3300077064",
           "title": "ChatGPT：AIGC时代商业应用赋能",
@@ -789,6 +779,16 @@
           "subcategory": "科学技术-科学科普",
           "lastRead": "2024-10-16",
           "status": "finished"
+        },
+        {
+          "bookId": "3300064281",
+          "title": "小亮老师的博物课：奇趣无穷的飞鸟乐园",
+          "author": "张辰亮",
+          "cover": "https://cdn.weread.qq.com/weread/cover/82/cpplatform_6c2j1g47vgjscmyaaj2cip/t6_cpplatform_6c2j1g47vgjscmyaaj2cip1689583339.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=1be32450813ab7f9cg011c2f",
+          "subcategory": "科学技术-科学科普",
+          "lastRead": "2025-05-06",
+          "status": "finished"
         }
       ]
     },
@@ -797,13 +797,13 @@
       "label": "Technology & AI",
       "books": [
         {
-          "bookId": "3300018231",
-          "title": "AI未来进行式（豆包的情感陪伴、机器人的情绪价值、宇树科技……AI未来全部预言）",
-          "author": "李开复 陈楸帆",
-          "cover": "https://cdn.weread.qq.com/weread/cover/31/3300018231/t6_3300018231.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=0bc32b20813ab6d9fg0114c1",
+          "bookId": "23637052",
+          "title": "智慧的疆界：从图灵机到人工智能",
+          "author": "周志明",
+          "cover": "https://cdn.weread.qq.com/weread/cover/92/YueWen_23637052/t6_YueWen_23637052.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=b9732f007168ac3cb976eca",
           "subcategory": "计算机-人工智能",
-          "lastRead": "2025-12-29",
+          "lastRead": "2025-01-09",
           "status": "finished"
         },
         {
@@ -814,6 +814,16 @@
           "deepLink": "https://weread.qq.com/book-detail?type=1&v=a3932500597c92a398fb9e1",
           "subcategory": "计算机-软件学习",
           "lastRead": "2025-12-10",
+          "status": "finished"
+        },
+        {
+          "bookId": "3300018231",
+          "title": "AI未来进行式（豆包的情感陪伴、机器人的情绪价值、宇树科技……AI未来全部预言）",
+          "author": "李开复 陈楸帆",
+          "cover": "https://cdn.weread.qq.com/weread/cover/31/3300018231/t6_3300018231.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=0bc32b20813ab6d9fg0114c1",
+          "subcategory": "计算机-人工智能",
+          "lastRead": "2025-12-29",
           "status": "finished"
         },
         {
@@ -834,16 +844,6 @@
           "deepLink": "https://weread.qq.com/book-detail?type=1&v=ec332e805dd9f3ec333cba8",
           "subcategory": "计算机-数据库",
           "lastRead": "2025-02-23",
-          "status": "finished"
-        },
-        {
-          "bookId": "23637052",
-          "title": "智慧的疆界：从图灵机到人工智能",
-          "author": "周志明",
-          "cover": "https://cdn.weread.qq.com/weread/cover/92/YueWen_23637052/t6_YueWen_23637052.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=b9732f007168ac3cb976eca",
-          "subcategory": "计算机-人工智能",
-          "lastRead": "2025-01-09",
           "status": "finished"
         }
       ]
