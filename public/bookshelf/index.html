@@ -18,7 +18,10 @@
       </div>
       <div class="library-intro">
         <p>A living record of finished books—organized by category, connected back to WeRead, and gradually transformed into reusable knowledge atlases.</p>
-        <div class="library-count"><strong id="finishedCount">76</strong><span>finished books<br />on public display</span></div>
+        <div class="library-counts">
+          <div class="library-count"><strong id="finishedCount">76</strong><span>finished books<br />on public display</span></div>
+          <div id="progressCountBlock" class="library-count library-count--progress" hidden><strong id="progressCount">0</strong><span>books currently<br />in progress</span></div>
+        </div>
       </div>
     </header>
 
@@ -41,7 +44,7 @@
 
       <div id="shelfRows" class="shelf-rows" aria-live="polite"></div>
 
-      <section class="privacy-note" aria-label="Collection note"><span>COLLECTION NOTE</span><p>Book titles and author names remain in their published language for accuracy. One finished book marked private in WeRead is intentionally excluded from this public shelf.</p></section>
+      <section class="privacy-note" aria-label="Collection note"><span>COLLECTION NOTE</span><p>Book titles and author names remain in their published language for accuracy. Private WeRead entries are never published. Solid spines are finished books; pale outlined spines are currently in progress.</p></section>
     </main>
 
     <footer class="library-footer library-footer--collection"><p>READ · CONNECT · REMEMBER</p><span>Synced from WeRead · Singapore · 2026</span></footer>
