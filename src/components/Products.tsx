@@ -1,13 +1,16 @@
 import { useState } from 'react'
 import ReactMarkdown from 'react-markdown'
-import { ArrowUpRight, Layers, GraduationCap, LayoutDashboard, Star, Gamepad2, Terminal, Palette } from 'lucide-react'
+import {
+  ArrowUpRight, Layers, GraduationCap, LayoutDashboard, Star, Gamepad2, Terminal, Palette,
+  Database, Cpu, Briefcase, LineChart, ShieldCheck, Wrench, Compass,
+} from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import { SectionTitle } from './ui/SectionTitle'
 import { Stagger, StaggerItem } from './ui/Reveal'
 import { StatusBadge } from './ui/StatusBadge'
 import { Modal } from './ui/Modal'
 import { GithubIcon } from './ui/BrandIcons'
-import { projects, courses, playground } from '../data/projects'
+import { projects, shelves, courseHubLink, playground } from '../data/projects'
 import type { Project } from '../data/projects'
 
 const icons: Record<string, LucideIcon> = {
@@ -18,6 +21,13 @@ const icons: Record<string, LucideIcon> = {
   Gamepad2,
   Terminal,
   Palette,
+  Database,
+  Cpu,
+  Briefcase,
+  LineChart,
+  ShieldCheck,
+  Wrench,
+  Compass,
 }
 
 /** Hairline tier divider with an uppercase plum label */
@@ -85,33 +95,59 @@ export function Products() {
           })}
         </Stagger>
 
-        {/* Tier 2 - course library */}
+        {/* Tier 2 - course library, grouped into shelves */}
         <TierLabel label="Learn with Phoebe · course library" />
         <Stagger className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
-          {courses.map((c) => (
-            <StaggerItem key={c.id}>
-              <a
-                href={c.link}
-                target="_blank"
-                rel="noreferrer"
-                className="card group flex h-full items-start gap-3.5 p-5"
-              >
-                <span className="course-rank min-w-[36px] text-2xl leading-tight" aria-hidden>
-                  {String(c.rank).padStart(2, '0')}
-                </span>
-                <span className="flex-1">
-                  <span className="block text-[11px] font-semibold uppercase tracking-[0.06em] text-accent">{c.tag}</span>
-                  <span className="mt-0.5 block text-[15px] font-semibold text-ink group-hover:text-accent transition-colors font-display">
-                    {c.name}
+          {shelves.map((s) => {
+            const Icon = icons[s.icon] ?? GraduationCap
+            return (
+              <StaggerItem key={s.id}>
+                <a
+                  href={courseHubLink}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="card group flex h-full flex-col p-5"
+                >
+                  <span className="flex items-center justify-between">
+                    <span className="grid h-10 w-10 place-items-center rounded-[2px] bg-tint-deep text-accent">
+                      <Icon size={19} />
+                    </span>
+                    <span className="rounded-[2px] bg-tint-deep px-1.5 py-0.5 text-[10px] font-semibold text-accent-deep">
+                      {s.liveCount} LIVE
+                    </span>
                   </span>
-                  <span className="mt-1 block text-xs text-faint">{c.blurb}</span>
+                  <span className="mt-4 block text-[15px] font-semibold leading-snug text-ink group-hover:text-accent transition-colors font-display">
+                    {s.name}
+                  </span>
+                  <span className="mt-1 block text-xs text-faint">{s.samples}</span>
+                </a>
+              </StaggerItem>
+            )
+          })}
+          <StaggerItem>
+            <a
+              href={courseHubLink}
+              target="_blank"
+              rel="noreferrer"
+              className="group flex h-full flex-col justify-between rounded-[2px] border border-accent/40 bg-tint-deep p-5 transition-colors hover:border-accent"
+            >
+              <span className="flex items-center justify-between">
+                <span className="grid h-10 w-10 place-items-center rounded-[2px] bg-paper text-accent">
+                  <GraduationCap size={19} />
                 </span>
-                <span className="rounded-[2px] bg-tint-deep px-1.5 py-0.5 text-[10px] font-semibold text-accent-deep">
-                  LIVE
+                <ArrowUpRight
+                  size={16}
+                  className="text-accent transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                />
+              </span>
+              <span>
+                <span className="mt-4 block text-[15px] font-semibold leading-snug text-ink group-hover:text-accent transition-colors font-display">
+                  Browse all 50 live courses
                 </span>
-              </a>
-            </StaggerItem>
-          ))}
+                <span className="mt-1 block text-xs text-muted">The course shelf - the series front door</span>
+              </span>
+            </a>
+          </StaggerItem>
         </Stagger>
 
         {/* Tier 3 - playground */}
