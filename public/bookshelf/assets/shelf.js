@@ -206,6 +206,68 @@
     });
     document.querySelectorAll(".collection-books").forEach((track) => track.addEventListener("scroll", hide, {passive:true}));
   };
+  // After a nightly sync lands, greet the next visit once with a specific reading prompt.
+  // Only public book data is ever read here, so no private title or count can surface.
+  const SYNC_KEY = "phoebe-knowledge-shelf-sync:v1";
+  const prompts = [
+    "Open one and steal a single line. A highlight you can quote outlives a book you merely finished.",
+    "Pick the book you remember least. Write one sentence on what it changed—or admit it changed nothing.",
+    "Find a highlight you made months ago and argue with it. Past you was working with less.",
+    "Choose one finished book and name its single leverage point. That is the note worth keeping.",
+    "Reread one highlight aloud. If it still lands, it belongs in an atlas; if not, let it go.",
+    "Two books on this shelf disagree with each other. Find them, and decide which one you believe."
+  ];
+
+  const readSyncState = () => {
+    try { return JSON.parse(localStorage.getItem(SYNC_KEY) || "null"); }
+    catch { return null; }
+  };
+  const writeSyncState = (state) => {
+    try { localStorage.setItem(SYNC_KEY, JSON.stringify(state)); }
+    catch (error) { console.warn("Sync state could not be saved", error); }
+  };
+
+  const setupSyncNote = (data) => {
+    const note = document.querySelector("#syncNote");
+    const ids = data.categories.flatMap((category) => category.books.map((book) => String(book.bookId)));
+    const state = {generatedAt: String(data.generatedAt || ""), ids};
+    const previous = readSyncState();
+
+    // First ever visit: remember quietly. A greeting only makes sense after a change.
+    if (!previous || !Array.isArray(previous.ids)) { writeSyncState(state); return; }
+    if (previous.generatedAt === state.generatedAt) return;
+
+    const known = new Set(previous.ids);
+    const added = data.categories.flatMap((category) => category.books).filter((book) => !known.has(String(book.bookId)));
+    const dayIndex = Math.floor(Date.parse(`${state.generatedAt}T00:00:00`) / 86400000) || 0;
+    const prompt = prompts[Math.abs(dayIndex) % prompts.length];
+
+    // Some titles run very long; the greeting should stay one glanceable line of thought.
+    const shortTitle = (title) => { const text = String(title || ""); return text.length > 26 ? `${text.slice(0, 25)}…` : text; };
+    const headline = added.length
+      ? (added.length === 1
+        ? `<b>${escapeHtml(shortTitle(added[0].title))}</b> found its place on the shelf.`
+        : `<b>${added.length} books</b> found their place, including <b>${escapeHtml(shortTitle(added[0].title))}</b>.`)
+      : "Your shelf was refreshed—same books, still waiting to be used.";
+
+    note.querySelector(".sync-note__kicker").textContent = added.length ? "SINCE YOU WERE LAST HERE" : "SHELF REFRESHED";
+    note.querySelector(".sync-note__headline").innerHTML = headline;
+    note.querySelector(".sync-note__prompt").textContent = prompt;
+    note.querySelector(".sync-note__new").textContent = added.length ? String(Math.min(added.length, 9)) : "";
+    note.classList.toggle("sync-note--grew", added.length > 0);
+    note.hidden = false;
+    void note.offsetWidth; // flush layout so the transition runs even in a backgrounded tab
+    note.classList.add("is-visible");
+
+    const dismiss = () => {
+      note.classList.remove("is-visible");
+      writeSyncState(state);
+      setTimeout(() => { note.hidden = true; }, 320);
+    };
+    note.querySelector(".sync-note__close").addEventListener("click", dismiss);
+    document.addEventListener("keydown", (event) => { if (event.key === "Escape" && !note.hidden) dismiss(); });
+  };
+
   function renderShelves() {
     document.querySelector("#shelfRows").innerHTML = shelfData.categories.map(categoryMarkup).join("");
     setupScrollControls(); setupDragAndDrop(); setupTooltips();
@@ -221,6 +283,7 @@
       document.querySelector("#categoryCount").textContent = `${data.categories.length} CATEGORIES`;
       setupResetControls();
       renderShelves();
+      setupSyncNote(data);
     })
     .catch((error) => { document.querySelector("#shelfRows").innerHTML = '<p class="shelf-error">The finished-reading shelf could not load. Please refresh the page.</p>'; console.error(error); });
 })();

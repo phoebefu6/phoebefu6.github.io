@@ -48,6 +48,16 @@
 
     <div id="shelfSaveStatus" class="shelf-save-status" role="status" aria-live="polite">Shelf order saved</div>
 
+    <aside id="syncNote" class="sync-note" role="status" aria-live="polite" hidden>
+      <div class="sync-note__shelf" aria-hidden="true"><i></i><i></i><i></i><b class="sync-note__new"></b></div>
+      <div class="sync-note__copy">
+        <span class="sync-note__kicker"></span>
+        <p class="sync-note__headline"></p>
+        <p class="sync-note__prompt"></p>
+      </div>
+      <button class="sync-note__close" type="button" aria-label="Dismiss this note">×</button>
+    </aside>
+
     <footer class="library-footer library-footer--collection"><p>READ · CONNECT · REMEMBER</p><span>Synced from WeRead · Singapore · 2026</span></footer>
     <script src="assets/shelf.js" defer></script>
   </body>
