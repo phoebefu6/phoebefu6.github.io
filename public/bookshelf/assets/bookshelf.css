@@ -520,65 +520,8 @@ button { font: inherit; }
   .sync-note--grew.is-visible .sync-note__new { animation: none; }
 }
 
-/* ---- Reading-notes book page (personal highlights + community highlights) ---- */
-.book-page--notes { background: var(--paper); }
-.notes-hero { display: grid; grid-template-columns: minmax(240px, .8fr) minmax(340px, 1.2fr); gap: clamp(40px, 7vw, 110px); align-items: center; padding: 78px clamp(28px, 8vw, 128px); background: radial-gradient(circle at 18% 26%, #fff7e8 0, transparent 34%), linear-gradient(120deg, #eadbc5, #f7f1e8 62%); }
-.notes-hero__object { justify-self: center; width: min(230px, 62vw); aspect-ratio: .66; perspective: 900px; filter: drop-shadow(22px 28px 22px rgba(66,37,24,.24)); }
-.notes-hero__spine { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; height: 100%; padding: 30px 22px; border-radius: 5px 3px 3px 5px; color: #f4e5cd; background: linear-gradient(90deg, #24433c, #33604f 10%, #26473e 88%); box-shadow: inset 8px 0 14px rgba(255,255,255,.07), inset -9px 0 16px rgba(0,0,0,.26); transform: rotateY(-10deg); }
-.notes-hero__spine span { color: rgba(244,229,205,.66); font-size: .62rem; letter-spacing: .16em; }
-.notes-hero__spine strong { font-family: var(--display); font-size: 2rem; line-height: 1.1; text-align: center; }
-.notes-hero__spine i { color: #dbb75f; font-family: var(--display); font-size: 2.2rem; font-style: normal; }
-.notes-hero h1 { margin: 0 0 12px; font-family: var(--display); font-size: clamp(2.6rem, 6vw, 4.6rem); line-height: 1; letter-spacing: -.04em; }
-.notes-hero__author { margin: 0 0 18px; font-size: .8rem; opacity: .66; }
-.notes-hero__lede { max-width: 520px; margin: 0 0 30px; font-family: var(--display); font-size: 1.28rem; line-height: 1.55; }
-.notes-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(132px, 1fr)); gap: 18px 22px; margin: 0 0 34px; padding: 22px 0 0; border-top: 1px solid var(--line); }
-.notes-stats dt { color: var(--rust); font-size: .56rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; }
-.notes-stats dd { margin: 7px 0 0; font-family: var(--display); font-size: 1.12rem; line-height: 1.25; }
 
-.crowd-section { color: #ece3d6; background: #2b3f47; }
-.crowd-list { display: grid; gap: 12px; margin: 0; padding: 0; list-style: none; }
-.crowd-item { display: grid; grid-template-columns: auto 1fr; gap: 18px; padding: 20px 22px; background: rgba(255,255,255,.05); border-left: 3px solid rgba(219,183,95,.42); }
-.crowd-item--mine { background: rgba(219,183,95,.11); border-left-color: #dbb75f; }
-.crowd-item__rank { color: rgba(236,227,214,.42); font-family: var(--display); font-size: 1.5rem; line-height: 1; }
-.crowd-item__text { margin: 0 0 14px; font-size: .92rem; line-height: 1.78; }
-.crowd-item__meta { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; font-size: .6rem; letter-spacing: .06em; }
-.crowd-item__bar { display: block; width: 108px; height: 4px; background: rgba(255,255,255,.14); }
-.crowd-item__bar i { display: block; width: var(--fill, 0%); height: 100%; background: #dbb75f; }
-.crowd-item__count { color: #dbb75f; font-weight: 600; }
-.crowd-item__flag { color: #f0dcae; }
-.crowd-item__chapter { margin-left: auto; opacity: .5; }
-
-.mine-controls { display: flex; flex-wrap: wrap; gap: 14px 20px; align-items: center; margin-bottom: 22px; }
-.mine-toggle { min-height: 40px; padding: 0 18px; border: 1px solid var(--ink); color: var(--ink); background: transparent; font-family: var(--sans); font-size: .68rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; cursor: pointer; transition: background 160ms, color 160ms; }
-.mine-toggle:hover, .mine-toggle:focus-visible { color: var(--paper-light); background: var(--ink); outline: none; }
-.mine-count { margin: 0; font-size: .66rem; letter-spacing: .1em; text-transform: uppercase; opacity: .55; }
-.chapter-notes { display: grid; gap: 8px; }
-.chapter-note { border: 1px solid var(--line); background: var(--paper-light); }
-.chapter-note summary { display: flex; gap: 16px; align-items: center; padding: 17px 20px; cursor: pointer; list-style: none; }
-.chapter-note summary::-webkit-details-marker { display: none; }
-.chapter-note summary:hover, .chapter-note summary:focus-visible { background: rgba(168,79,53,.06); outline: none; }
-.chapter-note__idx { color: var(--rust); font-family: var(--display); font-size: 1.05rem; }
-.chapter-note__title { flex: 1; font-family: var(--display); font-size: 1.3rem; line-height: 1.25; }
-.chapter-note__count { min-width: 30px; padding: 3px 9px; border: 1px solid var(--line); color: var(--rust); font-size: .62rem; font-weight: 600; text-align: center; }
-.chapter-note[open] summary { border-bottom: 1px solid var(--line); }
-.chapter-note__list { margin: 0; padding: 8px 22px 22px 42px; }
-.chapter-note__list li { margin-top: 16px; font-size: .86rem; line-height: 1.85; }
-.note-shared { display: inline-block; margin-left: 9px; padding: 2px 8px; background: rgba(215,164,67,.2); color: #7a5314; font-size: .58rem; font-weight: 600; letter-spacing: .06em; white-space: nowrap; }
-
-@media (max-width: 900px) {
-  .notes-hero { grid-template-columns: 1fr; padding-inline: clamp(20px, 6vw, 40px); }
-  .notes-hero__object { display: none; }
-  .crowd-item__chapter { margin-left: 0; }
-  .chapter-note__list { padding-left: 26px; }
-}
+/* Featured spine styling for the reading-notes book */
 .shelf-book--notes { --book-color:#2f5a4b; }
 .shelf-book--notes .shelf-book__spine i { color:#dbb75f; }
 .collection-shelf--featured .collection-shelf__header p { max-width:none; }
-
-/* ---- Embedded mind map on a reading-notes page ---- */
-.map-section { color: #ece3d6; background: #1c2b31; }
-.map-frame { overflow: hidden; border: 1px solid rgba(219,183,95,.28); background: #0e1117; box-shadow: 0 22px 46px rgba(0,0,0,.34); }
-.map-frame iframe { display: block; width: 100%; height: min(74vh, 700px); border: 0; }
-.map-note { margin: 16px 0 0; font-size: .72rem; line-height: 1.7; opacity: .74; }
-.map-note a { color: #dbb75f; }
-@media (max-width: 620px) { .map-frame iframe { height: 62vh; } }
