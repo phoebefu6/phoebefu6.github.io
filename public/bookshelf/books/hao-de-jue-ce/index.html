@@ -1,81 +1,119 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#f2eadc" />
-    <meta name="description" content="Reading notes for 好的决策 by 夏栋 — personal highlights by chapter, alongside the passages the WeRead crowd underlined most." />
-    <title>好的决策 · Reading Notes</title>
-    <link rel="stylesheet" href="../../assets/bookshelf.css" />
+    <meta name="theme-color" content="#14100e" />
+    <meta name="description" content="《好的决策》读书笔记 — 149 条个人划线、20 条热门划线，以及全书思维导图。" />
+    <title>好的决策 · 读书笔记</title>
+    <link rel="preconnect" href="https://cdn.weread.qq.com" />
+    <link rel="stylesheet" href="../../assets/notes-page.css" />
   </head>
-  <body class="book-page book-page--notes">
-    <a class="skip-link" href="#notes">Skip to the highlights</a>
+  <body class="np">
+    <a class="np-skip" href="#chapters">跳到我的划线</a>
 
-    <header class="book-nav">
-      <a class="back-link" href="../../index.html" aria-label="Return to the Knowledge Shelf"><span aria-hidden="true">←</span> Knowledge Shelf</a>
-      <p>BOOK 02 · DECISION MAKING</p>
-      <a class="weread-link weread-link--small" id="wereadTop" href="#" target="_blank" rel="noreferrer">Read on WeRead ↗</a>
+    <div class="np-progress" aria-hidden="true"><i id="progressBar"></i></div>
+
+    <header class="np-bar" id="topBar">
+      <a class="np-bar__back" href="../../index.html"><span aria-hidden="true">←</span><span>书架</span></a>
+      <p class="np-bar__title" id="barTitle" aria-hidden="true">好的决策</p>
+      <nav class="np-bar__nav" aria-label="页面小节">
+        <a href="#map">导图</a><a href="#crowd">热门</a><a href="#chapters">我的划线</a>
+      </nav>
+      <a class="np-bar__cta" id="wereadTop" href="#" target="_blank" rel="noreferrer">在微信读书打开</a>
     </header>
 
-    <main id="notes">
-      <section class="notes-hero" aria-labelledby="notes-title">
-        <div class="notes-hero__object" aria-hidden="true">
-          <div class="notes-hero__spine"><span id="heroAuthor"></span><strong id="heroTitle"></strong><i>决</i></div>
+    <main>
+      <!-- ── HERO ───────────────────────────────────────────── -->
+      <section class="np-hero" id="top">
+        <div class="np-hero__glow" aria-hidden="true"></div>
+        <div class="np-hero__grid">
+          <div class="np-hero__cover" id="coverTilt">
+            <div class="np-cover">
+              <img id="coverImg" alt="《好的决策》封面" width="360" height="510" loading="eager" />
+              <span class="np-cover__gloss" aria-hidden="true"></span>
+            </div>
+            <div class="np-cover__shadow" aria-hidden="true"></div>
+          </div>
+
+          <div class="np-hero__copy">
+            <p class="np-kicker"><span class="np-dot" aria-hidden="true"></span>读完于 <b id="finishedOn">—</b></p>
+            <h1 class="np-title">好的决策</h1>
+            <p class="np-byline" id="byline"></p>
+            <p class="np-lede">十个认知偏误，一本使用手册。<br />关于我们如何骗自己、看错世界、高估自己——以及怎么办。</p>
+
+            <ul class="np-metrics" id="metrics" aria-label="阅读数据"></ul>
+
+            <div class="np-actions">
+              <a class="np-btn np-btn--solid" href="#chapters">读我的划线<span aria-hidden="true">↓</span></a>
+              <a class="np-btn" href="#map">看思维导图</a>
+            </div>
+          </div>
         </div>
-        <div class="notes-hero__copy">
-          <p class="eyebrow">FINISHED · READING NOTES</p>
-          <h1 id="notes-title">好的决策</h1>
-          <p class="notes-hero__author" id="heroByline"></p>
-          <p class="notes-hero__lede">A field guide to the mental shortcuts that make good decisions hard — and the reasoning habits that make them possible.</p>
-          <dl class="notes-stats" id="notesStats" aria-label="Reading statistics"></dl>
-          <div class="hero-actions"><a class="primary-action" href="#mine">Read my highlights</a><a class="weread-link" id="wereadHero" href="#" target="_blank" rel="noreferrer">Open on WeRead ↗</a></div>
-        </div>
+        <div class="np-scrollcue" aria-hidden="true"><i></i></div>
       </section>
 
-      <section id="map" class="atlas-section map-section" aria-labelledby="map-title">
-        <header class="section-head section-head--light">
-          <p class="eyebrow">THE WHOLE BOOK AS ONE PICTURE</p>
-          <h2 id="map-title">Ten biases, seven groups</h2>
-          <p>The book's argument as a mind map: why we misjudge, the eight ways it shows up, and the way out. Drag to pan, scroll to zoom, click a node to fold it.</p>
+      <!-- ── MIND MAP ───────────────────────────────────────── -->
+      <section class="np-section np-section--map" id="map">
+        <header class="np-head" data-reveal>
+          <p class="np-eyebrow">全书一张图</p>
+          <h2>七组，十个偏误</h2>
+          <p class="np-sub">为什么会错 · 骗自己 · 看错世界 · 看错他人 · 高估自己 · 被人左右 · 出路</p>
         </header>
-        <div class="map-frame">
-          <iframe src="mindmap.html" title="Interactive mind map of 好的决策" loading="lazy"></iframe>
+        <div class="np-map" data-reveal>
+          <iframe src="mindmap.html" title="《好的决策》思维导图" loading="lazy"></iframe>
         </div>
-        <p class="map-note"><a href="mindmap.html" target="_blank" rel="noreferrer">Open the map on its own ↗</a> — the toolbar there expands or collapses every branch and exports the map as SVG or PNG. The file is self-contained and works offline.</p>
+        <p class="np-note" data-reveal><a href="mindmap.html" target="_blank" rel="noreferrer">单独打开导图 ↗</a>　可展开全部分支、导出 SVG / PNG，离线可用。</p>
       </section>
 
-      <section id="crowd" class="atlas-section crowd-section" aria-labelledby="crowd-title">
-        <header class="section-head section-head--light">
-          <p class="eyebrow">WHAT EVERYONE ELSE UNDERLINED</p>
-          <h2 id="crowd-title">The passages the crowd stopped on</h2>
-          <p>The most-highlighted lines on WeRead, by how many readers marked each. A star means I underlined it too.</p>
+      <!-- ── CROWD HIGHLIGHTS ───────────────────────────────── -->
+      <section class="np-section np-section--crowd" id="crowd">
+        <header class="np-head" data-reveal>
+          <p class="np-eyebrow">大家都划了什么</p>
+          <h2>被划得最多的句子</h2>
+          <p class="np-sub">微信读书热门划线，按划线人数排序。<span class="np-star">★</span> 表示我也划了这一句。</p>
         </header>
-        <ol id="crowdList" class="crowd-list"></ol>
+        <div class="np-podium" id="podium"></div>
+        <ol class="np-heat" id="heatList"></ol>
       </section>
 
-      <section id="mine" class="atlas-section mine-section" aria-labelledby="mine-title">
-        <header class="section-head">
-          <p class="eyebrow">MY HIGHLIGHTS</p>
-          <h2 id="mine-title">What I marked, chapter by chapter</h2>
-          <p>In reading order. Chapters are collapsed by default — open the ones you want. Lines the crowd also underlined carry a reader count.</p>
+      <!-- ── MY HIGHLIGHTS ──────────────────────────────────── -->
+      <section class="np-section np-section--mine" id="chapters">
+        <header class="np-head" data-reveal>
+          <p class="np-eyebrow">我的划线</p>
+          <h2>一章一章读过来</h2>
+          <p class="np-sub">按阅读顺序排列。被大家也划过的句子会标出人数。</p>
         </header>
-        <div class="mine-controls">
-          <button class="mine-toggle" type="button" id="expandAll" aria-pressed="false">Expand all chapters</button>
-          <p class="mine-count" id="mineCount"></p>
+
+        <div class="np-mine">
+          <aside class="np-toc" aria-label="章节索引">
+            <div class="np-toc__inner">
+              <label class="np-search">
+                <span class="np-search__icon" aria-hidden="true">⌕</span>
+                <input type="search" id="searchInput" placeholder="搜索划线…" aria-label="搜索我的划线" autocomplete="off" />
+                <button type="button" class="np-search__clear" id="searchClear" aria-label="清除搜索" hidden>×</button>
+              </label>
+              <p class="np-toc__status" id="searchStatus" role="status" aria-live="polite"></p>
+              <ol class="np-toc__list" id="tocList"></ol>
+              <button class="np-toc__toggle" type="button" id="expandAll" aria-pressed="false">展开全部章节</button>
+            </div>
+          </aside>
+
+          <div class="np-chapters" id="chapterList"></div>
         </div>
-        <div id="chapterList" class="chapter-notes"></div>
       </section>
 
-      <section class="final-cta">
-        <p>Highlights are only raw material. Pick one idea from this book and use it on a decision you are actually facing this week.</p>
-        <a class="primary-action primary-action--light" id="wereadFoot" href="#" target="_blank" rel="noreferrer">Continue on WeRead ↗</a>
+      <section class="np-outro">
+        <p data-reveal>划线只是原料。<br />挑一个想法，用在这周真正要做的一个决定上。</p>
+        <a class="np-btn np-btn--solid" id="wereadFoot" href="#" target="_blank" rel="noreferrer" data-reveal>继续在微信读书阅读 ↗</a>
       </section>
     </main>
 
-    <footer class="book-footer">
-      <a href="../../index.html">← Return to the Knowledge Shelf</a>
-      <p>Source: personal WeRead highlights and community popular highlights · Phoebe's Knowledge Shelf</p>
+    <footer class="np-foot">
+      <a href="../../index.html">← 回到书架</a>
+      <p>个人划线与热门划线来自微信读书 · Phoebe's Knowledge Shelf</p>
     </footer>
+
     <script src="../../assets/notes-page.js" defer></script>
   </body>
 </html>
