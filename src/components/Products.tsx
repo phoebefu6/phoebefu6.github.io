@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import {
-  ArrowUpRight, Layers, GraduationCap, LayoutDashboard, Star, Gamepad2, Terminal, Palette,
+  ArrowUpRight, Layers, GraduationCap, LayoutDashboard, Star,
   Database, Cpu, Briefcase, LineChart, ShieldCheck, Wrench, Compass,
 } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
@@ -10,7 +10,7 @@ import { Stagger, StaggerItem } from './ui/Reveal'
 import { StatusBadge } from './ui/StatusBadge'
 import { Modal } from './ui/Modal'
 import { GithubIcon } from './ui/BrandIcons'
-import { projects, shelves, courseHubLink, playground } from '../data/projects'
+import { projects, shelves, courseHubLink } from '../data/projects'
 import type { Project } from '../data/projects'
 
 const icons: Record<string, LucideIcon> = {
@@ -18,9 +18,6 @@ const icons: Record<string, LucideIcon> = {
   GraduationCap,
   LayoutDashboard,
   Star,
-  Gamepad2,
-  Terminal,
-  Palette,
   Database,
   Cpu,
   Briefcase,
@@ -150,57 +147,6 @@ export function Products() {
           </StaggerItem>
         </Stagger>
 
-        {/* Tier 3 - playground */}
-        <TierLabel label="Playground" />
-        <Stagger className="grid gap-4 md:grid-cols-3">
-          {playground.map((g) => {
-            const Icon = icons[g.icon] ?? Palette
-            return (
-              <StaggerItem key={g.id}>
-                <a
-                  href={g.link}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="group flex h-full items-center gap-4 rounded-[2px] border border-dashed border-accent/40 bg-paper p-5 transition-colors hover:border-accent"
-                >
-                  <span className="grid h-11 w-11 shrink-0 place-items-center rounded-[2px] bg-tint-deep text-accent">
-                    <Icon size={20} />
-                  </span>
-                  <span>
-                    <span className="block text-[15px] font-semibold text-ink group-hover:text-accent transition-colors font-display">
-                      {g.name}
-                    </span>
-                    <span className="mt-0.5 block text-[12.5px] text-muted">{g.blurb}</span>
-                  </span>
-                </a>
-              </StaggerItem>
-            )
-          })}
-          <StaggerItem>
-            <a
-              href="https://github.com/phoebefu6"
-              target="_blank"
-              rel="noreferrer"
-              className="group flex h-full items-center gap-4 rounded-[2px] border border-dashed border-accent/40 bg-paper p-5 transition-colors hover:border-accent"
-            >
-              <span className="grid h-11 w-11 shrink-0 place-items-center rounded-[2px] bg-tint-deep text-accent">
-                <GithubIcon size={20} />
-              </span>
-              <span>
-                <span className="block text-[15px] font-semibold text-ink group-hover:text-accent transition-colors font-display">
-                  More on GitHub
-                </span>
-                <span className="mt-0.5 block text-[12.5px] text-muted">
-                  Daily builds, notebooks, and everything in progress
-                </span>
-              </span>
-              <ArrowUpRight
-                size={15}
-                className="ml-auto text-accent transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
-              />
-            </a>
-          </StaggerItem>
-        </Stagger>
       </div>
 
       <Modal open={!!selected} onClose={() => setSelected(null)}>

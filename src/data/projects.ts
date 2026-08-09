@@ -24,15 +24,6 @@ export interface CourseShelf {
   icon: string
 }
 
-export interface PlaygroundItem {
-  id: string
-  name: string
-  blurb: string
-  icon: string
-  link: string
-  repo: string
-}
-
 // Grounded in the repos actually published at github.com/phoebefu6
 
 /** Tier 1 - flagship cards */
@@ -151,31 +142,3 @@ export const shelves: CourseShelf[] = [
 
 /** The course shelf hub - front door to every live course */
 export const courseHubLink = 'https://phoebefu6.github.io/learn-with-phoebe/'
-
-/** Tier 3 - playground */
-export const playground: PlaygroundItem[] = [
-  {
-    id: 'sketch-ideas-with-phoebe',
-    name: 'Worth a Thousand Words',
-    blurb: 'Data and AI, explained in pictures - daily AI-art gallery',
-    icon: 'Palette',
-    link: 'https://phoebefu6.github.io/sketch-ideas-with-phoebe/',
-    repo: 'https://github.com/phoebefu6/sketch-ideas-with-phoebe',
-  },
-  {
-    id: 'phoebe-data-skills',
-    name: "Phoebe's Data Skills",
-    blurb: 'How-to data skills with real executed artifacts, step by step',
-    icon: 'Terminal',
-    link: 'https://phoebefu6.github.io/phoebe-data-skills/',
-    repo: 'https://github.com/phoebefu6/phoebe-data-skills',
-  },
-  {
-    id: 'play-game-with-phoebe',
-    name: 'Play Game with Phoebe',
-    blurb: 'Browser game hub, built with AI coding tools',
-    icon: 'Gamepad2',
-    link: 'https://phoebefu6.github.io/play-game-with-phoebe/',
-    repo: 'https://github.com/phoebefu6/play-game-with-phoebe',
-  },
-]
