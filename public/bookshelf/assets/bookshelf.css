@@ -574,3 +574,11 @@ button { font: inherit; }
 .shelf-book--notes { --book-color:#2f5a4b; }
 .shelf-book--notes .shelf-book__spine i { color:#dbb75f; }
 .collection-shelf--featured .collection-shelf__header p { max-width:none; }
+
+/* ---- Embedded mind map on a reading-notes page ---- */
+.map-section { color: #ece3d6; background: #1c2b31; }
+.map-frame { overflow: hidden; border: 1px solid rgba(219,183,95,.28); background: #0e1117; box-shadow: 0 22px 46px rgba(0,0,0,.34); }
+.map-frame iframe { display: block; width: 100%; height: min(74vh, 700px); border: 0; }
+.map-note { margin: 16px 0 0; font-size: .72rem; line-height: 1.7; opacity: .74; }
+.map-note a { color: #dbb75f; }
+@media (max-width: 620px) { .map-frame iframe { height: 62vh; } }
