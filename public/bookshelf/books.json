@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-08-05",
-  "source": "WeRead finished-reading shelf",
-  "publicFinishedCount": 76,
-  "privateExcludedCount": 1,
+  "generatedAt": "2026-08-09",
+  "source": "WeRead public knowledge shelf",
+  "publicFinishedCount": 77,
+  "inProgressCount": 11,
+  "privateExcludedCount": 26,
   "categories": [
     {
       "id": "art-design",
@@ -273,6 +274,17 @@
           "status": "finished"
         },
         {
+          "bookId": "3300139390",
+          "title": "我以为这辈子完蛋了",
+          "author": "[美]艾莉·布罗什",
+          "cover": "https://cdn.weread.qq.com/weread/cover/45/cpplatform_pfqq7bezn3gxhsgucchkjp/t6_cpplatform_pfqq7bezn3gxhsgucchkjp1743477944.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=39332f50813ab9cf3g010df3",
+          "subcategory": "漫画-治愈漫画",
+          "lastRead": "2026-06-21",
+          "status": "in-progress",
+          "progress": 15
+        },
+        {
           "bookId": "3300148628",
           "title": "不上班的这几年",
           "author": "阿彬 著绘",
@@ -293,22 +305,22 @@
           "status": "finished"
         },
         {
-          "bookId": "33514727",
-          "title": "生活蒙太奇",
-          "author": "天然",
-          "cover": "https://cdn.weread.qq.com/weread/cover/84/YueWen_33514727/t6_YueWen_33514727.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=b0c32c5071ff64e7b0c7ab4",
-          "subcategory": "漫画-治愈漫画",
-          "lastRead": "2025-11-30",
-          "status": "finished"
-        },
-        {
           "bookId": "3300170175",
           "title": "我会一次次接住自己",
           "author": "云云狗",
           "cover": "https://cdn.weread.qq.com/weread/cover/67/cpplatform_1lanzj8njd6pwz8sgeggjh/t6_cpplatform_1lanzj8njd6pwz8sgeggjh1760693188.jpg",
           "deepLink": "https://weread.qq.com/book-detail?type=1&v=d5132e50813aba8f9g015b00",
           "subcategory": "漫画-经典改编",
+          "lastRead": "2025-11-30",
+          "status": "finished"
+        },
+        {
+          "bookId": "33514727",
+          "title": "生活蒙太奇",
+          "author": "天然",
+          "cover": "https://cdn.weread.qq.com/weread/cover/84/YueWen_33514727/t6_YueWen_33514727.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=b0c32c5071ff64e7b0c7ab4",
+          "subcategory": "漫画-治愈漫画",
           "lastRead": "2025-11-30",
           "status": "finished"
         },
@@ -395,6 +407,17 @@
       "label": "History",
       "books": [
         {
+          "bookId": "3300075734",
+          "title": "胜者心法：资治通鉴成事之道",
+          "author": "冯唐",
+          "cover": "https://cdn.weread.qq.com/weread/cover/28/cpplatform_xgrohdjxudscwy9a5ejycb/t6_cpplatform_xgrohdjxudscwy9a5ejycb1698391576.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=6ae329f0813ab8415g0145d5",
+          "subcategory": "历史-中国近现代",
+          "lastRead": "2026-06-09",
+          "status": "in-progress",
+          "progress": 47
+        },
+        {
           "bookId": "3300072295",
           "title": "太白金星有点烦",
           "author": "马伯庸",
@@ -403,6 +426,23 @@
           "subcategory": "历史-历史小说",
           "lastRead": "2025-02-28",
           "status": "finished"
+        }
+      ]
+    },
+    {
+      "id": "health-wellness",
+      "label": "Health & Wellness",
+      "books": [
+        {
+          "bookId": "23914604",
+          "title": "每天清除癌细胞：防癌食物营养大揭秘",
+          "author": "王海玲",
+          "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/604/23914604/t6_23914604.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=a5a32eb0716ce86ca5a7bfb",
+          "subcategory": "医学健康-健康",
+          "lastRead": "2026-08-09",
+          "status": "in-progress",
+          "progress": 13
         }
       ]
     },
@@ -583,6 +623,16 @@
           "status": "finished"
         },
         {
+          "bookId": "3300175062",
+          "title": "好的决策",
+          "author": "夏栋",
+          "cover": "https://cdn.weread.qq.com/weread/cover/59/cpplatform_t6ayemt5kfzacvgbfpke8e/t6_cpplatform_t6ayemt5kfzacvgbfpke8e1762332087.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=43a32460813abaae2g01241b",
+          "subcategory": "个人成长-认知思维",
+          "lastRead": "2026-08-09",
+          "status": "finished"
+        },
+        {
           "bookId": "912071",
           "title": "吃掉那只青蛙：博恩·崔西的高效时间管理法则",
           "author": "[美]博恩·崔西",
@@ -621,6 +671,28 @@
           "subcategory": "个人成长-认知思维",
           "lastRead": "2024-10-22",
           "status": "finished"
+        },
+        {
+          "bookId": "3300110909",
+          "title": "蔡志忠的100个成长智慧",
+          "author": "许晋杭",
+          "cover": "https://cdn.weread.qq.com/weread/cover/86/cpplatform_e3tsnqc7f4atq5ltdwexcw/t6_cpplatform_e3tsnqc7f4atq5ltdwexcw1723198486.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=45632bc0813ab91d2g01902a",
+          "subcategory": "个人成长-人生哲学",
+          "lastRead": "2026-06-23",
+          "status": "in-progress",
+          "progress": 43
+        },
+        {
+          "bookId": "3300072528",
+          "title": "像马一样思考：一个非传统牛仔的人生经验、领导力和同理心",
+          "author": "格兰特·古利赫",
+          "cover": "https://cdn.weread.qq.com/weread/cover/92/cpplatform_5qvrbnztrtijtm1pjruzq4/t6_cpplatform_5qvrbnztrtijtm1pjruzq41695805448.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=51f32e30813ab82d4g018dc1",
+          "subcategory": "个人成长-人在职场",
+          "lastRead": "2026-07-13",
+          "status": "in-progress",
+          "progress": 52
         },
         {
           "bookId": "921072",
@@ -717,6 +789,28 @@
           "subcategory": "哲学宗教-伦理道德",
           "lastRead": "2026-03-07",
           "status": "finished"
+        },
+        {
+          "bookId": "3300205804",
+          "title": "“长脑子”要读《鬼谷子》",
+          "author": "[战国]王诩",
+          "cover": "https://cdn.weread.qq.com/weread/cover/61/cpplatform_betyqxz3k4xa6lvvyraskv/t6_cpplatform_betyqxz3k4xa6lvvyraskv1779088107.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=788326c0813abb6e4g0148d3",
+          "subcategory": "哲学宗教-东方哲学",
+          "lastRead": "2026-06-28",
+          "status": "in-progress",
+          "progress": 6
+        },
+        {
+          "bookId": "3300094205",
+          "title": "游戏改变未来",
+          "author": "[美]简·麦戈尼格尔",
+          "cover": "https://cdn.weread.qq.com/weread/cover/36/cpplatform_q5ueduqjrdzwwfuzzfr7wf/t6_cpplatform_q5ueduqjrdzwwfuzzfr7wf1712545755.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=e1f32f10813ab8b4cg01527e",
+          "subcategory": "哲学宗教-思维科学",
+          "lastRead": "2026-08-09",
+          "status": "in-progress",
+          "progress": 4
         }
       ]
     },
@@ -743,6 +837,17 @@
           "subcategory": "心理-积极心理学",
           "lastRead": "2024-03-12",
           "status": "finished"
+        },
+        {
+          "bookId": "924592",
+          "title": "怪诞行为学（全四册）（新版）",
+          "author": "丹·艾瑞里",
+          "cover": "https://cdn.weread.qq.com/weread/cover/83/YueWen_924592/t6_YueWen_924592.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=84e325e05e1bb084e73d5ae",
+          "subcategory": "心理-社会心理学",
+          "lastRead": "2026-08-09",
+          "status": "in-progress",
+          "progress": 1
         },
         {
           "bookId": "3300172885",
@@ -789,6 +894,17 @@
           "subcategory": "科学技术-科学科普",
           "lastRead": "2025-05-06",
           "status": "finished"
+        },
+        {
+          "bookId": "3300209394",
+          "title": "图解Skill：AI提效实战指南",
+          "author": "宝玉",
+          "cover": "https://cdn.weread.qq.com/weread/cover/82/cpplatform_wmaghz3junjyxd2lc1jqn5/t6_cpplatform_wmaghz3junjyxd2lc1jqn51780656076.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=4cf32300813abb84bg014cb4",
+          "subcategory": "科学技术-工业技术",
+          "lastRead": "2026-08-09",
+          "status": "in-progress",
+          "progress": 6
         }
       ]
     },
@@ -805,6 +921,17 @@
           "subcategory": "计算机-人工智能",
           "lastRead": "2025-01-09",
           "status": "finished"
+        },
+        {
+          "bookId": "41718232",
+          "title": "一本书讲透数据治理：战略、方法、工具与实践",
+          "author": "用友平台与数据智能团队",
+          "cover": "https://cdn.weread.qq.com/weread/cover/44/yuewen_41718232/t6_yuewen_417182321738984490.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=b3a32010727c91d8b3a39d8",
+          "subcategory": "计算机-数据库",
+          "lastRead": "2026-08-09",
+          "status": "in-progress",
+          "progress": 19
         },
         {
           "bookId": "621714",
@@ -837,6 +964,17 @@
           "status": "finished"
         },
         {
+          "bookId": "3300199744",
+          "title": "AI科研绘图：Nano Banana极速实战指南",
+          "author": "张鼎伦 著",
+          "cover": "https://cdn.weread.qq.com/weread/cover/89/cpplatform_6zb5hdgcxsjcwrroilkm9w/t6_cpplatform_6zb5hdgcxsjcwrroilkm9w1774943811.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=01d32bf0813abb486g014ccd",
+          "subcategory": "计算机-人工智能",
+          "lastRead": "2026-06-20",
+          "status": "in-progress",
+          "progress": 43
+        },
+        {
           "bookId": "907763",
           "title": "精益数据分析",
           "author": "阿利斯泰尔·克罗尔 本杰明·尤科维奇",
@@ -848,6 +986,5 @@
         }
       ]
     }
-  ],
-  "inProgressCount": 0
+  ]
 }
