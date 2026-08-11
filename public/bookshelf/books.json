@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-09",
+  "generatedAt": "2026-08-11",
   "source": "WeRead public knowledge shelf",
-  "publicFinishedCount": 77,
-  "inProgressCount": 11,
+  "publicFinishedCount": 78,
+  "inProgressCount": 12,
   "privateExcludedCount": 26,
   "categories": [
     {
@@ -271,6 +271,16 @@
           "deepLink": "https://weread.qq.com/book-detail?type=1&v=66e32950813ab82dag011457",
           "subcategory": "漫画-科普漫画",
           "lastRead": "2024-01-01",
+          "status": "finished"
+        },
+        {
+          "bookId": "43758716",
+          "title": "你笑起来，就是好天气",
+          "author": "燕七",
+          "cover": "https://cdn.weread.qq.com/weread/cover/29/YueWen_43758716/t6_YueWen_43758716.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=47d324e0729bb47c47da7e9",
+          "subcategory": "漫画-治愈漫画",
+          "lastRead": "2026-08-10",
           "status": "finished"
         },
         {
@@ -684,6 +694,17 @@
           "progress": 43
         },
         {
+          "bookId": "3300017633",
+          "title": "有解：高效解决问题的关键7步",
+          "author": "奉湘宁",
+          "cover": "https://cdn.weread.qq.com/weread/cover/33/3300017633/t6_3300017633.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=f81324f0813ab6d63g013324",
+          "subcategory": "个人成长-认知思维",
+          "lastRead": "2026-08-10",
+          "status": "in-progress",
+          "progress": 18
+        },
+        {
           "bookId": "3300072528",
           "title": "像马一样思考：一个非传统牛仔的人生经验、领导力和同理心",
           "author": "格兰特·古利赫",
@@ -886,6 +907,17 @@
           "status": "finished"
         },
         {
+          "bookId": "3300209394",
+          "title": "图解Skill：AI提效实战指南",
+          "author": "宝玉",
+          "cover": "https://cdn.weread.qq.com/weread/cover/82/cpplatform_wmaghz3junjyxd2lc1jqn5/t6_cpplatform_wmaghz3junjyxd2lc1jqn51780656076.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=4cf32300813abb84bg014cb4",
+          "subcategory": "科学技术-工业技术",
+          "lastRead": "2026-08-10",
+          "status": "in-progress",
+          "progress": 31
+        },
+        {
           "bookId": "3300064281",
           "title": "小亮老师的博物课：奇趣无穷的飞鸟乐园",
           "author": "张辰亮",
@@ -894,17 +926,6 @@
           "subcategory": "科学技术-科学科普",
           "lastRead": "2025-05-06",
           "status": "finished"
-        },
-        {
-          "bookId": "3300209394",
-          "title": "图解Skill：AI提效实战指南",
-          "author": "宝玉",
-          "cover": "https://cdn.weread.qq.com/weread/cover/82/cpplatform_wmaghz3junjyxd2lc1jqn5/t6_cpplatform_wmaghz3junjyxd2lc1jqn51780656076.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=4cf32300813abb84bg014cb4",
-          "subcategory": "科学技术-工业技术",
-          "lastRead": "2026-08-09",
-          "status": "in-progress",
-          "progress": 6
         }
       ]
     },
@@ -929,9 +950,9 @@
           "cover": "https://cdn.weread.qq.com/weread/cover/44/yuewen_41718232/t6_yuewen_417182321738984490.jpg",
           "deepLink": "https://weread.qq.com/book-detail?type=1&v=b3a32010727c91d8b3a39d8",
           "subcategory": "计算机-数据库",
-          "lastRead": "2026-08-09",
+          "lastRead": "2026-08-10",
           "status": "in-progress",
-          "progress": 19
+          "progress": 21
         },
         {
           "bookId": "621714",
