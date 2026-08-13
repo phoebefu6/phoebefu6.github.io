@@ -1,3 +1,13 @@
+<!-- phoebe header -->
+
+[![Open the live site](https://img.shields.io/badge/%E2%96%B6%20open%20the%20live%20site-1f6feb?style=for-the-badge)](https://phoebefu6.github.io/phoebefu6.github.io/)
+[![Star this repo](https://img.shields.io/github/stars/phoebefu6/phoebefu6.github.io?style=for-the-badge&label=star%20this%20repo&color=444444)](https://github.com/phoebefu6/phoebefu6.github.io/stargazers)
+
+### ▶︎ [Open the live site →](https://phoebefu6.github.io/phoebefu6.github.io/)
+
+Free and open. Every build links to its source.
+
+<!-- /phoebe header -->
 # Phoebe Fu - Personal Product & Ideas Website
 
 Premium dark-theme founder site: products, ideas, services, research, case studies, speaking, gallery, and contact - built from the CDAIO resume narrative.
