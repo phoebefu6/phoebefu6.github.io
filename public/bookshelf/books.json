@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-08-11",
+  "generatedAt": "2026-08-19",
   "source": "WeRead public knowledge shelf",
   "publicFinishedCount": 78,
-  "inProgressCount": 12,
-  "privateExcludedCount": 26,
+  "inProgressCount": 13,
+  "privateExcludedCount": 36,
   "categories": [
     {
       "id": "art-design",
@@ -280,7 +280,7 @@
           "cover": "https://cdn.weread.qq.com/weread/cover/29/YueWen_43758716/t6_YueWen_43758716.jpg",
           "deepLink": "https://weread.qq.com/book-detail?type=1&v=47d324e0729bb47c47da7e9",
           "subcategory": "漫画-治愈漫画",
-          "lastRead": "2026-08-10",
+          "lastRead": "2026-08-19",
           "status": "finished"
         },
         {
@@ -702,7 +702,7 @@
           "subcategory": "个人成长-认知思维",
           "lastRead": "2026-08-10",
           "status": "in-progress",
-          "progress": 18
+          "progress": 20
         },
         {
           "bookId": "3300072528",
@@ -724,6 +724,17 @@
           "subcategory": "个人成长-认知思维",
           "lastRead": "2024-10-09",
           "status": "finished"
+        },
+        {
+          "bookId": "3300018079",
+          "title": "我不是教你诈",
+          "author": "[美]刘墉",
+          "cover": "https://cdn.weread.qq.com/weread/cover/17/cpPlatform_egU2PohQZzEn8dQu5dYEWj/t6_cpPlatform_egU2PohQZzEn8dQu5dYEWj.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=14232ed0813ab6d8fg019a70",
+          "subcategory": "个人成长-沟通表达",
+          "lastRead": "2026-08-18",
+          "status": "in-progress",
+          "progress": 8
         },
         {
           "bookId": "27600231",
