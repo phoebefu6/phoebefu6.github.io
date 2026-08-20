@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-19",
+  "generatedAt": "2026-08-20",
   "source": "WeRead public knowledge shelf",
   "publicFinishedCount": 78,
-  "inProgressCount": 13,
+  "inProgressCount": 14,
   "privateExcludedCount": 36,
   "categories": [
     {
@@ -487,6 +487,17 @@
           "status": "finished"
         },
         {
+          "bookId": "3300156695",
+          "title": "余华写作课：我能否相信自己",
+          "author": "余华",
+          "cover": "https://cdn.weread.qq.com/weread/cover/96/cpplatform_kmuyi3sxsbvnfntmkq54ad/t6_cpplatform_kmuyi3sxsbvnfntmkq54ad1754558525.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=e2632530813aba3b5g015b5b",
+          "subcategory": "文学-散文杂著",
+          "lastRead": "2026-08-20",
+          "status": "in-progress",
+          "progress": 4
+        },
+        {
           "bookId": "3300170870",
           "title": "不着急，不害怕，不要脸（轻经典)",
           "author": "冯唐",
@@ -683,6 +694,17 @@
           "status": "finished"
         },
         {
+          "bookId": "3300017633",
+          "title": "有解：高效解决问题的关键7步",
+          "author": "奉湘宁",
+          "cover": "https://cdn.weread.qq.com/weread/cover/33/3300017633/t6_3300017633.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=f81324f0813ab6d63g013324",
+          "subcategory": "个人成长-认知思维",
+          "lastRead": "2026-08-10",
+          "status": "in-progress",
+          "progress": 24
+        },
+        {
           "bookId": "3300110909",
           "title": "蔡志忠的100个成长智慧",
           "author": "许晋杭",
@@ -692,17 +714,6 @@
           "lastRead": "2026-06-23",
           "status": "in-progress",
           "progress": 43
-        },
-        {
-          "bookId": "3300017633",
-          "title": "有解：高效解决问题的关键7步",
-          "author": "奉湘宁",
-          "cover": "https://cdn.weread.qq.com/weread/cover/33/3300017633/t6_3300017633.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=f81324f0813ab6d63g013324",
-          "subcategory": "个人成长-认知思维",
-          "lastRead": "2026-08-10",
-          "status": "in-progress",
-          "progress": 20
         },
         {
           "bookId": "3300072528",
