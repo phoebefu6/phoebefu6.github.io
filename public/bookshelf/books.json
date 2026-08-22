@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-20",
+  "generatedAt": "2026-08-22",
   "source": "WeRead public knowledge shelf",
   "publicFinishedCount": 78,
-  "inProgressCount": 14,
+  "inProgressCount": 15,
   "privateExcludedCount": 36,
   "categories": [
     {
@@ -280,7 +280,7 @@
           "cover": "https://cdn.weread.qq.com/weread/cover/29/YueWen_43758716/t6_YueWen_43758716.jpg",
           "deepLink": "https://weread.qq.com/book-detail?type=1&v=47d324e0729bb47c47da7e9",
           "subcategory": "漫画-治愈漫画",
-          "lastRead": "2026-08-19",
+          "lastRead": "2026-08-10",
           "status": "finished"
         },
         {
@@ -700,7 +700,7 @@
           "cover": "https://cdn.weread.qq.com/weread/cover/33/3300017633/t6_3300017633.jpg",
           "deepLink": "https://weread.qq.com/book-detail?type=1&v=f81324f0813ab6d63g013324",
           "subcategory": "个人成长-认知思维",
-          "lastRead": "2026-08-10",
+          "lastRead": "2026-08-21",
           "status": "in-progress",
           "progress": 24
         },
@@ -735,6 +735,17 @@
           "subcategory": "个人成长-认知思维",
           "lastRead": "2024-10-09",
           "status": "finished"
+        },
+        {
+          "bookId": "3300147760",
+          "title": "如何将知识转化为行动",
+          "author": "[美]肯·布兰佳  [美]保罗·梅耶  [美]迪克·卢赫",
+          "cover": "https://weread.qq.com/weread/cover/1/cpplatform_7dhtue6prw9wgagkja4hqt/t6_cpplatform_7dhtue6prw9wgagkja4hqt1749201032.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=6dc32f80813aba038g010e3b",
+          "subcategory": "个人成长-人生哲学",
+          "lastRead": "2026-08-21",
+          "status": "in-progress",
+          "progress": 18
         },
         {
           "bookId": "3300018079",
