@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-22",
+  "generatedAt": "2026-08-24",
   "source": "WeRead public knowledge shelf",
   "publicFinishedCount": 78,
-  "inProgressCount": 15,
+  "inProgressCount": 16,
   "privateExcludedCount": 36,
   "categories": [
     {
@@ -428,6 +428,17 @@
           "progress": 47
         },
         {
+          "bookId": "3300146159",
+          "title": "起初·纪年",
+          "author": "王朔",
+          "cover": "https://cdn.weread.qq.com/weread/cover/46/cpplatform_khzkwjmabp5fj5fkmsxqxd/t6_cpplatform_khzkwjmabp5fj5fkmsxqxd1748337670.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=dd6324f0813ab9f97g019a24",
+          "subcategory": "历史-历史小说",
+          "lastRead": "2026-08-23",
+          "status": "in-progress",
+          "progress": 1
+        },
+        {
           "bookId": "3300072295",
           "title": "太白金星有点烦",
           "author": "马伯庸",
@@ -700,9 +711,9 @@
           "cover": "https://cdn.weread.qq.com/weread/cover/33/3300017633/t6_3300017633.jpg",
           "deepLink": "https://weread.qq.com/book-detail?type=1&v=f81324f0813ab6d63g013324",
           "subcategory": "个人成长-认知思维",
-          "lastRead": "2026-08-21",
+          "lastRead": "2026-08-24",
           "status": "in-progress",
-          "progress": 24
+          "progress": 32
         },
         {
           "bookId": "3300110909",
@@ -740,10 +751,10 @@
           "bookId": "3300147760",
           "title": "如何将知识转化为行动",
           "author": "[美]肯·布兰佳  [美]保罗·梅耶  [美]迪克·卢赫",
-          "cover": "https://weread.qq.com/weread/cover/1/cpplatform_7dhtue6prw9wgagkja4hqt/t6_cpplatform_7dhtue6prw9wgagkja4hqt1749201032.jpg",
+          "cover": "https://cdn.weread.qq.com/weread/cover/1/cpplatform_7dhtue6prw9wgagkja4hqt/t6_cpplatform_7dhtue6prw9wgagkja4hqt1749201032.jpg",
           "deepLink": "https://weread.qq.com/book-detail?type=1&v=6dc32f80813aba038g010e3b",
           "subcategory": "个人成长-人生哲学",
-          "lastRead": "2026-08-21",
+          "lastRead": "2026-08-23",
           "status": "in-progress",
           "progress": 18
         },
