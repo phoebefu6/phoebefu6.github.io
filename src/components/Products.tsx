@@ -10,7 +10,7 @@ import { Stagger, StaggerItem } from './ui/Reveal'
 import { StatusBadge } from './ui/StatusBadge'
 import { Modal } from './ui/Modal'
 import { GithubIcon } from './ui/BrandIcons'
-import { projects, shelves, courseHubLink } from '../data/projects'
+import { projects, shelves, courseHubLink, liveCourseTotal } from '../data/projects'
 import type { Project } from '../data/projects'
 
 const icons: Record<string, LucideIcon> = {
@@ -139,7 +139,7 @@ export function Products() {
               </span>
               <span>
                 <span className="mt-4 block text-[15px] font-semibold leading-snug text-ink group-hover:text-accent transition-colors font-display">
-                  Browse all 50 live courses
+                  Browse all {liveCourseTotal} live courses
                 </span>
                 <span className="mt-1 block text-xs text-muted">The course shelf - the series front door</span>
               </span>
