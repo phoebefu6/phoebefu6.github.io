@@ -1,3 +1,5 @@
+import { liveCourseTotal, projects } from './projects'
+
 export const profile = {
   name: 'Phoebe Fu',
   fullName: 'Phoebe Fu',
@@ -30,13 +32,21 @@ export interface Stat {
   suffix: string
 }
 
+/**
+ * Products live on GitHub = every live course + the non-course flagships + this site.
+ * The series anchor card is not double-counted: it points at the courses already counted.
+ * Derived, so a course or flagship change can never leave a stale number on the page.
+ */
+const nonCourseFlagships = projects.filter((p) => p.id !== 'learn-with-phoebe').length
+export const productsLiveOnGitHub = liveCourseTotal + nonCourseFlagships + 1
+
 export const stats: Stat[] = [
   { label: 'Years in data & AI', value: 12, suffix: '+' },
   { label: 'Largest team scaled', value: 30, suffix: '+' },
   { label: 'Industries served', value: 7, suffix: '' },
   { label: 'Data products launched', value: 25, suffix: '+' },
   { label: 'Trainings delivered', value: 20, suffix: '+' },
-  { label: 'Products live on GitHub', value: 94, suffix: '' },
+  { label: 'Products live on GitHub', value: productsLiveOnGitHub, suffix: '' },
 ]
 
 export const education = [

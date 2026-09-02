@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import {
-  ArrowUpRight, Layers, GraduationCap, LayoutDashboard, Star,
+  ArrowUpRight, Layers, GraduationCap, PackageCheck, Palette, Star,
   Database, Cpu, Briefcase, LineChart, ShieldCheck, Wrench, Compass,
 } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
@@ -16,7 +16,8 @@ import type { Project } from '../data/projects'
 const icons: Record<string, LucideIcon> = {
   Layers,
   GraduationCap,
-  LayoutDashboard,
+  PackageCheck,
+  Palette,
   Star,
   Database,
   Cpu,
@@ -52,7 +53,7 @@ export function Products() {
 
         {/* Tier 1 - flagships */}
         <TierLabel label="Flagships" />
-        <Stagger className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+        <Stagger className="grid gap-5 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
           {projects.map((p) => {
             const Icon = icons[p.icon] ?? Layers
             return (
