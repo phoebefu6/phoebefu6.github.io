@@ -696,6 +696,17 @@
           "status": "finished"
         },
         {
+          "bookId": "3300017633",
+          "title": "有解：高效解决问题的关键7步",
+          "author": "奉湘宁",
+          "cover": "https://cdn.weread.qq.com/weread/cover/33/3300017633/t6_3300017633.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=f81324f0813ab6d63g013324",
+          "subcategory": "个人成长-认知思维",
+          "lastRead": "2026-09-02",
+          "status": "in-progress",
+          "progress": 36
+        },
+        {
           "bookId": "3300124736",
           "title": "成事（冯唐成事学开山之作）",
           "author": "冯唐",
@@ -714,17 +725,6 @@
           "subcategory": "个人成长-认知思维",
           "lastRead": "2024-10-22",
           "status": "finished"
-        },
-        {
-          "bookId": "3300017633",
-          "title": "有解：高效解决问题的关键7步",
-          "author": "奉湘宁",
-          "cover": "https://cdn.weread.qq.com/weread/cover/33/3300017633/t6_3300017633.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=f81324f0813ab6d63g013324",
-          "subcategory": "个人成长-认知思维",
-          "lastRead": "2026-08-24",
-          "status": "in-progress",
-          "progress": 32
         },
         {
           "bookId": "3300110909",
