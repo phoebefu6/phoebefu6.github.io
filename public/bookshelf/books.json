@@ -2,7 +2,7 @@
   "source": "WeRead public knowledge shelf",
   "generatedAt": "2026-09-06",
   "publicFinishedCount": 78,
-  "inProgressCount": 21,
+  "inProgressCount": 17,
   "privateExcludedCount": 26,
   "categories": [
     {
@@ -172,16 +172,6 @@
           "status": "finished"
         },
         {
-          "bookId": "3300044800",
-          "title": "低风险创业（7个可复制的低风险逻辑）",
-          "author": "樊登",
-          "cover": "https://cdn.weread.qq.com/weread/cover/64/cpplatform_ap3mnmc9dsxihmqnrqk1gg/t6_cpplatform_ap3mnmc9dsxihmqnrqk1gg1673255472.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=e9e32dc0813ab7800g0106b6",
-          "subcategory": "经济理财-管理",
-          "lastRead": "2025-04-12",
-          "status": "finished"
-        },
-        {
           "bookId": "3200000005",
           "title": "一往无前：小米十周年 雷军公开演讲全文",
           "author": "雷军",
@@ -189,6 +179,16 @@
           "deepLink": "https://weread.qq.com/book-detail?type=1&v=6be32b2081312d000g0159a2",
           "subcategory": "经济理财-商业",
           "lastRead": "2024-10-14",
+          "status": "finished"
+        },
+        {
+          "bookId": "3300044800",
+          "title": "低风险创业（7个可复制的低风险逻辑）",
+          "author": "樊登",
+          "cover": "https://cdn.weread.qq.com/weread/cover/64/cpplatform_ap3mnmc9dsxihmqnrqk1gg/t6_cpplatform_ap3mnmc9dsxihmqnrqk1gg1673255472.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=e9e32dc0813ab7800g0106b6",
+          "subcategory": "经济理财-管理",
+          "lastRead": "2025-04-12",
           "status": "finished"
         },
         {
@@ -210,17 +210,6 @@
           "subcategory": "经济理财-商业",
           "lastRead": "2024-10-22",
           "status": "finished"
-        },
-        {
-          "bookId": "32441465",
-          "title": "从0到1打造个人品牌",
-          "author": "王一九",
-          "cover": "https://cdn.weread.qq.com/weread/cover/89/YueWen_32441465/t6_YueWen_32441465.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=05c3221071ef047905c2fb5",
-          "subcategory": "经济理财-商业",
-          "lastRead": "2023-11-18",
-          "status": "in-progress",
-          "progress": 5
         }
       ]
     },
@@ -265,16 +254,6 @@
           "status": "finished"
         },
         {
-          "bookId": "3300075097",
-          "title": "愿你温柔且有力量",
-          "author": "小嘉啊",
-          "cover": "https://cdn.weread.qq.com/weread/cover/77/cpplatform_121qeme9l9xdrp5jbdhqka/t6_cpplatform_121qeme9l9xdrp5jbdhqka1697783956.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=a4732dd0813ab83d5g0174e6",
-          "subcategory": "漫画-治愈漫画",
-          "lastRead": "2024-10-16",
-          "status": "finished"
-        },
-        {
           "bookId": "3300072581",
           "title": "半小时漫画故宫",
           "author": "陈磊·半小时漫画团队",
@@ -285,13 +264,73 @@
           "status": "finished"
         },
         {
-          "bookId": "43758716",
-          "title": "你笑起来，就是好天气",
-          "author": "燕七",
-          "cover": "https://cdn.weread.qq.com/weread/cover/29/YueWen_43758716/t6_YueWen_43758716.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=47d324e0729bb47c47da7e9",
+          "bookId": "3300075097",
+          "title": "愿你温柔且有力量",
+          "author": "小嘉啊",
+          "cover": "https://cdn.weread.qq.com/weread/cover/77/cpplatform_121qeme9l9xdrp5jbdhqka/t6_cpplatform_121qeme9l9xdrp5jbdhqka1697783956.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=a4732dd0813ab83d5g0174e6",
           "subcategory": "漫画-治愈漫画",
-          "lastRead": "2026-08-10",
+          "lastRead": "2024-10-16",
+          "status": "finished"
+        },
+        {
+          "bookId": "32351696",
+          "title": "纳闷集（《外婆的新世界》原著漫画）",
+          "author": "匡扶",
+          "cover": "https://cdn.weread.qq.com/weread/cover/11/yuewen_32351696/t6_yuewen_323516961685605512.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=8f13235071eda5d08f19711",
+          "subcategory": "漫画-治愈漫画",
+          "lastRead": "2024-09-28",
+          "status": "finished"
+        },
+        {
+          "bookId": "3300054181",
+          "title": "一切都会好起来的",
+          "author": "焦虑线条",
+          "cover": "https://cdn.weread.qq.com/weread/cover/0/cpplatform_prh8pt7jzw73y5ojb2dqo2/t6_cpplatform_prh8pt7jzw73y5ojb2dqo21680245561.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=a19328e0813ab7baag0117df",
+          "subcategory": "漫画-治愈漫画",
+          "lastRead": "2024-01-01",
+          "status": "finished"
+        },
+        {
+          "bookId": "3300075744",
+          "title": "我喜欢这个奇形怪状的世界（微信读书联合出品）",
+          "author": "几何家族的日常",
+          "cover": "https://cdn.weread.qq.com/weread/cover/37/cpplatform_tpx8msqmb46zz3x98hbhq3/t6_cpplatform_tpx8msqmb46zz3x98hbhq31698394322.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=17532b00813ab8416g014dc0",
+          "subcategory": "漫画-治愈漫画",
+          "lastRead": "2024-03-15",
+          "status": "finished"
+        },
+        {
+          "bookId": "3300081611",
+          "title": "今天我请客，想请你快乐",
+          "author": "燕七",
+          "cover": "https://cdn.weread.qq.com/weread/cover/31/cpplatform_3kx7rpfwgo2i28cjup1tee/t6_cpplatform_3kx7rpfwgo2i28cjup1tee1702625518.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=f51326a0813ab8661g011857",
+          "subcategory": "漫画-治愈漫画",
+          "lastRead": "2026-06-05",
+          "status": "finished"
+        },
+        {
+          "bookId": "3300096613",
+          "title": "请画一下爱2",
+          "author": "ShurAn 舒然",
+          "cover": "https://cdn.weread.qq.com/weread/cover/38/cpplatform_ezrse2dkpp3ayhmteeuc3v/t6_cpplatform_ezrse2dkpp3ayhmteeuc3v1721800503.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=64332740813ab8c3dg013f89",
+          "subcategory": "漫画-治愈漫画",
+          "lastRead": "2024-08-30",
+          "status": "finished"
+        },
+        {
+          "bookId": "3300113526",
+          "title": "人生“歪”理，“歪”得很有道理",
+          "author": "多嘴鸭著绘",
+          "cover": "https://cdn.weread.qq.com/weread/cover/96/cpplatform_n6uwjj5c3d2e7dkmyjfrd1/t6_cpplatform_n6uwjj5c3d2e7dkmyjfrd11725014760.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=1d432b90813ab92d8g016364",
+          "subcategory": "漫画-治愈漫画",
+          "lastRead": "2024-09-19",
           "status": "finished"
         },
         {
@@ -316,16 +355,6 @@
           "status": "finished"
         },
         {
-          "bookId": "3300081611",
-          "title": "今天我请客，想请你快乐",
-          "author": "燕七",
-          "cover": "https://cdn.weread.qq.com/weread/cover/31/cpplatform_3kx7rpfwgo2i28cjup1tee/t6_cpplatform_3kx7rpfwgo2i28cjup1tee1702625518.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=f51326a0813ab8661g011857",
-          "subcategory": "漫画-治愈漫画",
-          "lastRead": "2026-06-05",
-          "status": "finished"
-        },
-        {
           "bookId": "3300170175",
           "title": "我会一次次接住自己",
           "author": "云云狗",
@@ -346,53 +375,13 @@
           "status": "finished"
         },
         {
-          "bookId": "32351696",
-          "title": "纳闷集（《外婆的新世界》原著漫画）",
-          "author": "匡扶",
-          "cover": "https://cdn.weread.qq.com/weread/cover/11/yuewen_32351696/t6_yuewen_323516961685605512.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=8f13235071eda5d08f19711",
+          "bookId": "43758716",
+          "title": "你笑起来，就是好天气",
+          "author": "燕七",
+          "cover": "https://cdn.weread.qq.com/weread/cover/29/YueWen_43758716/t6_YueWen_43758716.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=47d324e0729bb47c47da7e9",
           "subcategory": "漫画-治愈漫画",
-          "lastRead": "2024-09-28",
-          "status": "finished"
-        },
-        {
-          "bookId": "3300113526",
-          "title": "人生“歪”理，“歪”得很有道理",
-          "author": "多嘴鸭著绘",
-          "cover": "https://cdn.weread.qq.com/weread/cover/96/cpplatform_n6uwjj5c3d2e7dkmyjfrd1/t6_cpplatform_n6uwjj5c3d2e7dkmyjfrd11725014760.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=1d432b90813ab92d8g016364",
-          "subcategory": "漫画-治愈漫画",
-          "lastRead": "2024-09-19",
-          "status": "finished"
-        },
-        {
-          "bookId": "3300096613",
-          "title": "请画一下爱2",
-          "author": "ShurAn 舒然",
-          "cover": "https://cdn.weread.qq.com/weread/cover/38/cpplatform_ezrse2dkpp3ayhmteeuc3v/t6_cpplatform_ezrse2dkpp3ayhmteeuc3v1721800503.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=64332740813ab8c3dg013f89",
-          "subcategory": "漫画-治愈漫画",
-          "lastRead": "2024-08-30",
-          "status": "finished"
-        },
-        {
-          "bookId": "3300075744",
-          "title": "我喜欢这个奇形怪状的世界（微信读书联合出品）",
-          "author": "几何家族的日常",
-          "cover": "https://cdn.weread.qq.com/weread/cover/37/cpplatform_tpx8msqmb46zz3x98hbhq3/t6_cpplatform_tpx8msqmb46zz3x98hbhq31698394322.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=17532b00813ab8416g014dc0",
-          "subcategory": "漫画-治愈漫画",
-          "lastRead": "2024-03-15",
-          "status": "finished"
-        },
-        {
-          "bookId": "3300054181",
-          "title": "一切都会好起来的",
-          "author": "焦虑线条",
-          "cover": "https://cdn.weread.qq.com/weread/cover/0/cpplatform_prh8pt7jzw73y5ojb2dqo2/t6_cpplatform_prh8pt7jzw73y5ojb2dqo21680245561.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=a19328e0813ab7baag0117df",
-          "subcategory": "漫画-治愈漫画",
-          "lastRead": "2024-01-01",
+          "lastRead": "2026-08-10",
           "status": "finished"
         }
       ]
@@ -439,15 +428,14 @@
           "progress": 47
         },
         {
-          "bookId": "41743343",
-          "title": "人间杭州：我与一座城市的记忆",
-          "author": "吴晓波",
-          "cover": "https://cdn.weread.qq.com/weread/cover/73/YueWen_41743343/t6_YueWen_41743343.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=34e329a0727cf3ef34ec1a5",
-          "subcategory": "历史-历史文化",
-          "lastRead": "2025-11-15",
-          "status": "in-progress",
-          "progress": 6
+          "bookId": "3300072295",
+          "title": "太白金星有点烦",
+          "author": "马伯庸",
+          "cover": "https://cdn.weread.qq.com/weread/cover/72/cpplatform_huhykqamxcvke1jfkpqxiv/t6_cpplatform_huhykqamxcvke1jfkpqxiv1695711014.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=23e32130813ab82bdg015cd2",
+          "subcategory": "历史-历史小说",
+          "lastRead": "2025-02-28",
+          "status": "finished"
         },
         {
           "bookId": "3300146159",
@@ -459,16 +447,6 @@
           "lastRead": "2026-08-23",
           "status": "in-progress",
           "progress": 1
-        },
-        {
-          "bookId": "3300072295",
-          "title": "太白金星有点烦",
-          "author": "马伯庸",
-          "cover": "https://cdn.weread.qq.com/weread/cover/72/cpplatform_huhykqamxcvke1jfkpqxiv/t6_cpplatform_huhykqamxcvke1jfkpqxiv1695711014.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=23e32130813ab82bdg015cd2",
-          "subcategory": "历史-历史小说",
-          "lastRead": "2025-02-28",
-          "status": "finished"
         }
       ]
     },
@@ -552,17 +530,6 @@
           "status": "finished"
         },
         {
-          "bookId": "3300075256",
-          "title": "吾心欢喜，即是归处（微信读书出品）",
-          "author": "李叔同",
-          "cover": "https://cdn.weread.qq.com/weread/cover/30/cpplatform_nqxno1u3fh565j7nvkhzbz/t6_cpplatform_nqxno1u3fh565j7nvkhzbz1702277511.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=cad32210813ab83e5g016fb8",
-          "subcategory": "文学-散文杂著",
-          "lastRead": "2024-08-23",
-          "status": "in-progress",
-          "progress": 3
-        },
-        {
           "bookId": "3300028509",
           "title": "666件可写的事",
           "author": "李成豪",
@@ -573,16 +540,6 @@
           "status": "finished"
         },
         {
-          "bookId": "3300190448",
-          "title": "孙俪 笨鸟（轻纪实）",
-          "author": "《人物》杂志 刘洋",
-          "cover": "https://cdn.weread.qq.com/weread/cover/73/cpplatform_7ohjd5s6vabrbjwn36m9ve/t6_cpplatform_7ohjd5s6vabrbjwn36m9ve1767673926.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=06f326d0813abb0e4g018e85",
-          "subcategory": "文学-纪实文学",
-          "lastRead": "2026-04-04",
-          "status": "finished"
-        },
-        {
           "bookId": "3300046359",
           "title": "暮色将尽",
           "author": "[英]戴安娜·阿西尔",
@@ -590,6 +547,16 @@
           "deepLink": "https://weread.qq.com/book-detail?type=1&v=43332d10813ab789bg0191c4",
           "subcategory": "文学-外国文学",
           "lastRead": "2023-11-03",
+          "status": "finished"
+        },
+        {
+          "bookId": "3300190448",
+          "title": "孙俪 笨鸟（轻纪实）",
+          "author": "《人物》杂志 刘洋",
+          "cover": "https://cdn.weread.qq.com/weread/cover/73/cpplatform_7ohjd5s6vabrbjwn36m9ve/t6_cpplatform_7ohjd5s6vabrbjwn36m9ve1767673926.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=06f326d0813abb0e4g018e85",
+          "subcategory": "文学-纪实文学",
+          "lastRead": "2026-04-04",
           "status": "finished"
         }
       ]
@@ -814,16 +781,6 @@
           "progress": 8
         },
         {
-          "bookId": "27600231",
-          "title": "破局：超越同龄人的思考与行动指南",
-          "author": "哈叔",
-          "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/231/27600231/t6_27600231.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=802327c071a525678024c5d",
-          "subcategory": "个人成长-人生哲学",
-          "lastRead": "2024-10-14",
-          "status": "finished"
-        },
-        {
           "bookId": "23784328",
           "title": "爱自己是一辈子的修行",
           "author": "素黑",
@@ -834,15 +791,24 @@
           "status": "finished"
         },
         {
-          "bookId": "3300092149",
-          "title": "胜天半子",
-          "author": "高文斐",
-          "cover": "https://cdn.weread.qq.com/weread/cover/39/cpplatform_nkw3npviwrtghfphxnma3w/t6_cpplatform_nkw3npviwrtghfphxnma3w1711699724.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=7cc323f0813ab8a7eg0193ea",
-          "subcategory": "个人成长-励志成长",
-          "lastRead": "2025-01-15",
-          "status": "in-progress",
-          "progress": 18
+          "bookId": "27600231",
+          "title": "破局：超越同龄人的思考与行动指南",
+          "author": "哈叔",
+          "cover": "https://wfqqreader-1252317822.image.myqcloud.com/cover/231/27600231/t6_27600231.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=802327c071a525678024c5d",
+          "subcategory": "个人成长-人生哲学",
+          "lastRead": "2024-10-14",
+          "status": "finished"
+        },
+        {
+          "bookId": "3300052097",
+          "title": "麦肯锡思考工具",
+          "author": "大岛祥誉",
+          "cover": "https://cdn.weread.qq.com/weread/cover/11/cpplatform_5vhvxpaa1vlxzhb85rprgh/t6_cpplatform_5vhvxpaa1vlxzhb85rprgh1678702518.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=af232f50813ab7ad9g0177e4",
+          "subcategory": "个人成长-人在职场",
+          "lastRead": "2023-04-19",
+          "status": "finished"
         },
         {
           "bookId": "3300093992",
@@ -862,16 +828,6 @@
           "deepLink": "https://weread.qq.com/book-detail?type=1&v=f7532e00594918f7558e82d",
           "subcategory": "个人成长-人生哲学",
           "lastRead": "2023-10-10",
-          "status": "finished"
-        },
-        {
-          "bookId": "3300052097",
-          "title": "麦肯锡思考工具",
-          "author": "大岛祥誉",
-          "cover": "https://cdn.weread.qq.com/weread/cover/11/cpplatform_5vhvxpaa1vlxzhb85rprgh/t6_cpplatform_5vhvxpaa1vlxzhb85rprgh1678702518.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=af232f50813ab7ad9g0177e4",
-          "subcategory": "个人成长-人在职场",
-          "lastRead": "2023-04-19",
           "status": "finished"
         },
         {
@@ -959,6 +915,16 @@
           "status": "finished"
         },
         {
+          "bookId": "3300172885",
+          "title": "我发现，被工作干了一天后，做这种事回血更快（轻成长）",
+          "author": "KnowYourself知我心理",
+          "cover": "https://cdn.weread.qq.com/weread/cover/77/cpplatform_m4toeadkdwffmo2vdu3dn4/t6_cpplatform_m4toeadkdwffmo2vdu3dn41761808141.jpg",
+          "deepLink": "https://weread.qq.com/book-detail?type=1&v=7f2326d0813abaa08g015dce",
+          "subcategory": "心理-积极心理学",
+          "lastRead": "2026-05-13",
+          "status": "finished"
+        },
+        {
           "bookId": "924592",
           "title": "怪诞行为学（全四册）（新版）",
           "author": "丹·艾瑞里",
@@ -968,16 +934,6 @@
           "lastRead": "2026-08-09",
           "status": "in-progress",
           "progress": 1
-        },
-        {
-          "bookId": "3300172885",
-          "title": "我发现，被工作干了一天后，做这种事回血更快（轻成长）",
-          "author": "KnowYourself知我心理",
-          "cover": "https://cdn.weread.qq.com/weread/cover/77/cpplatform_m4toeadkdwffmo2vdu3dn4/t6_cpplatform_m4toeadkdwffmo2vdu3dn41761808141.jpg",
-          "deepLink": "https://weread.qq.com/book-detail?type=1&v=7f2326d0813abaa08g015dce",
-          "subcategory": "心理-积极心理学",
-          "lastRead": "2026-05-13",
-          "status": "finished"
         }
       ]
     },
