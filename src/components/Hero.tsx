@@ -92,11 +92,13 @@ export function Hero() {
         </motion.div>
 
         <h1 className="hero-headline max-w-5xl text-ink">
-          <SpringLine delay={0.1}>Ideas are cheap.</SpringLine>
-          <SpringLine delay={0.28}>Shipped systems</SpringLine>
+          <SpringLine delay={0.1}>Anyone can ship now.</SpringLine>
+          <SpringLine delay={0.28}>
+            Taking it <span className="whitespace-nowrap">end to end</span>
+          </SpringLine>
           <SpringLine delay={0.46}>
             <span className="relative inline-block isolate text-accent">
-              move markets.
+              is still the job.
               <motion.span
                 aria-hidden
                 className="absolute -z-10 bg-peach"
