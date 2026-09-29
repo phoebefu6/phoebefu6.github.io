@@ -36,7 +36,7 @@ export const shelves: CourseShelf[] = [
   {
     id: 'data-analytics-engineering',
     name: 'Data, Analytics & Engineering',
-    liveCount: 18,
+    liveCount: 20,
     samples: 'SQL, warehouse, dbt, pipelines, streaming',
     icon: 'Database',
   },
@@ -57,7 +57,7 @@ export const shelves: CourseShelf[] = [
   {
     id: 'data-science-ml',
     name: 'Data Science & Machine Learning',
-    liveCount: 17,
+    liveCount: 24,
     samples: 'Stats, ML, causal, Bayesian, forecasting',
     icon: 'LineChart',
   },
@@ -71,15 +71,15 @@ export const shelves: CourseShelf[] = [
   {
     id: 'builder-tools-docs',
     name: 'Builder Tools & Docs',
-    liveCount: 12,
-    samples: 'GitHub, HTML, diagrams, visual thinking',
+    liveCount: 15,
+    samples: 'GitHub, HTML, diagrams, visual thinking, web3',
     icon: 'Wrench',
   },
   {
     id: 'leadership-product-business',
     name: 'Leadership, Product & Business',
-    liveCount: 11,
-    samples: 'Strategy, PMO, product design, shipping',
+    liveCount: 15,
+    samples: 'Strategy, PMO, product, finance, shipping',
     icon: 'Compass',
   },
 ]
@@ -107,7 +107,7 @@ export const projects: Project[] = [
     link: 'https://phoebefu6.github.io/learn-with-phoebe/',
     repo: 'https://github.com/phoebefu6/learn-with-phoebe',
     detail:
-      `## One series, ${liveCourseTotal} live courses\n\nEvery course follows the same format: focused sessions, hands-on exercises, a live site anyone can open - built in public, taught for real teams. The course shelf is the front door to all of them.\n\n## The shelves\n\n- **Data, Analytics & Engineering** - SQL, warehouse, dbt, pipelines, streaming, entity resolution\n- **AI & LLMs** - Claude, prompting, RAG, evals, agents, MCP\n- **Applied AI** - AI doing real work, from finance and law to coding, decks, and writing\n- **Data Science & Machine Learning** - stats, ML, causal inference, Bayesian, forecasting\n- **Governance, Ops & Security** - GDPR, PDPA, the EU AI Act, DataOps, SLOs, access control\n- **Builder Tools & Docs** - GitHub, HTML, markdown, diagrams, data visualization, visual thinking\n- **Leadership, Product & Business** - strategic thinking, PMO, communication, product design, shipping\n\n## Why\n\nTeams do not need another content library. They need courses short enough to finish and practical enough to change how they work on Monday.`,
+      `## One series, ${liveCourseTotal} live courses\n\nEvery course follows the same format: focused sessions, hands-on exercises, a live site anyone can open - built in public, taught for real teams. The course shelf is the front door to all of them.\n\n## The shelves\n\n- **Data, Analytics & Engineering** - SQL, warehouse, dbt, pipelines, streaming, entity resolution\n- **AI & LLMs** - Claude, prompting, RAG, evals, agents, MCP\n- **Applied AI** - AI doing real work, from finance and law to coding, decks, and writing\n- **Data Science & Machine Learning** - stats, ML, causal inference, Bayesian, forecasting\n- **Governance, Ops & Security** - GDPR, PDPA, the EU AI Act, DataOps, SLOs, access control\n- **Builder Tools & Docs** - GitHub, HTML, markdown, diagrams, data visualization, visual thinking, web3\n- **Leadership, Product & Business** - strategic thinking, PMO, communication, product design, economics and finance, shipping\n\n## Why\n\nTeams do not need another content library. They need courses short enough to finish and practical enough to change how they work on Monday.`,
   },
   {
     id: 'agent-skills-phoebe-picks',
