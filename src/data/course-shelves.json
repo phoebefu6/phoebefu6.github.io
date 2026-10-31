@@ -4,7 +4,7 @@
   "excludedBuckets": [
     "move"
   ],
-  "generatedAt": "2026-10-31T15:28:58.768Z",
+  "generatedAt": null,
   "shelves": [
     {
       "id": "data-analytics-engineering",
@@ -15,7 +15,7 @@
       ],
       "samples": "SQL, warehouse, dbt, pipelines, streaming",
       "icon": "Database",
-      "liveCount": 29
+      "liveCount": 20
     },
     {
       "id": "ai-llms",
