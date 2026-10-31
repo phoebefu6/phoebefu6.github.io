@@ -7,7 +7,10 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "sync:courses": "node scripts/sync-course-counts.mjs",
+    "sync:courses:check": "node scripts/sync-course-counts.mjs --check",
+    "sync:courses:verify": "node scripts/sync-course-counts.mjs --verify"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.2",

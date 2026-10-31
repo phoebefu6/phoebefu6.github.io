@@ -1,3 +1,5 @@
+import shelvesData from './course-shelves.json'
+
 export type ProjectStatus = 'Live' | 'Beta' | 'Research' | 'Internal' | 'Open Source'
 
 export interface Project {
@@ -27,62 +29,24 @@ export interface CourseShelf {
 // Grounded in the repos actually published at github.com/phoebefu6
 
 /**
- * Tier 2 - the Learn with Phoebe course library, grouped into shelves (live counts only).
- * Groups mirror the hub's own buckets at https://phoebefu6.github.io/learn-with-phoebe/courses.json
- * so the site cannot drift from the hub's taxonomy. Never classify a course here by hand.
+ * Tier 2 - the Learn with Phoebe course library, grouped into shelves.
+ *
+ * The shelf definitions AND their live counts come from course-shelves.json,
+ * which `scripts/sync-course-counts.mjs` regenerates from the hub's own
+ * courses.json on every deploy. Never hand-edit a count here or there - it is
+ * overwritten, and hand-editing is exactly what let this page claim 110 live
+ * courses while 126 were published.
+ *
+ * To change a shelf's name, grouping, samples or icon, edit course-shelves.json.
  * `move` (Mind & Movement) is excluded from the site by design.
  */
-export const shelves: CourseShelf[] = [
-  {
-    id: 'data-analytics-engineering',
-    name: 'Data, Analytics & Engineering',
-    liveCount: 25,
-    samples: 'SQL, warehouse, dbt, pipelines, streaming',
-    icon: 'Database',
-  },
-  {
-    id: 'ai-llms',
-    name: 'AI & LLMs',
-    liveCount: 18,
-    samples: 'Claude, RAG, agents, evals, MCP',
-    icon: 'Cpu',
-  },
-  {
-    id: 'applied-ai',
-    name: 'Applied AI',
-    liveCount: 25,
-    samples: 'Finance, law, marketing, coding, decks',
-    icon: 'Briefcase',
-  },
-  {
-    id: 'data-science-ml',
-    name: 'Data Science & Machine Learning',
-    liveCount: 25,
-    samples: 'Stats, ML, causal, Bayesian, forecasting',
-    icon: 'LineChart',
-  },
-  {
-    id: 'governance-ops-security',
-    name: 'Governance, Ops & Security',
-    liveCount: 10,
-    samples: 'GDPR, PDPA, EU AI Act, SLOs, access',
-    icon: 'ShieldCheck',
-  },
-  {
-    id: 'builder-tools-docs',
-    name: 'Builder Tools & Docs',
-    liveCount: 24,
-    samples: 'GitHub, HTML, diagrams, web3, quantum, IoT',
-    icon: 'Wrench',
-  },
-  {
-    id: 'leadership-product-business',
-    name: 'Leadership, Product & Business',
-    liveCount: 26,
-    samples: 'Strategy, PMO, product, finance, shipping',
-    icon: 'Compass',
-  },
-]
+export const shelves: CourseShelf[] = shelvesData.shelves.map(({ id, name, liveCount, samples, icon }) => ({
+  id,
+  name,
+  liveCount,
+  samples,
+  icon,
+}))
 
 /** Single source of truth for the live-course total - every count on the page derives from it */
 export const liveCourseTotal = shelves.reduce((n, s) => n + s.liveCount, 0)

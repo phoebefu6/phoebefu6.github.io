@@ -1,0 +1,90 @@
+{
+  "_comment": "Tier 2 course shelves. Humans own name/buckets/samples/icon. `liveCount` and `generatedAt` are written ONLY by scripts/sync-course-counts.mjs, which recounts from the hub. Do not hand-edit a count - it will be overwritten on the next deploy, and hand-editing is what let the site claim 110 courses when 126 were live.",
+  "source": "https://phoebefu6.github.io/learn-with-phoebe/courses.json",
+  "excludedBuckets": [
+    "move"
+  ],
+  "generatedAt": "2026-10-31T15:28:58.768Z",
+  "shelves": [
+    {
+      "id": "data-analytics-engineering",
+      "name": "Data, Analytics & Engineering",
+      "buckets": [
+        "data",
+        "deng"
+      ],
+      "samples": "SQL, warehouse, dbt, pipelines, streaming",
+      "icon": "Database",
+      "liveCount": 29
+    },
+    {
+      "id": "ai-llms",
+      "name": "AI & LLMs",
+      "buckets": [
+        "ai"
+      ],
+      "samples": "Claude, RAG, agents, evals, MCP",
+      "icon": "Cpu",
+      "liveCount": 18
+    },
+    {
+      "id": "applied-ai",
+      "name": "Applied AI",
+      "buckets": [
+        "aiap"
+      ],
+      "samples": "Finance, law, marketing, coding, decks",
+      "icon": "Briefcase",
+      "liveCount": 25
+    },
+    {
+      "id": "data-science-ml",
+      "name": "Data Science & Machine Learning",
+      "buckets": [
+        "ds"
+      ],
+      "samples": "Stats, ML, causal, Bayesian, forecasting",
+      "icon": "LineChart",
+      "liveCount": 25
+    },
+    {
+      "id": "governance-ops-security",
+      "name": "Governance, Ops & Security",
+      "buckets": [
+        "gov",
+        "dsec"
+      ],
+      "samples": "GDPR, PDPA, EU AI Act, SLOs, access",
+      "icon": "ShieldCheck",
+      "liveCount": 10
+    },
+    {
+      "id": "builder-tools-docs",
+      "name": "Builder Tools & Docs",
+      "buckets": [
+        "prog",
+        "docs",
+        "viz",
+        "prod",
+        "emrg"
+      ],
+      "samples": "GitHub, HTML, diagrams, web3, quantum, IoT",
+      "icon": "Wrench",
+      "liveCount": 28
+    },
+    {
+      "id": "leadership-product-business",
+      "name": "Leadership, Product & Business",
+      "buckets": [
+        "lead",
+        "comm",
+        "sys",
+        "biz",
+        "ship"
+      ],
+      "samples": "Strategy, PMO, product, finance, shipping",
+      "icon": "Compass",
+      "liveCount": 33
+    }
+  ]
+}

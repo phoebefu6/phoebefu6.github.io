@@ -4,6 +4,11 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # Courses ship from other repos. Without this the site only learns about a new
+  # course when something else happens to push here, which is how the shelf counts
+  # drifted four times.
+  schedule:
+    - cron: '41 1 * * *' # 09:41 SGT daily
 
 permissions:
   contents: read
@@ -17,6 +22,10 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # the sync step commits refreshed course counts
+      pages: write
+      id-token: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -24,6 +33,32 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+
+      # Recount the course shelves from the hub's courses.json. On any doubt the
+      # script exits non-zero WITHOUT writing, so a bad fetch cannot blank the
+      # numbers - it just deploys the last known good ones.
+      - name: Sync course counts
+        id: sync
+        continue-on-error: true
+        run: npm run sync:courses
+
+      - name: Commit refreshed counts
+        if: steps.sync.outcome == 'success'
+        run: |
+          if git diff --quiet -- src/data/course-shelves.json; then
+            echo "counts unchanged"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/course-shelves.json
+          git commit -m "Sync course counts from the hub [skip ci]"
+          git push
+
+      - name: Warn if the sync failed
+        if: steps.sync.outcome != 'success'
+        run: echo "::warning::Course-count sync failed - deploying the last known good counts. See the Sync step log."
+
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
