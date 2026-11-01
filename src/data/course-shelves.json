@@ -4,7 +4,7 @@
   "excludedBuckets": [
     "move"
   ],
-  "generatedAt": "2026-10-31T15:32:40.877Z",
+  "generatedAt": "2026-11-01T08:08:39.024Z",
   "shelves": [
     {
       "id": "data-analytics-engineering",
@@ -15,7 +15,7 @@
       ],
       "samples": "SQL, warehouse, dbt, pipelines, streaming",
       "icon": "Database",
-      "liveCount": 29
+      "liveCount": 30
     },
     {
       "id": "ai-llms",
@@ -70,7 +70,7 @@
       ],
       "samples": "GitHub, HTML, diagrams, web3, quantum, IoT",
       "icon": "Wrench",
-      "liveCount": 28
+      "liveCount": 29
     },
     {
       "id": "leadership-product-business",
@@ -84,7 +84,7 @@
       ],
       "samples": "Strategy, PMO, product, finance, shipping",
       "icon": "Compass",
-      "liveCount": 33
+      "liveCount": 34
     }
   ]
 }
