@@ -4,7 +4,7 @@
   "excludedBuckets": [
     "move"
   ],
-  "generatedAt": "2026-11-07T07:46:40.324Z",
+  "generatedAt": "2026-11-08T07:57:46.027Z",
   "shelves": [
     {
       "id": "data-analytics-engineering",
@@ -84,7 +84,7 @@
       ],
       "samples": "Strategy, PMO, product, finance, shipping",
       "icon": "Compass",
-      "liveCount": 36
+      "liveCount": 37
     }
   ]
 }
