@@ -4,7 +4,7 @@
   "excludedBuckets": [
     "move"
   ],
-  "generatedAt": "2026-11-08T07:57:46.027Z",
+  "generatedAt": "2026-11-09T08:40:12.383Z",
   "shelves": [
     {
       "id": "data-analytics-engineering",
@@ -25,7 +25,7 @@
       ],
       "samples": "Claude, RAG, agents, evals, MCP",
       "icon": "Cpu",
-      "liveCount": 18
+      "liveCount": 21
     },
     {
       "id": "applied-ai",
@@ -35,7 +35,7 @@
       ],
       "samples": "Finance, law, marketing, coding, decks",
       "icon": "Briefcase",
-      "liveCount": 25
+      "liveCount": 26
     },
     {
       "id": "data-science-ml",
@@ -84,7 +84,7 @@
       ],
       "samples": "Strategy, PMO, product, finance, shipping",
       "icon": "Compass",
-      "liveCount": 37
+      "liveCount": 38
     }
   ]
 }
