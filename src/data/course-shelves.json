@@ -4,7 +4,7 @@
   "excludedBuckets": [
     "move"
   ],
-  "generatedAt": "2026-11-09T08:40:12.383Z",
+  "generatedAt": "2026-11-10T08:49:50.997Z",
   "shelves": [
     {
       "id": "data-analytics-engineering",
@@ -35,7 +35,7 @@
       ],
       "samples": "Finance, law, marketing, coding, decks",
       "icon": "Briefcase",
-      "liveCount": 26
+      "liveCount": 27
     },
     {
       "id": "data-science-ml",
