@@ -4,7 +4,7 @@
   "excludedBuckets": [
     "move"
   ],
-  "generatedAt": "2026-11-10T08:49:50.997Z",
+  "generatedAt": "2026-11-11T08:23:04.484Z",
   "shelves": [
     {
       "id": "data-analytics-engineering",
@@ -56,7 +56,7 @@
       ],
       "samples": "GDPR, PDPA, EU AI Act, SLOs, access",
       "icon": "ShieldCheck",
-      "liveCount": 11
+      "liveCount": 13
     },
     {
       "id": "builder-tools-docs",
@@ -70,7 +70,7 @@
       ],
       "samples": "GitHub, HTML, diagrams, web3, quantum, IoT",
       "icon": "Wrench",
-      "liveCount": 29
+      "liveCount": 30
     },
     {
       "id": "leadership-product-business",
