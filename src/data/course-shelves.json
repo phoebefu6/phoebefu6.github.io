@@ -4,7 +4,7 @@
   "excludedBuckets": [
     "move"
   ],
-  "generatedAt": "2026-11-18T09:06:19.762Z",
+  "generatedAt": "2026-11-19T09:29:22.458Z",
   "shelves": [
     {
       "id": "data-analytics-engineering",
@@ -45,7 +45,7 @@
       ],
       "samples": "Stats, ML, causal, Bayesian, forecasting",
       "icon": "LineChart",
-      "liveCount": 26
+      "liveCount": 28
     },
     {
       "id": "governance-ops-security",
@@ -84,7 +84,7 @@
       ],
       "samples": "Strategy, PMO, product, finance, shipping",
       "icon": "Compass",
-      "liveCount": 39
+      "liveCount": 40
     }
   ]
 }
