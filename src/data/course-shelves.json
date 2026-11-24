@@ -4,7 +4,7 @@
   "excludedBuckets": [
     "move"
   ],
-  "generatedAt": "2026-11-22T08:49:11.388Z",
+  "generatedAt": "2026-11-24T11:36:34.778Z",
   "shelves": [
     {
       "id": "data-analytics-engineering",
@@ -70,7 +70,7 @@
       ],
       "samples": "GitHub, HTML, diagrams, web3, quantum, IoT",
       "icon": "Wrench",
-      "liveCount": 35
+      "liveCount": 36
     },
     {
       "id": "leadership-product-business",
