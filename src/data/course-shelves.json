@@ -4,7 +4,7 @@
   "excludedBuckets": [
     "move"
   ],
-  "generatedAt": "2026-11-24T11:36:34.778Z",
+  "generatedAt": "2026-11-26T10:02:05.928Z",
   "shelves": [
     {
       "id": "data-analytics-engineering",
@@ -35,7 +35,7 @@
       ],
       "samples": "Finance, law, marketing, coding, decks",
       "icon": "Briefcase",
-      "liveCount": 27
+      "liveCount": 28
     },
     {
       "id": "data-science-ml",
@@ -70,7 +70,7 @@
       ],
       "samples": "GitHub, HTML, diagrams, web3, quantum, IoT",
       "icon": "Wrench",
-      "liveCount": 36
+      "liveCount": 37
     },
     {
       "id": "leadership-product-business",
